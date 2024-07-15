@@ -1,0 +1,1327 @@
+State,State Abbreviation,Region,Division,Date,House Price Index,Household Income,Income Range,GDP,Population
+Alabama,AL,South,East South Central,1997-01-01,187.79,31940,Low Income,105381400000,4320281
+Alabama,AL,South,East South Central,1998-01-01,197.64,36270,Mid-low Income,110838800000,4351037
+Alabama,AL,South,East South Central,1999-01-01,204.5,36250,Low Income,116514300000,4369862
+Alabama,AL,South,East South Central,2000-01-01,208.03,35420,Low Income,120522600000,4452173
+Alabama,AL,South,East South Central,2001-01-01,220.35,35160,Low Income,123534500000,4467634
+Alabama,AL,South,East South Central,2002-01-01,225.78,37600,Low Income,128380900000,4480089
+Alabama,AL,South,East South Central,2003-01-01,235.36,37260,Low Income,135212600000,4503491
+Alabama,AL,South,East South Central,2004-01-01,242.85,36630,Low Income,148379100000,4530729
+Alabama,AL,South,East South Central,2005-01-01,255.97,37150,Low Income,158677300000,4569805
+Alabama,AL,South,East South Central,2006-01-01,278.43,37950,Low Income,166048200000,4628981
+Alabama,AL,South,East South Central,2007-01-01,295.05,42210,Low Income,172247000000,4672840
+Alabama,AL,South,East South Central,2008-01-01,304.08,44480,Low Income,174665600000,4718206
+Alabama,AL,South,East South Central,2009-01-01,304.32,39980,Low Income,170876500000,4757938
+Alabama,AL,South,East South Central,2010-01-01,288.78,40930,Low Income,177510700000,4785514
+Alabama,AL,South,East South Central,2011-01-01,278.38,42590,Low Income,182896700000,4799642
+Alabama,AL,South,East South Central,2012-01-01,276.05,43460,Low Income,188280700000,4816632
+Alabama,AL,South,East South Central,2013-01-01,273.76,47320,Mid-low Income,193981500000,4831586
+Alabama,AL,South,East South Central,2014-01-01,274.46,42280,Low Income,197064400000,4843737
+Alabama,AL,South,East South Central,2015-01-01,282.56,44510,Low Income,203113300000,4854803
+Alabama,AL,South,East South Central,2016-01-01,287.6,47220,Low Income,208824300000,4866824
+Alabama,AL,South,East South Central,2017-01-01,296.83,50870,Low Income,216615500000,4877989
+Alabama,AL,South,East South Central,2018-01-01,308.6,49940,Low Income,226263800000,4891628
+Alabama,AL,South,East South Central,2019-01-01,322.64,56200,Low Income,234526400000,4907965
+Alabama,AL,South,East South Central,2020-01-01,339.69,54690,Low Income,235118300000,5031864
+Alabama,AL,South,East South Central,2021-01-01,366.0,56930,Low Income,257986500000,5050380
+Alabama,AL,South,East South Central,2022-01-01,433.72,59910,Low Income,281569000000,5073903
+Alaska,AK,West,Pacific,1997-01-01,157.66,47990,High Income,25859100000,608846
+Alaska,AK,West,Pacific,1998-01-01,162.08,50690,High Income,24387800000,615205
+Alaska,AK,West,Pacific,1999-01-01,167.95,51400,High Income,24920400000,619500
+Alaska,AK,West,Pacific,2000-01-01,171.07,52850,High Income,26934000000,627963
+Alaska,AK,West,Pacific,2001-01-01,178.07,57360,High Income,28660900000,633714
+Alaska,AK,West,Pacific,2002-01-01,187.45,52770,High Income,29884500000,642337
+Alaska,AK,West,Pacific,2003-01-01,194.98,51840,High Income,32115800000,648414
+Alaska,AK,West,Pacific,2004-01-01,211.72,55060,High Income,35389500000,659286
+Alaska,AK,West,Pacific,2005-01-01,235.99,55890,High Income,40459900000,666946
+Alaska,AK,West,Pacific,2006-01-01,265.84,56420,High Income,44951700000,675302
+Alaska,AK,West,Pacific,2007-01-01,282.78,62990,High Income,49456400000,680300
+Alaska,AK,West,Pacific,2008-01-01,283.85,63990,High Income,55246700000,687455
+Alaska,AK,West,Pacific,2009-01-01,284.05,61600,High Income,50165900000,698895
+Alaska,AK,West,Pacific,2010-01-01,277.19,57850,High Income,53654000000,713982
+Alaska,AK,West,Pacific,2011-01-01,281.7,57430,High Income,56912300000,722349
+Alaska,AK,West,Pacific,2012-01-01,282.34,63650,High Income,58320700000,730810
+Alaska,AK,West,Pacific,2013-01-01,289.97,72470,High Income,57533000000,737626
+Alaska,AK,West,Pacific,2014-01-01,291.91,67630,High Income,56587400000,737075
+Alaska,AK,West,Pacific,2015-01-01,303.7,75110,High Income,51574200000,738430
+Alaska,AK,West,Pacific,2016-01-01,311.84,75720,High Income,51121800000,742575
+Alaska,AK,West,Pacific,2017-01-01,315.52,77990,High Income,53550900000,740983
+Alaska,AK,West,Pacific,2018-01-01,319.58,68730,Mid-high Income,54762000000,736624
+Alaska,AK,West,Pacific,2019-01-01,324.48,78390,High Income,54469900000,733603
+Alaska,AK,West,Pacific,2020-01-01,334.33,74750,Mid-high Income,51261500000,732964
+Alaska,AK,West,Pacific,2021-01-01,348.35,81130,High Income,58646000000,734923
+Alaska,AK,West,Pacific,2022-01-01,393.97,89740,High Income,65698800000,733276
+Arizona,AZ,West,Mountain,1997-01-01,171.5,32740,Low Income,132694799999,4552207
+Arizona,AZ,West,Mountain,1998-01-01,180.56,37090,Mid-low Income,144393200000,4667277
+Arizona,AZ,West,Mountain,1999-01-01,188.54,37000,Mid-low Income,156442100000,4778332
+Arizona,AZ,West,Mountain,2000-01-01,199.91,39780,Mid-low Income,165735600000,5160586
+Arizona,AZ,West,Mountain,2001-01-01,212.57,42700,Mid-high Income,172899600000,5273477
+Arizona,AZ,West,Mountain,2002-01-01,224.1,39730,Mid-low Income,180844500000,5396255
+Arizona,AZ,West,Mountain,2003-01-01,236.41,41170,Mid-low Income,194318000000,5510364
+Arizona,AZ,West,Mountain,2004-01-01,255.1,43850,Mid-high Income,207246300000,5652404
+Arizona,AZ,West,Mountain,2005-01-01,308.79,45250,Mid-high Income,227997800000,5839077
+Arizona,AZ,West,Mountain,2006-01-01,409.98,46660,Mid-low Income,246061100000,6029141
+Arizona,AZ,West,Mountain,2007-01-01,424.27,47220,Mid-low Income,261152800000,6167681
+Arizona,AZ,West,Mountain,2008-01-01,390.96,46910,Mid-low Income,261005800000,6280362
+Arizona,AZ,West,Mountain,2009-01-01,328.36,45740,Mid-low Income,244862200000,6343154
+Arizona,AZ,West,Mountain,2010-01-01,272.65,46900,Mid-low Income,250527000000,6407342
+Arizona,AZ,West,Mountain,2011-01-01,241.87,48620,Mid-low Income,261691400000,6473416
+Arizona,AZ,West,Mountain,2012-01-01,236.03,47040,Mid-low Income,272703300000,6556344
+Arizona,AZ,West,Mountain,2013-01-01,262.36,52610,Mid-low Income,278679500000,6634690
+Arizona,AZ,West,Mountain,2014-01-01,295.76,49250,Mid-low Income,286676000000,6732873
+Arizona,AZ,West,Mountain,2015-01-01,311.74,52250,Mid-low Income,298942200000,6832810
+Arizona,AZ,West,Mountain,2016-01-01,333.31,57100,Mid-low Income,313787100000,6944767
+Arizona,AZ,West,Mountain,2017-01-01,356.64,59700,Mid-low Income,333099000000,7048088
+Arizona,AZ,West,Mountain,2018-01-01,385.76,62280,Mid-low Income,353671000000,7164228
+Arizona,AZ,West,Mountain,2019-01-01,412.91,70670,Mid-high Income,375545000000,7291843
+Arizona,AZ,West,Mountain,2020-01-01,443.52,67090,Mid-low Income,386443500000,7186683
+Arizona,AZ,West,Mountain,2021-01-01,499.95,70820,Mid-low Income,432279800000,7272487
+Arizona,AZ,West,Mountain,2022-01-01,643.76,73450,Mid-high Income,475653700000,7365684
+Arkansas,AR,South,West South Central,1997-01-01,164.67,26160,Low Income,59925000000,2524007
+Arkansas,AR,South,West South Central,1998-01-01,171.13,27670,Low Income,62852000000,2538202
+Arkansas,AR,South,West South Central,1999-01-01,176.55,29680,Low Income,67279000000,2551373
+Arkansas,AR,South,West South Central,2000-01-01,178.98,29700,Low Income,69176300000,2678588
+Arkansas,AR,South,West South Central,2001-01-01,188.85,33340,Low Income,71099600000,2691571
+Arkansas,AR,South,West South Central,2002-01-01,194.58,32390,Low Income,74453100000,2705927
+Arkansas,AR,South,West South Central,2003-01-01,202.6,32000,Low Income,79009700000,2724816
+Arkansas,AR,South,West South Central,2004-01-01,212.11,34980,Low Income,85928600000,2749686
+Arkansas,AR,South,West South Central,2005-01-01,226.19,36660,Low Income,91133400000,2781097
+Arkansas,AR,South,West South Central,2006-01-01,243.21,37060,Low Income,96073700000,2821761
+Arkansas,AR,South,West South Central,2007-01-01,253.78,40800,Low Income,98325000000,2848650
+Arkansas,AR,South,West South Central,2008-01-01,255.91,39590,Low Income,100206700000,2874554
+Arkansas,AR,South,West South Central,2009-01-01,255.62,36540,Low Income,97783900000,2896843
+Arkansas,AR,South,West South Central,2010-01-01,244.07,38590,Low Income,101699300000,2921998
+Arkansas,AR,South,West South Central,2011-01-01,240.6,41300,Low Income,105697600000,2941038
+Arkansas,AR,South,West South Central,2012-01-01,241.7,39020,Low Income,108836000000,2952876
+Arkansas,AR,South,West South Central,2013-01-01,244.85,39380,Low Income,114021100000,2960459
+Arkansas,AR,South,West South Central,2014-01-01,246.87,44920,Low Income,117388700000,2968759
+Arkansas,AR,South,West South Central,2015-01-01,251.8,42800,Low Income,118573600000,2979732
+Arkansas,AR,South,West South Central,2016-01-01,256.97,45910,Low Income,120987400000,2991815
+Arkansas,AR,South,West South Central,2017-01-01,267.72,49750,Low Income,123882600000,3003855
+Arkansas,AR,South,West South Central,2018-01-01,276.91,49780,Low Income,129213800000,3012161
+Arkansas,AR,South,West South Central,2019-01-01,286.65,54540,Low Income,132637200000,3020985
+Arkansas,AR,South,West South Central,2020-01-01,297.54,50780,Low Income,135884500000,3014348
+Arkansas,AR,South,West South Central,2021-01-01,317.79,50780,Low Income,151931900000,3028443
+Arkansas,AR,South,West South Central,2022-01-01,378.23,53980,Low Income,165989300000,3046404
+California,CA,West,Pacific,1997-01-01,202.6,39690,Mid-high Income,1068048600000,32217708
+California,CA,West,Pacific,1998-01-01,216.96,40930,Mid-high Income,1143672500000,32682794
+California,CA,West,Pacific,1999-01-01,235.43,43630,Mid-high Income,1239773500000,33145121
+California,CA,West,Pacific,2000-01-01,260.98,46820,High Income,1354791300000,33987977
+California,CA,West,Pacific,2001-01-01,296.6,47260,High Income,1373270800000,34479458
+California,CA,West,Pacific,2002-01-01,324.95,47440,High Income,1419321800000,34871843
+California,CA,West,Pacific,2003-01-01,367.11,49300,High Income,1498578000000,35253159
+California,CA,West,Pacific,2004-01-01,424.65,49220,High Income,1585081400000,35574576
+California,CA,West,Pacific,2005-01-01,538.8,51760,High Income,1698858400000,35827943
+California,CA,West,Pacific,2006-01-01,638.6,55320,High Income,1812161600000,36021202
+California,CA,West,Pacific,2007-01-01,634.09,55730,High Income,1900220400000,36250311
+California,CA,West,Pacific,2008-01-01,543.36,57010,High Income,1946241500000,36604337
+California,CA,West,Pacific,2009-01-01,440.74,56130,High Income,1879809500000,36961229
+California,CA,West,Pacific,2010-01-01,409.6,54280,Mid-high Income,1938603300000,37319550
+California,CA,West,Pacific,2011-01-01,391.58,53370,Mid-high Income,2014050300000,37636311
+California,CA,West,Pacific,2012-01-01,381.42,57020,Mid-high Income,2108873100000,37944551
+California,CA,West,Pacific,2013-01-01,407.71,60790,Mid-high Income,2223300900000,38253768
+California,CA,West,Pacific,2014-01-01,471.87,60490,Mid-high Income,2342218800000,38586706
+California,CA,West,Pacific,2015-01-01,505.64,63640,High Income,2487156400000,38904296
+California,CA,West,Pacific,2016-01-01,544.51,66640,High Income,2586485200000,39149186
+California,CA,West,Pacific,2017-01-01,579.06,70040,High Income,2740550300000,39337785
+California,CA,West,Pacific,2018-01-01,621.95,70490,High Income,2899530900000,39437463
+California,CA,West,Pacific,2019-01-01,645.88,78110,High Income,3062158900000,39437610
+California,CA,West,Pacific,2020-01-01,669.9,77650,Mid-high Income,3068809400000,39503200
+California,CA,West,Pacific,2021-01-01,719.24,81580,High Income,3416939400000,39145060
+California,CA,West,Pacific,2022-01-01,868.25,85300,High Income,3641643400000,39040616
+Colorado,CO,West,Mountain,1997-01-01,204.48,43230,High Income,136624400000,3891293
+Colorado,CO,West,Mountain,1998-01-01,216.75,46600,High Income,149653700000,3968967
+Colorado,CO,West,Mountain,1999-01-01,230.46,48180,High Income,162411700000,4056133
+Colorado,CO,West,Mountain,2000-01-01,259.05,48240,High Income,179303300000,4326921
+Colorado,CO,West,Mountain,2001-01-01,286.25,49400,High Income,185848900000,4425687
+Colorado,CO,West,Mountain,2002-01-01,303.39,48290,High Income,189604600000,4490406
+Colorado,CO,West,Mountain,2003-01-01,313.9,49940,High Income,195137600000,4528732
+Colorado,CO,West,Mountain,2004-01-01,322.73,50890,High Income,203743300000,4575013
+Colorado,CO,West,Mountain,2005-01-01,336.47,50450,Mid-high Income,220803800000,4631888
+Colorado,CO,West,Mountain,2006-01-01,351.21,55700,High Income,232853600000,4720423
+Colorado,CO,West,Mountain,2007-01-01,358.79,61140,High Income,248571600000,4803868
+Colorado,CO,West,Mountain,2008-01-01,360.26,60940,High Income,257606100000,4889730
+Colorado,CO,West,Mountain,2009-01-01,358.6,55930,High Income,249817100000,4972195
+Colorado,CO,West,Mountain,2010-01-01,339.57,60230,High Income,256771800000,5047539
+Colorado,CO,West,Mountain,2011-01-01,329.8,58630,High Income,266114099999,5121900
+Colorado,CO,West,Mountain,2012-01-01,328.38,57260,High Income,274738800000,5193660
+Colorado,CO,West,Mountain,2013-01-01,341.8,67910,High Income,291265300000,5270774
+Colorado,CO,West,Mountain,2014-01-01,365.24,60940,High Income,309223900000,5352637
+Colorado,CO,West,Mountain,2015-01-01,399.35,66600,High Income,320895900000,5454328
+Colorado,CO,West,Mountain,2016-01-01,444.67,70570,High Income,330565900000,5543844
+Colorado,CO,West,Mountain,2017-01-01,487.73,74980,High Income,350209100000,5617421
+Colorado,CO,West,Mountain,2018-01-01,533.86,73030,High Income,373923100000,5697155
+Colorado,CO,West,Mountain,2019-01-01,565.25,72500,Mid-high Income,397701600000,5758486
+Colorado,CO,West,Mountain,2020-01-01,590.58,83780,High Income,397612200000,5785219
+Colorado,CO,West,Mountain,2021-01-01,636.05,84950,High Income,447051700000,5811596
+Colorado,CO,West,Mountain,2022-01-01,773.68,89930,High Income,491289000000,5841039
+Connecticut,CT,Northeast,New England,1997-01-01,224.16,43990,High Income,138467000000,3268514
+Connecticut,CT,Northeast,New England,1998-01-01,235.58,46510,High Income,145299200000,3272563
+Connecticut,CT,Northeast,New England,1999-01-01,245.56,50590,High Income,152093700000,3282031
+Connecticut,CT,Northeast,New England,2000-01-01,261.07,50170,High Income,165523400000,3411777
+Connecticut,CT,Northeast,New England,2001-01-01,284.63,53350,High Income,171124400000,3432835
+Connecticut,CT,Northeast,New England,2002-01-01,309.53,53390,High Income,172929700000,3458749
+Connecticut,CT,Northeast,New England,2003-01-01,338.17,54970,High Income,177814800000,3484336
+Connecticut,CT,Northeast,New England,2004-01-01,371.14,55100,High Income,194722900000,3496094
+Connecticut,CT,Northeast,New England,2005-01-01,420.83,56840,High Income,204504600000,3506956
+Connecticut,CT,Northeast,New England,2006-01-01,461.95,62400,High Income,219812200000,3517460
+Connecticut,CT,Northeast,New England,2007-01-01,470.51,64140,High Income,232626800000,3527270
+Connecticut,CT,Northeast,New England,2008-01-01,461.82,64680,High Income,236110700000,3545579
+Connecticut,CT,Northeast,New England,2009-01-01,436.74,64850,High Income,231628000000,3561807
+Connecticut,CT,Northeast,New England,2010-01-01,405.76,66000,High Income,234022200000,3579173
+Connecticut,CT,Northeast,New England,2011-01-01,396.08,65420,High Income,233058700000,3588632
+Connecticut,CT,Northeast,New England,2012-01-01,386.38,64250,High Income,239907500000,3595211
+Connecticut,CT,Northeast,New England,2013-01-01,382.9,69290,High Income,240549200000,3595792
+Connecticut,CT,Northeast,New England,2014-01-01,376.21,70160,High Income,247114700000,3595697
+Connecticut,CT,Northeast,New England,2015-01-01,386.3,72890,High Income,260648500000,3588561
+Connecticut,CT,Northeast,New England,2016-01-01,384.86,75920,High Income,264760400000,3579830
+Connecticut,CT,Northeast,New England,2017-01-01,384.93,74300,High Income,273875099999,3575324
+Connecticut,CT,Northeast,New England,2018-01-01,391.02,72810,High Income,280535400000,3574561
+Connecticut,CT,Northeast,New England,2019-01-01,397.66,87290,High Income,285466400000,3566022
+Connecticut,CT,Northeast,New England,2020-01-01,412.62,79430,High Income,275801900000,3577586
+Connecticut,CT,Northeast,New England,2021-01-01,449.26,80960,High Income,295907500000,3603691
+Connecticut,CT,Northeast,New England,2022-01-01,521.94,90730,High Income,319344800000,3608706
+Delaware,DE,South,South Atlantic,1997-01-01,233.65,43030,High Income,33302199999,735024
+Delaware,DE,South,South Atlantic,1998-01-01,241.67,41460,Mid-high Income,37170600000,744066
+Delaware,DE,South,South Atlantic,1999-01-01,248.87,46630,High Income,40446500000,753538
+Delaware,DE,South,South Atlantic,2000-01-01,260.31,50370,High Income,43559600000,786373
+Delaware,DE,South,South Atlantic,2001-01-01,279.13,49600,High Income,46373800000,795699
+Delaware,DE,South,South Atlantic,2002-01-01,298.6,49650,High Income,45865400000,806169
+Delaware,DE,South,South Atlantic,2003-01-01,323.92,49020,High Income,47839600000,818003
+Delaware,DE,South,South Atlantic,2004-01-01,362.15,48050,Mid-high Income,51674100000,830803
+Delaware,DE,South,South Atlantic,2005-01-01,415.72,51240,High Income,52048600000,845150
+Delaware,DE,South,South Atlantic,2006-01-01,471.76,52440,Mid-high Income,55567700000,859268
+Delaware,DE,South,South Atlantic,2007-01-01,494.56,54590,High Income,56705600000,871749
+Delaware,DE,South,South Atlantic,2008-01-01,490.48,50700,Mid-high Income,55250800000,883874
+Delaware,DE,South,South Atlantic,2009-01-01,469.58,52110,Mid-high Income,57729900000,891730
+Delaware,DE,South,South Atlantic,2010-01-01,437.91,55210,Mid-high Income,58132200000,899647
+Delaware,DE,South,South Atlantic,2011-01-01,419.11,54660,Mid-high Income,61379400000,907590
+Delaware,DE,South,South Atlantic,2012-01-01,405.1,48970,Mid-low Income,62342100000,915518
+Delaware,DE,South,South Atlantic,2013-01-01,402.66,54090,Mid-high Income,62058200000,924062
+Delaware,DE,South,South Atlantic,2014-01-01,406.17,57520,Mid-high Income,68606000000,933131
+Delaware,DE,South,South Atlantic,2015-01-01,419.97,57760,Mid-high Income,72352500000,942065
+Delaware,DE,South,South Atlantic,2016-01-01,424.55,58050,Mid-high Income,70021500000,949989
+Delaware,DE,South,South Atlantic,2017-01-01,435.18,64960,Mid-high Income,69555600000,957942
+Delaware,DE,South,South Atlantic,2018-01-01,449.27,65010,Mid-high Income,73376000000,966985
+Delaware,DE,South,South Atlantic,2019-01-01,460.63,74190,Mid-high Income,78685800000,976668
+Delaware,DE,South,South Atlantic,2020-01-01,482.66,70020,Mid-high Income,77615100000,991862
+Delaware,DE,South,South Atlantic,2021-01-01,519.51,68690,Mid-low Income,82952800000,1004881
+Delaware,DE,South,South Atlantic,2022-01-01,605.35,80750,Mid-high Income,90208300000,1019459
+District of Columbia,DC,South,South Atlantic,1997-01-01,190.68,31860,Low Income,52581600000,528752
+District of Columbia,DC,South,South Atlantic,1998-01-01,198.44,33430,Low Income,54877400000,521426
+District of Columbia,DC,South,South Atlantic,1999-01-01,208.84,38670,Mid-low Income,58948800000,519000
+District of Columbia,DC,South,South Atlantic,2000-01-01,236.07,41220,Mid-high Income,61267700000,572046
+District of Columbia,DC,South,South Atlantic,2001-01-01,267.77,41170,Mid-low Income,65620000000,574504
+District of Columbia,DC,South,South Atlantic,2002-01-01,310.03,39070,Mid-low Income,70078000000,573158
+District of Columbia,DC,South,South Atlantic,2003-01-01,354.15,45040,Mid-high Income,74047000000,568502
+District of Columbia,DC,South,South Atlantic,2004-01-01,407.26,43450,Mid-high Income,80600700000,567754
+District of Columbia,DC,South,South Atlantic,2005-01-01,504.02,44990,Mid-high Income,85414500000,567136
+District of Columbia,DC,South,South Atlantic,2006-01-01,603.35,48480,Mid-high Income,88350900000,570681
+District of Columbia,DC,South,South Atlantic,2007-01-01,632.53,50780,Mid-high Income,94013800000,574404
+District of Columbia,DC,South,South Atlantic,2008-01-01,613.97,55590,High Income,99240400000,580236
+District of Columbia,DC,South,South Atlantic,2009-01-01,579.77,53140,Mid-high Income,100430100000,592228
+District of Columbia,DC,South,South Atlantic,2010-01-01,558.52,56930,High Income,106128600000,605282
+District of Columbia,DC,South,South Atlantic,2011-01-01,561.71,55250,Mid-high Income,109953900000,620290
+District of Columbia,DC,South,South Atlantic,2012-01-01,582.7,65250,High Income,112512700000,635737
+District of Columbia,DC,South,South Atlantic,2013-01-01,617.39,60060,Mid-high Income,114832700000,651559
+District of Columbia,DC,South,South Atlantic,2014-01-01,673.79,68280,High Income,119998000000,663603
+District of Columbia,DC,South,South Atlantic,2015-01-01,718.97,70070,High Income,124753600000,677014
+District of Columbia,DC,South,South Atlantic,2016-01-01,768.75,70980,High Income,129933500000,687576
+District of Columbia,DC,South,South Atlantic,2017-01-01,802.72,81280,High Income,134298799999,697079
+District of Columbia,DC,South,South Atlantic,2018-01-01,849.28,85750,High Income,141240200000,704147
+District of Columbia,DC,South,South Atlantic,2019-01-01,884.26,93110,High Income,145171000000,708253
+District of Columbia,DC,South,South Atlantic,2020-01-01,917.72,88220,High Income,146935300000,670839
+District of Columbia,DC,South,South Atlantic,2021-01-01,960.78,90640,High Income,156139900000,669037
+District of Columbia,DC,South,South Atlantic,2022-01-01,1059.99,101700,High Income,165060500000,670949
+Florida,FL,South,South Atlantic,1997-01-01,175.91,32460,Low Income,401744200000,14683350
+Florida,FL,South,South Atlantic,1998-01-01,184.76,34910,Low Income,428595600000,14908230
+Florida,FL,South,South Atlantic,1999-01-01,190.78,35830,Low Income,457607000000,15111244
+Florida,FL,South,South Atlantic,2000-01-01,200.78,38860,Mid-low Income,490094400000,16047515
+Florida,FL,South,South Atlantic,2001-01-01,219.19,36420,Low Income,519140700000,16356966
+Florida,FL,South,South Atlantic,2002-01-01,240.08,38020,Mid-low Income,553359900000,16689369
+Florida,FL,South,South Atlantic,2003-01-01,265.72,38970,Mid-low Income,590284800000,17004085
+Florida,FL,South,South Atlantic,2004-01-01,300.52,40540,Mid-low Income,647041800000,17415318
+Florida,FL,South,South Atlantic,2005-01-01,368.37,42990,Mid-low Income,704890300000,17842038
+Florida,FL,South,South Atlantic,2006-01-01,463.36,45680,Mid-low Income,749925000000,18166990
+Florida,FL,South,South Atlantic,2007-01-01,477.12,45790,Low Income,781947300000,18367842
+Florida,FL,South,South Atlantic,2008-01-01,424.82,44860,Low Income,767357800000,18527305
+Florida,FL,South,South Atlantic,2009-01-01,350.45,45630,Mid-low Income,739322400000,18652644
+Florida,FL,South,South Atlantic,2010-01-01,299.74,44070,Low Income,752998400000,18846143
+Florida,FL,South,South Atlantic,2011-01-01,275.72,45110,Low Income,761043100000,19055607
+Florida,FL,South,South Atlantic,2012-01-01,267.16,46070,Low Income,784545900000,19302016
+Florida,FL,South,South Atlantic,2013-01-01,279.04,48530,Mid-low Income,819679800000,19551678
+Florida,FL,South,South Atlantic,2014-01-01,307.49,46140,Low Income,860112600000,19853880
+Florida,FL,South,South Atlantic,2015-01-01,335.94,48830,Low Income,918464300000,20219111
+Florida,FL,South,South Atlantic,2016-01-01,366.23,51180,Low Income,964500800000,20627237
+Florida,FL,South,South Atlantic,2017-01-01,399.48,53090,Low Income,1014866900000,20977089
+Florida,FL,South,South Atlantic,2018-01-01,433.1,54640,Low Income,1072085600000,21254926
+Florida,FL,South,South Atlantic,2019-01-01,459.33,58370,Low Income,1127988600000,21492056
+Florida,FL,South,South Atlantic,2020-01-01,486.43,57760,Low Income,1140133000000,21591299
+Florida,FL,South,South Atlantic,2021-01-01,531.28,59730,Low Income,1292391300000,21830708
+Florida,FL,South,South Atlantic,2022-01-01,678.29,65370,Low Income,1439065000000,22245521
+Georgia,GA,South,South Atlantic,1997-01-01,193.44,36660,Mid-high Income,242371900000,7486094
+Georgia,GA,South,South Atlantic,1998-01-01,205.35,38670,Mid-high Income,265146400000,7636522
+Georgia,GA,South,South Atlantic,1999-01-01,216.99,39430,Mid-low Income,289048900000,7788240
+Georgia,GA,South,South Atlantic,2000-01-01,229.79,41900,Mid-high Income,305323700000,8227303
+Georgia,GA,South,South Atlantic,2001-01-01,247.98,42580,Mid-high Income,316872700000,8377038
+Georgia,GA,South,South Atlantic,2002-01-01,259.74,42940,Mid-high Income,326017900000,8508256
+Georgia,GA,South,South Atlantic,2003-01-01,271.1,42440,Mid-low Income,339540500000,8622793
+Georgia,GA,South,South Atlantic,2004-01-01,282.0,40980,Mid-low Income,364530100000,8769252
+Georgia,GA,South,South Atlantic,2005-01-01,296.15,45930,Mid-high Income,388707200000,8925922
+Georgia,GA,South,South Atlantic,2006-01-01,312.26,49340,Mid-high Income,405664200000,9155813
+Georgia,GA,South,South Atlantic,2007-01-01,325.22,48640,Mid-low Income,419384800000,9349988
+Georgia,GA,South,South Atlantic,2008-01-01,326.69,46230,Mid-low Income,416303500000,9504843
+Georgia,GA,South,South Atlantic,2009-01-01,318.34,43340,Low Income,409876200000,9620846
+Georgia,GA,South,South Atlantic,2010-01-01,286.14,44120,Low Income,419013100000,9712209
+Georgia,GA,South,South Atlantic,2011-01-01,268.88,45970,Mid-low Income,433137100000,9803630
+Georgia,GA,South,South Atlantic,2012-01-01,251.54,48120,Mid-low Income,449375600000,9903580
+Georgia,GA,South,South Atlantic,2013-01-01,253.55,46990,Low Income,467559500000,9975592
+Georgia,GA,South,South Atlantic,2014-01-01,270.16,49560,Mid-low Income,493370300000,10071204
+Georgia,GA,South,South Atlantic,2015-01-01,288.17,50770,Low Income,525516800000,10183353
+Georgia,GA,South,South Atlantic,2016-01-01,304.05,53530,Low Income,554903200000,10308442
+Georgia,GA,South,South Atlantic,2017-01-01,323.03,57990,Mid-low Income,583543300000,10417031
+Georgia,GA,South,South Atlantic,2018-01-01,347.76,55820,Low Income,612803400000,10519389
+Georgia,GA,South,South Atlantic,2019-01-01,369.27,56630,Low Income,646939000000,10628020
+Georgia,GA,South,South Atlantic,2020-01-01,391.95,59270,Low Income,637930600000,10732390
+Georgia,GA,South,South Atlantic,2021-01-01,424.49,61500,Low Income,701606100000,10790385
+Georgia,GA,South,South Atlantic,2022-01-01,525.12,67730,Mid-low Income,767377600000,10913150
+Hawaii,HI,West,Pacific,1997-01-01,235.26,40930,Mid-high Income,37701700000,1189322
+Hawaii,HI,West,Pacific,1998-01-01,229.61,40830,Mid-high Income,37503000000,1190472
+Hawaii,HI,West,Pacific,1999-01-01,228.44,44500,Mid-high Income,38970400000,1185497
+Hawaii,HI,West,Pacific,2000-01-01,229.58,51550,High Income,41089400000,1213519
+Hawaii,HI,West,Pacific,2001-01-01,245.39,47440,High Income,42500200000,1225948
+Hawaii,HI,West,Pacific,2002-01-01,261.06,47300,High Income,44949500000,1239613
+Hawaii,HI,West,Pacific,2003-01-01,286.65,51830,High Income,48420700000,1251154
+Hawaii,HI,West,Pacific,2004-01-01,334.11,56240,High Income,52625700000,1273569
+Hawaii,HI,West,Pacific,2005-01-01,420.26,59590,High Income,57211800000,1292729
+Hawaii,HI,West,Pacific,2006-01-01,517.95,60470,High Income,60848000000,1309731
+Hawaii,HI,West,Pacific,2007-01-01,536.72,64020,High Income,64106000000,1315675
+Hawaii,HI,West,Pacific,2008-01-01,528.39,61520,High Income,65545500000,1332213
+Hawaii,HI,West,Pacific,2009-01-01,489.81,55650,High Income,64464300000,1346717
+Hawaii,HI,West,Pacific,2010-01-01,448.79,59540,High Income,66739300000,1364004
+Hawaii,HI,West,Pacific,2011-01-01,439.56,59050,High Income,68801100000,1379562
+Hawaii,HI,West,Pacific,2012-01-01,444.61,56260,Mid-high Income,71645600000,1395199
+Hawaii,HI,West,Pacific,2013-01-01,456.66,64240,High Income,74598500000,1408822
+Hawaii,HI,West,Pacific,2014-01-01,490.21,71220,High Income,77043000000,1415335
+Hawaii,HI,West,Pacific,2015-01-01,526.1,64510,High Income,81410200000,1422999
+Hawaii,HI,West,Pacific,2016-01-01,558.39,72130,High Income,84287200000,1428885
+Hawaii,HI,West,Pacific,2017-01-01,578.49,73600,High Income,87436400000,1425763
+Hawaii,HI,West,Pacific,2018-01-01,604.94,80110,High Income,90933500000,1423102
+Hawaii,HI,West,Pacific,2019-01-01,625.69,88010,High Income,93356200000,1415615
+Hawaii,HI,West,Pacific,2020-01-01,638.93,80830,High Income,84615200000,1451181
+Hawaii,HI,West,Pacific,2021-01-01,660.42,82200,High Income,93089800000,1446745
+Hawaii,HI,West,Pacific,2022-01-01,795.93,91010,High Income,101082600000,1439399
+Idaho,ID,West,Mountain,1997-01-01,184.34,33400,Mid-low Income,29699500000,1210638
+Idaho,ID,West,Mountain,1998-01-01,191.92,36680,Mid-low Income,31352700000,1230923
+Idaho,ID,West,Mountain,1999-01-01,196.91,35800,Low Income,34512800000,1251700
+Idaho,ID,West,Mountain,2000-01-01,198.71,37610,Mid-low Income,38344100000,1299430
+Idaho,ID,West,Mountain,2001-01-01,207.69,38240,Mid-low Income,37740900000,1319962
+Idaho,ID,West,Mountain,2002-01-01,213.88,37720,Mid-low Income,38990700000,1340372
+Idaho,ID,West,Mountain,2003-01-01,222.52,42370,Mid-low Income,40778600000,1363380
+Idaho,ID,West,Mountain,2004-01-01,232.03,44360,Mid-high Income,44732900000,1391802
+Idaho,ID,West,Mountain,2005-01-01,258.75,44180,Mid-low Income,48805100000,1428241
+Idaho,ID,West,Mountain,2006-01-01,310.25,46210,Mid-low Income,51099000000,1468669
+Idaho,ID,West,Mountain,2007-01-01,344.02,49180,Mid-high Income,53712400000,1505105
+Idaho,ID,West,Mountain,2008-01-01,346.87,47420,Mid-low Income,56203600000,1534320
+Idaho,ID,West,Mountain,2009-01-01,330.41,46780,Mid-low Income,54507900000,1554439
+Idaho,ID,West,Mountain,2010-01-01,290.58,47050,Mid-low Income,56086200000,1570819
+Idaho,ID,West,Mountain,2011-01-01,262.62,47460,Mid-low Income,57418200000,1584272
+Idaho,ID,West,Mountain,2012-01-01,260.5,47920,Mid-low Income,57933700000,1595910
+Idaho,ID,West,Mountain,2013-01-01,269.58,48470,Mid-low Income,61712600000,1612053
+Idaho,ID,West,Mountain,2014-01-01,285.28,53440,Mid-low Income,64501700000,1632248
+Idaho,ID,West,Mountain,2015-01-01,301.83,51620,Mid-low Income,66064899999,1652495
+Idaho,ID,West,Mountain,2016-01-01,322.72,56560,Mid-low Income,69185200000,1684036
+Idaho,ID,West,Mountain,2017-01-01,347.76,59500,Mid-low Income,72935100000,1719745
+Idaho,ID,West,Mountain,2018-01-01,386.97,58730,Mid-low Income,79072400000,1752074
+Idaho,ID,West,Mountain,2019-01-01,432.4,65990,Mid-low Income,84550200000,1789060
+Idaho,ID,West,Mountain,2020-01-01,478.64,66730,Mid-low Income,88187700000,1849339
+Idaho,ID,West,Mountain,2021-01-01,558.79,76920,Mid-high Income,98792800000,1904537
+Idaho,ID,West,Mountain,2022-01-01,716.58,72580,Mid-low Income,110871100000,1938996
+Illinois,IL,Midwest,East North Central,1997-01-01,213.99,41280,High Income,416015100000,12011509
+Illinois,IL,Midwest,East North Central,1998-01-01,221.64,43180,High Income,436533400000,12069774
+Illinois,IL,Midwest,East North Central,1999-01-01,228.37,46330,High Income,459971600000,12128370
+Illinois,IL,Midwest,East North Central,2000-01-01,241.47,46060,Mid-high Income,486089700000,12434161
+Illinois,IL,Midwest,East North Central,2001-01-01,255.81,46170,Mid-high Income,499618400000,12488445
+Illinois,IL,Midwest,East North Central,2002-01-01,272.16,42710,Mid-high Income,511485900000,12525556
+Illinois,IL,Midwest,East North Central,2003-01-01,286.72,45150,Mid-high Income,528577000000,12556006
+Illinois,IL,Midwest,East North Central,2004-01-01,306.19,46080,Mid-high Income,560079800000,12589773
+Illinois,IL,Midwest,East North Central,2005-01-01,334.87,48400,Mid-high Income,589153700000,12609903
+Illinois,IL,Midwest,East North Central,2006-01-01,360.93,48670,Mid-high Income,624068100000,12643955
+Illinois,IL,Midwest,East North Central,2007-01-01,372.87,52510,Mid-high Income,649307400000,12695866
+Illinois,IL,Midwest,East North Central,2008-01-01,368.21,53250,Mid-high Income,649677300000,12747038
+Illinois,IL,Midwest,East North Central,2009-01-01,345.92,52870,Mid-high Income,645843200000,12796778
+Illinois,IL,Midwest,East North Central,2010-01-01,316.95,50730,Mid-high Income,663929000000,12840545
+Illinois,IL,Midwest,East North Central,2011-01-01,303.57,50640,Mid-high Income,691805500000,12867783
+Illinois,IL,Midwest,East North Central,2012-01-01,295.57,51740,Mid-high Income,725478000000,12883029
+Illinois,IL,Midwest,East North Central,2013-01-01,293.25,53940,Mid-high Income,742890900000,12895778
+Illinois,IL,Midwest,East North Central,2014-01-01,297.49,54920,Mid-high Income,772291700000,12885092
+Illinois,IL,Midwest,East North Central,2015-01-01,311.87,60410,Mid-high Income,802592000000,12859585
+Illinois,IL,Midwest,East North Central,2016-01-01,318.52,61390,Mid-high Income,813561600000,12821709
+Illinois,IL,Midwest,East North Central,2017-01-01,326.89,65970,Mid-high Income,832826800000,12779893
+Illinois,IL,Midwest,East North Central,2018-01-01,337.36,70150,Mid-high Income,871024200000,12724685
+Illinois,IL,Midwest,East North Central,2019-01-01,343.12,74400,Mid-high Income,895800000000,12667017
+Illinois,IL,Midwest,East North Central,2020-01-01,354.72,74330,Mid-high Income,860747500000,12790357
+Illinois,IL,Midwest,East North Central,2021-01-01,369.3,79250,Mid-high Income,943993300000,12690341
+Illinois,IL,Midwest,East North Central,2022-01-01,419.5,78020,Mid-high Income,1025667200000,12582515
+Indiana,IN,Midwest,East North Central,1997-01-01,185.45,38890,Mid-high Income,170924600000,5872370
+Indiana,IN,Midwest,East North Central,1998-01-01,194.31,39730,Mid-high Income,185336300000,5907617
+Indiana,IN,Midwest,East North Central,1999-01-01,201.85,40840,Mid-high Income,193659900000,5942901
+Indiana,IN,Midwest,East North Central,2000-01-01,206.63,40870,Mid-low Income,204147300000,6091866
+Indiana,IN,Midwest,East North Central,2001-01-01,217.64,40380,Mid-low Income,205325100000,6127760
+Indiana,IN,Midwest,East North Central,2002-01-01,224.59,41050,Mid-low Income,213419600000,6155967
+Indiana,IN,Midwest,East North Central,2003-01-01,230.57,42430,Mid-low Income,225349300000,6196638
+Indiana,IN,Midwest,East North Central,2004-01-01,236.69,42330,Mid-low Income,239278500000,6233007
+Indiana,IN,Midwest,East North Central,2005-01-01,244.38,42440,Mid-low Income,247428300000,6278616
+Indiana,IN,Midwest,East North Central,2006-01-01,250.69,45410,Mid-low Income,259030300000,6332669
+Indiana,IN,Midwest,East North Central,2007-01-01,255.04,47450,Mid-low Income,273340800000,6379599
+Indiana,IN,Midwest,East North Central,2008-01-01,257.23,46520,Mid-low Income,277774500000,6424806
+Indiana,IN,Midwest,East North Central,2009-01-01,254.87,44310,Low Income,264925000000,6459325
+Indiana,IN,Midwest,East North Central,2010-01-01,242.98,46140,Mid-low Income,284685800000,6490555
+Indiana,IN,Midwest,East North Central,2011-01-01,240.47,44450,Low Income,292373800000,6517250
+Indiana,IN,Midwest,East North Central,2012-01-01,240.35,46160,Mid-low Income,301277400000,6538989
+Indiana,IN,Midwest,East North Central,2013-01-01,242.66,49460,Mid-low Income,313466900000,6570575
+Indiana,IN,Midwest,East North Central,2014-01-01,243.68,48060,Low Income,329360900000,6596019
+Indiana,IN,Midwest,East North Central,2015-01-01,254.14,51980,Mid-low Income,333163800000,6611442
+Indiana,IN,Midwest,East North Central,2016-01-01,260.12,56090,Mid-low Income,342716600000,6637898
+Indiana,IN,Midwest,East North Central,2017-01-01,271.08,58770,Mid-low Income,357535800000,6662068
+Indiana,IN,Midwest,East North Central,2018-01-01,287.8,59890,Mid-low Income,377376900000,6698481
+Indiana,IN,Midwest,East North Central,2019-01-01,304.58,66690,Mid-low Income,385446200000,6731010
+Indiana,IN,Midwest,East North Central,2020-01-01,321.85,66810,Mid-low Income,377901100000,6789098
+Indiana,IN,Midwest,East North Central,2021-01-01,347.59,70190,Mid-low Income,422951900000,6813798
+Indiana,IN,Midwest,East North Central,2022-01-01,411.1,70030,Mid-low Income,470323600000,6832274
+Iowa,IA,Midwest,West North Central,1997-01-01,162.65,33780,Mid-low Income,82808800000,2854396
+Iowa,IA,Midwest,West North Central,1998-01-01,170.56,37020,Mid-low Income,84629700000,2861025
+Iowa,IA,Midwest,West North Central,1999-01-01,178.38,41100,Mid-high Income,87774300000,2869413
+Iowa,IA,Midwest,West North Central,2000-01-01,185.24,40990,Mid-low Income,93125600000,2929067
+Iowa,IA,Midwest,West North Central,2001-01-01,195.64,40980,Mid-low Income,94922600000,2931997
+Iowa,IA,Midwest,West North Central,2002-01-01,203.29,41050,Mid-low Income,98669400000,2934234
+Iowa,IA,Midwest,West North Central,2003-01-01,209.94,41380,Mid-low Income,105329700000,2941999
+Iowa,IA,Midwest,West North Central,2004-01-01,219.14,43390,Mid-low Income,117149800000,2953635
+Iowa,IA,Midwest,West North Central,2005-01-01,229.64,46500,Mid-high Income,122866100000,2964454
+Iowa,IA,Midwest,West North Central,2006-01-01,237.87,48130,Mid-high Income,127670800000,2982644
+Iowa,IA,Midwest,West North Central,2007-01-01,243.55,48910,Mid-high Income,137590200000,2999212
+Iowa,IA,Midwest,West North Central,2008-01-01,248.32,50140,Mid-low Income,137749200000,3016734
+Iowa,IA,Midwest,West North Central,2009-01-01,248.51,50720,Mid-high Income,137094299999,3032870
+Iowa,IA,Midwest,West North Central,2010-01-01,242.98,49020,Mid-high Income,142497700000,3050819
+Iowa,IA,Midwest,West North Central,2011-01-01,243.84,50220,Mid-high Income,149026100000,3066772
+Iowa,IA,Midwest,West North Central,2012-01-01,245.66,53440,Mid-high Income,158553100000,3076844
+Iowa,IA,Midwest,West North Central,2013-01-01,248.97,60160,Mid-high Income,162415000000,3093935
+Iowa,IA,Midwest,West North Central,2014-01-01,251.49,57810,Mid-high Income,173734200000,3110643
+Iowa,IA,Midwest,West North Central,2015-01-01,259.87,60860,Mid-high Income,181471700000,3122541
+Iowa,IA,Midwest,West North Central,2016-01-01,268.8,59090,Mid-high Income,183834800000,3133210
+Iowa,IA,Midwest,West North Central,2017-01-01,278.48,63470,Mid-high Income,187125000000,3143734
+Iowa,IA,Midwest,West North Central,2018-01-01,287.94,68720,Mid-high Income,193155100000,3149900
+Iowa,IA,Midwest,West North Central,2019-01-01,297.98,66050,Mid-low Income,196085100000,3159596
+Iowa,IA,Midwest,West North Central,2020-01-01,308.87,68820,Mid-high Income,199447000000,3190904
+Iowa,IA,Midwest,West North Central,2021-01-01,321.58,72430,Mid-high Income,220818200000,3197944
+Iowa,IA,Midwest,West North Central,2022-01-01,365.89,76320,Mid-high Income,238342300000,3199693
+Kansas,KS,Midwest,West North Central,1997-01-01,152.84,36470,Mid-high Income,74643200000,2616339
+Kansas,KS,Midwest,West North Central,1998-01-01,160.7,36710,Mid-low Income,78242300000,2638667
+Kansas,KS,Midwest,West North Central,1999-01-01,168.64,37350,Mid-low Income,81609700000,2654052
+Kansas,KS,Midwest,West North Central,2000-01-01,178.42,41060,Mid-low Income,85990500000,2693681
+Kansas,KS,Midwest,West North Central,2001-01-01,187.8,41420,Mid-high Income,88869700000,2702162
+Kansas,KS,Midwest,West North Central,2002-01-01,196.44,42620,Mid-high Income,91359000000,2713535
+Kansas,KS,Midwest,West North Central,2003-01-01,203.43,44230,Mid-high Income,95236300000,2723004
+Kansas,KS,Midwest,West North Central,2004-01-01,211.59,41070,Mid-low Income,98913700000,2734373
+Kansas,KS,Midwest,West North Central,2005-01-01,220.85,42030,Low Income,105343900000,2745299
+Kansas,KS,Midwest,West North Central,2006-01-01,228.75,45550,Mid-low Income,113831800000,2762931
+Kansas,KS,Midwest,West North Central,2007-01-01,236.34,48500,Mid-low Income,123608900000,2783785
+Kansas,KS,Midwest,West North Central,2008-01-01,240.04,47880,Mid-low Income,129223200000,2808076
+Kansas,KS,Midwest,West North Central,2009-01-01,238.92,44720,Low Income,126049700000,2832704
+Kansas,KS,Midwest,West North Central,2010-01-01,233.29,46050,Mid-low Income,129235700000,2858266
+Kansas,KS,Midwest,West North Central,2011-01-01,231.47,46150,Mid-low Income,136747100000,2869677
+Kansas,KS,Midwest,West North Central,2012-01-01,230.84,50000,Mid-low Income,141812100000,2886024
+Kansas,KS,Midwest,West North Central,2013-01-01,233.19,47820,Mid-low Income,144999300000,2894306
+Kansas,KS,Midwest,West North Central,2014-01-01,234.55,53440,Mid-low Income,150276100000,2901861
+Kansas,KS,Midwest,West North Central,2015-01-01,243.18,54870,Mid-low Income,155699000000,2910717
+Kansas,KS,Midwest,West North Central,2016-01-01,251.19,56810,Mid-low Income,162144500000,2912977
+Kansas,KS,Midwest,West North Central,2017-01-01,261.4,56900,Mid-low Income,166273600000,2910892
+Kansas,KS,Midwest,West North Central,2018-01-01,275.92,63940,Mid-high Income,173373000000,2912748
+Kansas,KS,Midwest,West North Central,2019-01-01,286.87,73150,Mid-high Income,176917700000,2912635
+Kansas,KS,Midwest,West North Central,2020-01-01,301.44,73080,Mid-high Income,177720600000,2938124
+Kansas,KS,Midwest,West North Central,2021-01-01,322.59,75980,Mid-high Income,191831700000,2937946
+Kansas,KS,Midwest,West North Central,2022-01-01,374.45,73040,Mid-low Income,209326100000,2936716
+Kentucky,KY,South,East South Central,1997-01-01,192.75,33450,Mid-low Income,104878100000,3907816
+Kentucky,KY,South,East South Central,1998-01-01,200.21,36250,Mid-low Income,110020100000,3934310
+Kentucky,KY,South,East South Central,1999-01-01,209.57,33740,Low Income,115592700000,3960825
+Kentucky,KY,South,East South Central,2000-01-01,218.77,36270,Low Income,114549600000,4049021
+Kentucky,KY,South,East South Central,2001-01-01,229.84,38440,Mid-low Income,117767900000,4068132
+Kentucky,KY,South,East South Central,2002-01-01,237.55,36760,Low Income,122731200000,4089875
+Kentucky,KY,South,East South Central,2003-01-01,246.01,36940,Low Income,128289600000,4117170
+Kentucky,KY,South,East South Central,2004-01-01,256.71,35610,Low Income,135694500000,4146100
+Kentucky,KY,South,East South Central,2005-01-01,268.88,36700,Low Income,144914900000,4182742
+Kentucky,KY,South,East South Central,2006-01-01,281.09,39490,Low Income,153009800000,4219239
+Kentucky,KY,South,East South Central,2007-01-01,288.77,39450,Low Income,156900000000,4256672
+Kentucky,KY,South,East South Central,2008-01-01,293.5,41150,Low Income,160700200000,4289878
+Kentucky,KY,South,East South Central,2009-01-01,293.21,42660,Low Income,157440100000,4317074
+Kentucky,KY,South,East South Central,2010-01-01,284.98,41100,Low Income,166656300000,4348464
+Kentucky,KY,South,East South Central,2011-01-01,283.25,39860,Low Income,171238100000,4370817
+Kentucky,KY,South,East South Central,2012-01-01,283.43,41090,Low Income,178370600000,4387865
+Kentucky,KY,South,East South Central,2013-01-01,285.67,44880,Low Income,184920600000,4406906
+Kentucky,KY,South,East South Central,2014-01-01,284.88,42790,Low Income,188326400000,4416992
+Kentucky,KY,South,East South Central,2015-01-01,295.43,42390,Low Income,194621200000,4429126
+Kentucky,KY,South,East South Central,2016-01-01,304.66,45370,Low Income,197944800000,4440306
+Kentucky,KY,South,East South Central,2017-01-01,318.18,49670,Low Income,203564000000,4455590
+Kentucky,KY,South,East South Central,2018-01-01,334.14,54560,Low Income,210509100000,4464273
+Kentucky,KY,South,East South Central,2019-01-01,346.57,55660,Low Income,220683300000,4472345
+Kentucky,KY,South,East South Central,2020-01-01,363.8,56760,Low Income,218755200000,4508155
+Kentucky,KY,South,East South Central,2021-01-01,389.05,55630,Low Income,237925900000,4507600
+Kentucky,KY,South,East South Central,2022-01-01,452.89,55880,Low Income,258981200000,4511563
+Louisiana,LA,South,West South Central,1997-01-01,140.67,33260,Mid-low Income,116423100000,4351390
+Louisiana,LA,South,West South Central,1998-01-01,147.93,31740,Low Income,120228800000,4362758
+Louisiana,LA,South,West South Central,1999-01-01,154.57,32650,Low Income,125667300000,4372035
+Louisiana,LA,South,West South Central,2000-01-01,160.1,30720,Low Income,132375799999,4471885
+Louisiana,LA,South,West South Central,2001-01-01,168.26,33320,Low Income,138204300000,4477875
+Louisiana,LA,South,West South Central,2002-01-01,174.17,34010,Low Income,140082800000,4497267
+Louisiana,LA,South,West South Central,2003-01-01,183.22,33510,Low Income,155198700000,4521042
+Louisiana,LA,South,West South Central,2004-01-01,192.05,36430,Low Income,170999600000,4552238
+Louisiana,LA,South,West South Central,2005-01-01,203.18,37240,Low Income,199314200000,4576628
+Louisiana,LA,South,West South Central,2006-01-01,225.13,36490,Low Income,207249800000,4302665
+Louisiana,LA,South,West South Central,2007-01-01,242.25,41310,Low Income,203771300000,4375581
+Louisiana,LA,South,West South Central,2008-01-01,247.39,39560,Low Income,213803500000,4435586
+Louisiana,LA,South,West South Central,2009-01-01,247.95,45430,Mid-low Income,206111500000,4491648
+Louisiana,LA,South,West South Central,2010-01-01,240.96,39300,Low Income,226555600000,4544635
+Louisiana,LA,South,West South Central,2011-01-01,238.51,40660,Low Income,230518700000,4576244
+Louisiana,LA,South,West South Central,2012-01-01,239.52,39090,Low Income,235960900000,4602067
+Louisiana,LA,South,West South Central,2013-01-01,243.26,46430,Low Income,231652700000,4626040
+Louisiana,LA,South,West South Central,2014-01-01,246.77,42410,Low Income,240965000000,4645938
+Louisiana,LA,South,West South Central,2015-01-01,257.03,45920,Low Income,234324200000,4666998
+Louisiana,LA,South,West South Central,2016-01-01,264.95,42200,Low Income,227440300000,4681346
+Louisiana,LA,South,West South Central,2017-01-01,270.94,43570,Low Income,239830700000,4673673
+Louisiana,LA,South,West South Central,2018-01-01,278.99,49970,Low Income,256444400000,4664450
+Louisiana,LA,South,West South Central,2019-01-01,284.62,51710,Low Income,257096700000,4658285
+Louisiana,LA,South,West South Central,2020-01-01,294.66,51190,Low Income,236135900000,4652022
+Louisiana,LA,South,West South Central,2021-01-01,307.06,57210,Low Income,263162700000,4627047
+Louisiana,LA,South,West South Central,2022-01-01,342.01,58330,Low Income,291951900000,4588023
+Maine,ME,Northeast,New England,1997-01-01,234.71,32770,Mid-low Income,30574200000,1245215
+Maine,ME,Northeast,New England,1998-01-01,247.13,35640,Mid-low Income,32412800000,1247554
+Maine,ME,Northeast,New England,1999-01-01,258.34,38860,Mid-low Income,34714700000,1253040
+Maine,ME,Northeast,New England,2000-01-01,277.78,37270,Low Income,37222000000,1277072
+Maine,ME,Northeast,New England,2001-01-01,306.29,36610,Low Income,38925700000,1285692
+Maine,ME,Northeast,New England,2002-01-01,333.67,36850,Low Income,40664100000,1295960
+Maine,ME,Northeast,New England,2003-01-01,367.1,37110,Low Income,42493400000,1306513
+Maine,ME,Northeast,New England,2004-01-01,406.49,41330,Mid-low Income,45233100000,1313688
+Maine,ME,Northeast,New England,2005-01-01,460.48,43920,Mid-low Income,47028100000,1318787
+Maine,ME,Northeast,New England,2006-01-01,494.97,45640,Mid-low Income,48889300000,1323619
+Maine,ME,Northeast,New England,2007-01-01,506.37,47890,Mid-low Income,50291300000,1327040
+Maine,ME,Northeast,New England,2008-01-01,508.24,47230,Mid-low Income,51001900000,1330509
+Maine,ME,Northeast,New England,2009-01-01,489.52,47500,Mid-low Income,51451200000,1329590
+Maine,ME,Northeast,New England,2010-01-01,459.61,47930,Mid-low Income,52802500000,1327651
+Maine,ME,Northeast,New England,2011-01-01,452.83,49690,Mid-high Income,53104500000,1328473
+Maine,ME,Northeast,New England,2012-01-01,446.7,49160,Mid-low Income,54018500000,1328094
+Maine,ME,Northeast,New England,2013-01-01,446.92,54960,Mid-high Income,54924800000,1328543
+Maine,ME,Northeast,New England,2014-01-01,445.71,51710,Mid-low Income,56537400000,1331217
+Maine,ME,Northeast,New England,2015-01-01,461.39,50760,Low Income,58755800000,1329098
+Maine,ME,Northeast,New England,2016-01-01,473.64,50860,Low Income,61092200000,1332348
+Maine,ME,Northeast,New England,2017-01-01,496.48,53320,Low Income,63000600000,1335743
+Maine,ME,Northeast,New England,2018-01-01,521.88,58660,Mid-low Income,66216000000,1340123
+Maine,ME,Northeast,New England,2019-01-01,545.24,66550,Mid-low Income,69298200000,1345770
+Maine,ME,Northeast,New England,2020-01-01,578.14,63690,Mid-low Income,72091600000,1364517
+Maine,ME,Northeast,New England,2021-01-01,640.71,71140,Mid-high Income,78918400000,1378787
+Maine,ME,Northeast,New England,2022-01-01,778.08,75160,Mid-high Income,85801200000,1389338
+Maryland,MD,South,South Atlantic,1997-01-01,216.53,46690,High Income,159167800000,5092914
+Maryland,MD,South,South Atlantic,1998-01-01,222.59,50020,High Income,169360100000,5130072
+Maryland,MD,South,South Atlantic,1999-01-01,228.35,52210,High Income,179779600000,5171634
+Maryland,MD,South,South Atlantic,2000-01-01,238.3,54540,High Income,191430200000,5311034
+Maryland,MD,South,South Atlantic,2001-01-01,254.85,53530,High Income,205276000000,5374691
+Maryland,MD,South,South Atlantic,2002-01-01,277.79,56410,High Income,217001400000,5440389
+Maryland,MD,South,South Atlantic,2003-01-01,307.69,52310,High Income,226803400000,5496269
+Maryland,MD,South,South Atlantic,2004-01-01,350.92,57100,High Income,243449800000,5546935
+Maryland,MD,South,South Atlantic,2005-01-01,426.12,60510,High Income,261795300000,5592379
+Maryland,MD,South,South Atlantic,2006-01-01,508.22,63670,High Income,273791000000,5627367
+Maryland,MD,South,South Atlantic,2007-01-01,534.35,65630,High Income,282618200000,5653408
+Maryland,MD,South,South Atlantic,2008-01-01,516.71,63710,High Income,292908300000,5684965
+Maryland,MD,South,South Atlantic,2009-01-01,466.7,64190,High Income,298282800000,5730388
+Maryland,MD,South,South Atlantic,2010-01-01,426.58,64200,High Income,313930500000,5788784
+Maryland,MD,South,South Atlantic,2011-01-01,409.82,68880,High Income,324920900000,5840241
+Maryland,MD,South,South Atlantic,2012-01-01,403.75,71840,High Income,331869000000,5888375
+Maryland,MD,South,South Atlantic,2013-01-01,406.76,69350,High Income,339895800000,5925197
+Maryland,MD,South,South Atlantic,2014-01-01,413.97,76170,High Income,351743100000,5960064
+Maryland,MD,South,South Atlantic,2015-01-01,429.63,73590,High Income,367314100000,5988528
+Maryland,MD,South,South Atlantic,2016-01-01,437.35,73760,High Income,386496400000,6007014
+Maryland,MD,South,South Atlantic,2017-01-01,446.95,82090,High Income,399714500000,6028186
+Maryland,MD,South,South Atlantic,2018-01-01,464.26,86220,High Income,410771800000,6042153
+Maryland,MD,South,South Atlantic,2019-01-01,471.99,95570,High Income,419447600000,6054954
+Maryland,MD,South,South Atlantic,2020-01-01,491.95,94790,High Income,413417700000,6173689
+Maryland,MD,South,South Atlantic,2021-01-01,523.78,97330,High Income,446941000000,6175045
+Maryland,MD,South,South Atlantic,2022-01-01,599.14,108200,High Income,480112700000,6163981
+Massachusetts,MA,Northeast,New England,1997-01-01,305.18,42020,High Income,236435600000,6115476
+Massachusetts,MA,Northeast,New England,1998-01-01,323.31,42350,High Income,247686800000,6144407
+Massachusetts,MA,Northeast,New England,1999-01-01,350.24,44010,Mid-high Income,262868800000,6175169
+Massachusetts,MA,Northeast,New England,2000-01-01,401.85,46750,High Income,287091400000,6361104
+Massachusetts,MA,Northeast,New England,2001-01-01,452.21,52250,High Income,294876400000,6397634
+Massachusetts,MA,Northeast,New England,2002-01-01,505.62,49860,High Income,299915800000,6417206
+Massachusetts,MA,Northeast,New England,2003-01-01,562.71,50960,High Income,309736100000,6422565
+Massachusetts,MA,Northeast,New England,2004-01-01,617.75,52020,High Income,324919000000,6412281
+Massachusetts,MA,Northeast,New England,2005-01-01,688.33,56020,High Income,340637800000,6403290
+Massachusetts,MA,Northeast,New England,2006-01-01,721.41,55330,High Income,358418300000,6410084
+Massachusetts,MA,Northeast,New England,2007-01-01,703.81,58460,High Income,377985600000,6431559
+Massachusetts,MA,Northeast,New England,2008-01-01,676.72,60320,High Income,387923400000,6468967
+Massachusetts,MA,Northeast,New England,2009-01-01,640.0,59370,High Income,388963900000,6517613
+Massachusetts,MA,Northeast,New England,2010-01-01,610.89,60930,High Income,409270000000,6566440
+Massachusetts,MA,Northeast,New England,2011-01-01,603.53,63310,High Income,423684900000,6614218
+Massachusetts,MA,Northeast,New England,2012-01-01,596.69,63660,High Income,441373900000,6664269
+Massachusetts,MA,Northeast,New England,2013-01-01,603.67,62530,High Income,452580400000,6715158
+Massachusetts,MA,Northeast,New England,2014-01-01,622.74,63150,High Income,469824900000,6764864
+Massachusetts,MA,Northeast,New England,2015-01-01,653.79,67860,High Income,497767000000,6797484
+Massachusetts,MA,Northeast,New England,2016-01-01,683.57,72270,High Income,514108000000,6827280
+Massachusetts,MA,Northeast,New England,2017-01-01,715.55,76240,High Income,530129400000,6863560
+Massachusetts,MA,Northeast,New England,2018-01-01,759.11,86350,High Income,559605000000,6885720
+Massachusetts,MA,Northeast,New England,2019-01-01,793.33,87710,High Income,588617500000,6894883
+Massachusetts,MA,Northeast,New England,2020-01-01,830.61,87810,High Income,589033300000,6997713
+Massachusetts,MA,Northeast,New England,2021-01-01,890.16,86570,High Income,645434000000,6991951
+Massachusetts,MA,Northeast,New England,2022-01-01,1035.23,93550,High Income,691460600000,6982740
+Michigan,MI,Midwest,East North Central,1997-01-01,206.91,38740,Mid-high Income,299832700000,9785450
+Michigan,MI,Midwest,East North Central,1998-01-01,220.57,41820,High Income,311088200000,9820231
+Michigan,MI,Midwest,East North Central,1999-01-01,234.3,46090,High Income,337150200000,9863775
+Michigan,MI,Midwest,East North Central,2000-01-01,252.84,45510,Mid-high Income,351879500000,9952450
+Michigan,MI,Midwest,East North Central,2001-01-01,268.84,45050,Mid-high Income,349127500000,9991120
+Michigan,MI,Midwest,East North Central,2002-01-01,281.65,42720,Mid-high Income,363372100000,10015710
+Michigan,MI,Midwest,East North Central,2003-01-01,291.41,45020,Mid-high Income,376123800000,10041152
+Michigan,MI,Midwest,East North Central,2004-01-01,302.6,42260,Mid-low Income,388764600000,10055315
+Michigan,MI,Midwest,East North Central,2005-01-01,314.9,45930,Mid-high Income,402828800000,10051137
+Michigan,MI,Midwest,East North Central,2006-01-01,317.16,48650,Mid-high Income,402537300000,10036081
+Michigan,MI,Midwest,East North Central,2007-01-01,308.6,49370,Mid-high Income,410613000000,10001284
+Michigan,MI,Midwest,East North Central,2008-01-01,291.28,49790,Mid-low Income,391633600000,9946889
+Michigan,MI,Midwest,East North Central,2009-01-01,270.74,45990,Mid-low Income,371707000000,9901591
+Michigan,MI,Midwest,East North Central,2010-01-01,239.34,46280,Mid-low Income,393179600000,9877597
+Michigan,MI,Midwest,East North Central,2011-01-01,229.25,48880,Mid-low Income,408354100000,9883053
+Michigan,MI,Midwest,East North Central,2012-01-01,227.27,50020,Mid-high Income,426141100000,9898289
+Michigan,MI,Midwest,East North Central,2013-01-01,236.43,56570,Mid-high Income,441470800000,9914802
+Michigan,MI,Midwest,East North Central,2014-01-01,251.2,52010,Mid-low Income,456123500000,9932033
+Michigan,MI,Midwest,East North Central,2015-01-01,267.96,54200,Mid-low Income,479222700000,9934483
+Michigan,MI,Midwest,East North Central,2016-01-01,281.91,57090,Mid-low Income,494752500000,9954117
+Michigan,MI,Midwest,East North Central,2017-01-01,299.29,56410,Mid-low Income,505101500000,9976752
+Michigan,MI,Midwest,East North Central,2018-01-01,319.32,60450,Mid-low Income,525240800000,9987286
+Michigan,MI,Midwest,East North Central,2019-01-01,337.46,64120,Mid-low Income,536975600000,9984795
+Michigan,MI,Midwest,East North Central,2020-01-01,354.32,64390,Mid-low Income,530231100000,10070627
+Michigan,MI,Midwest,East North Central,2021-01-01,381.46,64490,Mid-low Income,576502200000,10038117
+Michigan,MI,Midwest,East North Central,2022-01-01,444.6,68990,Mid-low Income,622562700000,10033281
+Minnesota,MN,Midwest,West North Central,1997-01-01,181.61,42560,High Income,157345900000,4687726
+Minnesota,MN,Midwest,West North Central,1998-01-01,192.7,47930,High Income,167867400000,4726411
+Minnesota,MN,Midwest,West North Central,1999-01-01,203.69,47040,High Income,176780400000,4775508
+Minnesota,MN,Midwest,West North Central,2000-01-01,225.51,54250,High Income,192389500000,4933692
+Minnesota,MN,Midwest,West North Central,2001-01-01,249.0,52680,High Income,196869400000,4982796
+Minnesota,MN,Midwest,West North Central,2002-01-01,272.49,54620,High Income,204061100000,5018935
+Minnesota,MN,Midwest,West North Central,2003-01-01,294.24,52820,High Income,215975100000,5053572
+Minnesota,MN,Midwest,West North Central,2004-01-01,319.38,56100,High Income,231949400000,5087713
+Minnesota,MN,Midwest,West North Central,2005-01-01,348.2,54220,High Income,244635400000,5119598
+Minnesota,MN,Midwest,West North Central,2006-01-01,367.67,56210,High Income,252357600000,5163555
+Minnesota,MN,Midwest,West North Central,2007-01-01,371.91,58060,High Income,261250700000,5207203
+Minnesota,MN,Midwest,West North Central,2008-01-01,360.38,54930,Mid-high Income,268771500000,5247018
+Minnesota,MN,Midwest,West North Central,2009-01-01,343.73,56090,High Income,262628800000,5281203
+Minnesota,MN,Midwest,West North Central,2010-01-01,311.27,52320,Mid-high Income,274649200000,5310934
+Minnesota,MN,Midwest,West North Central,2011-01-01,298.33,57820,High Income,287070800000,5346620
+Minnesota,MN,Midwest,West North Central,2012-01-01,292.74,61800,High Income,298641400000,5377500
+Minnesota,MN,Midwest,West North Central,2013-01-01,299.85,64320,High Income,311752100000,5414722
+Minnesota,MN,Midwest,West North Central,2014-01-01,314.02,67240,High Income,324701500000,5452665
+Minnesota,MN,Midwest,West North Central,2015-01-01,327.08,68730,High Income,336762000000,5484002
+Minnesota,MN,Midwest,West North Central,2016-01-01,341.79,70220,High Income,345248800000,5525360
+Minnesota,MN,Midwest,West North Central,2017-01-01,360.34,69980,High Income,354721900000,5569283
+Minnesota,MN,Midwest,West North Central,2018-01-01,382.65,71820,High Income,372439200000,5608762
+Minnesota,MN,Midwest,West North Central,2019-01-01,400.09,81430,High Income,383961600000,5640053
+Minnesota,MN,Midwest,West North Central,2020-01-01,418.61,78750,High Income,379438700000,5710578
+Minnesota,MN,Midwest,West North Central,2021-01-01,445.42,80440,Mid-high Income,413063100000,5717968
+Minnesota,MN,Midwest,West North Central,2022-01-01,511.54,90390,High Income,448032400000,5714300
+Mississippi,MS,South,East South Central,1997-01-01,159.87,28500,Low Income,58517200000,2731826
+Mississippi,MS,South,East South Central,1998-01-01,167.8,29120,Low Income,61332300000,2751335
+Mississippi,MS,South,East South Central,1999-01-01,176.03,32480,Low Income,64276500000,2768619
+Mississippi,MS,South,East South Central,2000-01-01,180.97,34300,Low Income,66051500000,2848353
+Mississippi,MS,South,East South Central,2001-01-01,191.04,30160,Low Income,67750200000,2852994
+Mississippi,MS,South,East South Central,2002-01-01,196.39,30880,Low Income,69704900000,2858681
+Mississippi,MS,South,East South Central,2003-01-01,202.64,32730,Low Income,74418400000,2868312
+Mississippi,MS,South,East South Central,2004-01-01,208.84,34760,Low Income,78680100000,2889010
+Mississippi,MS,South,East South Central,2005-01-01,218.17,32880,Low Income,82991600000,2905943
+Mississippi,MS,South,East South Central,2006-01-01,236.08,34730,Low Income,87596700000,2904978
+Mississippi,MS,South,East South Central,2007-01-01,256.05,37280,Low Income,91876500000,2928350
+Mississippi,MS,South,East South Central,2008-01-01,259.81,36450,Low Income,95179300000,2947806
+Mississippi,MS,South,East South Central,2009-01-01,256.41,35080,Low Income,92378000000,2958774
+Mississippi,MS,South,East South Central,2010-01-01,244.85,38160,Low Income,94788300000,2970615
+Mississippi,MS,South,East South Central,2011-01-01,237.57,41090,Low Income,96799100000,2979147
+Mississippi,MS,South,East South Central,2012-01-01,238.68,36640,Low Income,100905400000,2984599
+Mississippi,MS,South,East South Central,2013-01-01,238.53,32340,Low Income,103042600000,2989839
+Mississippi,MS,South,East South Central,2014-01-01,239.25,35520,Low Income,105219500000,2991892
+Mississippi,MS,South,East South Central,2015-01-01,246.62,40040,Low Income,106623900000,2990231
+Mississippi,MS,South,East South Central,2016-01-01,252.21,41100,Low Income,107795400000,2990595
+Mississippi,MS,South,East South Central,2017-01-01,259.05,43280,Low Income,110281400000,2990674
+Mississippi,MS,South,East South Central,2018-01-01,265.75,42780,Low Income,113166400000,2982879
+Mississippi,MS,South,East South Central,2019-01-01,272.49,44790,Low Income,115441700000,2978227
+Mississippi,MS,South,East South Central,2020-01-01,284.34,45130,Low Income,116193100000,2958409
+Mississippi,MS,South,East South Central,2021-01-01,298.34,46640,Low Income,128364500000,2949582
+Mississippi,MS,South,East South Central,2022-01-01,345.23,48610,Low Income,139976400000,2938928
+Missouri,MO,Midwest,West North Central,1997-01-01,180.97,36550,Mid-high Income,163101100000,5407113
+Missouri,MO,Midwest,West North Central,1998-01-01,188.44,40200,Mid-high Income,170122200000,5437562
+Missouri,MO,Midwest,West North Central,1999-01-01,196.63,41380,Mid-high Income,178215900000,5468338
+Missouri,MO,Midwest,West North Central,2000-01-01,207.88,45100,Mid-high Income,187012800000,5607285
+Missouri,MO,Midwest,West North Central,2001-01-01,220.08,41340,Mid-low Income,190388700000,5641142
+Missouri,MO,Midwest,West North Central,2002-01-01,232.63,42780,Mid-high Income,197399000000,5674825
+Missouri,MO,Midwest,West North Central,2003-01-01,243.63,43760,Mid-high Income,206005200000,5709403
+Missouri,MO,Midwest,West North Central,2004-01-01,257.09,42140,Mid-low Income,216977500000,5747741
+Missouri,MO,Midwest,West North Central,2005-01-01,274.62,42990,Mid-low Income,227594600000,5790300
+Missouri,MO,Midwest,West North Central,2006-01-01,289.51,44580,Mid-low Income,235816900000,5842704
+Missouri,MO,Midwest,West North Central,2007-01-01,297.51,46010,Mid-low Income,244085300000,5887612
+Missouri,MO,Midwest,West North Central,2008-01-01,297.86,46040,Low Income,256431100000,5923916
+Missouri,MO,Midwest,West North Central,2009-01-01,292.0,48770,Mid-low Income,254306200000,5961088
+Missouri,MO,Midwest,West North Central,2010-01-01,277.15,45820,Mid-low Income,262013400000,5996089
+Missouri,MO,Midwest,West North Central,2011-01-01,269.47,45770,Mid-low Income,263330000000,6011182
+Missouri,MO,Midwest,West North Central,2012-01-01,267.92,49760,Mid-low Income,272482400000,6026027
+Missouri,MO,Midwest,West North Central,2013-01-01,267.44,46300,Low Income,282659700000,6042989
+Missouri,MO,Midwest,West North Central,2014-01-01,268.59,56630,Mid-high Income,289340700000,6059130
+Missouri,MO,Midwest,West North Central,2015-01-01,280.25,59200,Mid-high Income,299597700000,6075411
+Missouri,MO,Midwest,West North Central,2016-01-01,290.67,55020,Mid-low Income,304143300000,6091384
+Missouri,MO,Midwest,West North Central,2017-01-01,301.88,56530,Mid-low Income,311273800000,6111382
+Missouri,MO,Midwest,West North Central,2018-01-01,318.73,61730,Mid-low Income,320451600000,6125986
+Missouri,MO,Midwest,West North Central,2019-01-01,332.66,60600,Low Income,334364700000,6140475
+Missouri,MO,Midwest,West North Central,2020-01-01,351.28,62180,Mid-low Income,335278300000,6154426
+Missouri,MO,Midwest,West North Central,2021-01-01,375.04,63590,Mid-low Income,365145400000,6170393
+Missouri,MO,Midwest,West North Central,2022-01-01,442.54,71520,Mid-low Income,396889900000,6177168
+Montana,MT,West,Mountain,1997-01-01,188.88,29210,Low Income,19301700000,878706
+Montana,MT,West,Mountain,1998-01-01,196.91,31580,Low Income,20414400000,879533
+Montana,MT,West,Mountain,1999-01-01,200.39,31040,Low Income,20815100000,882779
+Montana,MT,West,Mountain,2000-01-01,207.25,32780,Low Income,21935400000,903773
+Montana,MT,West,Mountain,2001-01-01,219.31,32130,Low Income,22798000000,906961
+Montana,MT,West,Mountain,2002-01-01,230.51,34840,Low Income,23886000000,911667
+Montana,MT,West,Mountain,2003-01-01,241.79,34110,Low Income,25781100000,919630
+Montana,MT,West,Mountain,2004-01-01,263.32,33960,Low Income,28138800000,930009
+Montana,MT,West,Mountain,2005-01-01,292.83,37310,Low Income,30823700000,940102
+Montana,MT,West,Mountain,2006-01-01,330.47,41110,Low Income,33088000000,952692
+Montana,MT,West,Mountain,2007-01-01,362.68,43660,Low Income,36116100000,964706
+Montana,MT,West,Mountain,2008-01-01,377.51,42900,Low Income,37028000000,976415
+Montana,MT,West,Mountain,2009-01-01,374.59,40440,Low Income,35880000000,983982
+Montana,MT,West,Mountain,2010-01-01,351.73,41280,Low Income,38080300000,990730
+Montana,MT,West,Mountain,2011-01-01,340.66,40280,Low Income,40592300000,997518
+Montana,MT,West,Mountain,2012-01-01,344.31,45090,Low Income,42150200000,1004168
+Montana,MT,West,Mountain,2013-01-01,354.83,43200,Low Income,43584000000,1014158
+Montana,MT,West,Mountain,2014-01-01,367.24,51100,Mid-low Income,45203800000,1022657
+Montana,MT,West,Mountain,2015-01-01,382.33,51400,Mid-low Income,46542400000,1031494
+Montana,MT,West,Mountain,2016-01-01,398.99,57080,Mid-low Income,45859400000,1042137
+Montana,MT,West,Mountain,2017-01-01,417.02,57410,Mid-low Income,48470500000,1053862
+Montana,MT,West,Mountain,2018-01-01,438.21,57680,Mid-low Income,51152100000,1061818
+Montana,MT,West,Mountain,2019-01-01,459.88,60200,Low Income,52772500000,1070123
+Montana,MT,West,Mountain,2020-01-01,488.85,56740,Low Income,53130700000,1087211
+Montana,MT,West,Mountain,2021-01-01,537.1,65000,Mid-low Income,59996700000,1106366
+Montana,MT,West,Mountain,2022-01-01,677.68,72980,Mid-low Income,67071899999,1122878
+Nebraska,NE,Midwest,West North Central,1997-01-01,174.54,34690,Mid-low Income,49880000000,1656042
+Nebraska,NE,Midwest,West North Central,1998-01-01,184.11,36410,Mid-low Income,51849900000,1660772
+Nebraska,NE,Midwest,West North Central,1999-01-01,191.68,38630,Mid-low Income,53714200000,1666028
+Nebraska,NE,Midwest,West North Central,2000-01-01,198.52,41750,Mid-high Income,56582700000,1713820
+Nebraska,NE,Midwest,West North Central,2001-01-01,207.32,43610,Mid-high Income,59634300000,1719836
+Nebraska,NE,Midwest,West North Central,2002-01-01,214.78,42800,Mid-high Income,61569500000,1728292
+Nebraska,NE,Midwest,West North Central,2003-01-01,220.83,43970,Mid-high Income,66471700000,1738643
+Nebraska,NE,Midwest,West North Central,2004-01-01,229.26,43790,Mid-high Income,70445400000,1749370
+Nebraska,NE,Midwest,West North Central,2005-01-01,240.75,47920,Mid-high Income,74886700000,1761497
+Nebraska,NE,Midwest,West North Central,2006-01-01,246.99,48150,Mid-high Income,79287500000,1772693
+Nebraska,NE,Midwest,West North Central,2007-01-01,251.72,49170,Mid-high Income,84291900000,1783440
+Nebraska,NE,Midwest,West North Central,2008-01-01,253.97,50730,Mid-high Income,86146600000,1796378
+Nebraska,NE,Midwest,West North Central,2009-01-01,253.07,49600,Mid-high Income,87325500000,1812683
+Nebraska,NE,Midwest,West North Central,2010-01-01,247.06,52500,Mid-high Income,91940700000,1829591
+Nebraska,NE,Midwest,West North Central,2011-01-01,247.6,55620,High Income,100526500000,1840914
+Nebraska,NE,Midwest,West North Central,2012-01-01,250.44,52200,Mid-high Income,102949700000,1853691
+Nebraska,NE,Midwest,West North Central,2013-01-01,254.69,57620,Mid-high Income,107247000000,1865813
+Nebraska,NE,Midwest,West North Central,2014-01-01,260.65,56870,Mid-high Income,112763300000,1879955
+Nebraska,NE,Midwest,West North Central,2015-01-01,272.22,60470,Mid-high Income,117402300000,1892059
+Nebraska,NE,Midwest,West North Central,2016-01-01,282.32,59370,Mid-high Income,119389800000,1906483
+Nebraska,NE,Midwest,West North Central,2017-01-01,298.04,59580,Mid-low Income,123219900000,1916998
+Nebraska,NE,Midwest,West North Central,2018-01-01,314.98,67580,Mid-high Income,127954400000,1925512
+Nebraska,NE,Midwest,West North Central,2019-01-01,331.72,73070,Mid-high Income,132741000000,1932571
+Nebraska,NE,Midwest,West North Central,2020-01-01,348.24,72250,Mid-high Income,135285000000,1963273
+Nebraska,NE,Midwest,West North Central,2021-01-01,369.08,78110,Mid-high Income,149360300000,1964253
+Nebraska,NE,Midwest,West North Central,2022-01-01,429.29,78360,Mid-high Income,164933900000,1968060
+Nevada,NV,West,Mountain,1997-01-01,181.26,38850,Mid-high Income,60255000000,1675581
+Nevada,NV,West,Mountain,1998-01-01,187.81,39760,Mid-high Income,65332200000,1743772
+Nevada,NV,West,Mountain,1999-01-01,190.52,41460,Mid-high Income,71825300000,1809253
+Nevada,NV,West,Mountain,2000-01-01,193.52,45760,Mid-high Income,77181500000,2018741
+Nevada,NV,West,Mountain,2001-01-01,205.14,45400,Mid-high Income,80968600000,2098399
+Nevada,NV,West,Mountain,2002-01-01,217.41,44960,Mid-high Income,85541000000,2173791
+Nevada,NV,West,Mountain,2003-01-01,232.43,45180,Mid-high Income,91365000000,2248850
+Nevada,NV,West,Mountain,2004-01-01,272.08,47200,Mid-high Income,104132000000,2346222
+Nevada,NV,West,Mountain,2005-01-01,361.42,48210,Mid-high Income,117165100000,2432143
+Nevada,NV,West,Mountain,2006-01-01,417.89,52280,Mid-high Income,126613400000,2522658
+Nevada,NV,West,Mountain,2007-01-01,416.18,54060,Mid-high Income,132045400000,2601072
+Nevada,NV,West,Mountain,2008-01-01,362.53,54740,Mid-high Income,130570900000,2653630
+Nevada,NV,West,Mountain,2009-01-01,282.25,51430,Mid-high Income,122471200000,2684665
+Nevada,NV,West,Mountain,2010-01-01,227.51,51200,Mid-high Income,125149000000,2702483
+Nevada,NV,West,Mountain,2011-01-01,203.4,47040,Mid-low Income,128638400000,2713114
+Nevada,NV,West,Mountain,2012-01-01,187.14,47330,Mid-low Income,130238200000,2744670
+Nevada,NV,West,Mountain,2013-01-01,202.49,51850,Mid-low Income,133592500000,2776956
+Nevada,NV,West,Mountain,2014-01-01,244.46,49880,Mid-low Income,136918400000,2818935
+Nevada,NV,West,Mountain,2015-01-01,271.34,52010,Mid-low Income,145786800000,2868531
+Nevada,NV,West,Mountain,2016-01-01,298.24,55430,Mid-low Income,153318000000,2919555
+Nevada,NV,West,Mountain,2017-01-01,323.32,58040,Mid-low Income,163199100000,2972097
+Nevada,NV,West,Mountain,2018-01-01,364.87,61860,Mid-low Income,172547900000,3030725
+Nevada,NV,West,Mountain,2019-01-01,400.07,70910,Mid-high Income,184343900000,3090771
+Nevada,NV,West,Mountain,2020-01-01,417.0,61160,Mid-low Income,175982000000,3115840
+Nevada,NV,West,Mountain,2021-01-01,454.06,64340,Mid-low Income,200127300000,3146632
+Nevada,NV,West,Mountain,2022-01-01,565.52,72330,Mid-low Income,222938600000,3177421
+New Hampshire,NH,Northeast,New England,1997-01-01,199.97,41000,High Income,38122500000,1173239
+New Hampshire,NH,Northeast,New England,1998-01-01,211.2,44960,High Income,40747700000,1185823
+New Hampshire,NH,Northeast,New England,1999-01-01,226.3,46060,High Income,42292400000,1201134
+New Hampshire,NH,Northeast,New England,2000-01-01,254.14,50930,High Income,45604900000,1239882
+New Hampshire,NH,Northeast,New England,2001-01-01,286.51,51330,High Income,47037300000,1255517
+New Hampshire,NH,Northeast,New England,2002-01-01,320.62,55320,High Income,49109600000,1269089
+New Hampshire,NH,Northeast,New England,2003-01-01,355.53,55570,High Income,51609700000,1279840
+New Hampshire,NH,Northeast,New England,2004-01-01,390.72,56820,High Income,54545700000,1290121
+New Hampshire,NH,Northeast,New England,2005-01-01,438.44,56980,High Income,56914600000,1298492
+New Hampshire,NH,Northeast,New England,2006-01-01,468.65,61970,High Income,60152700000,1308389
+New Hampshire,NH,Northeast,New England,2007-01-01,465.85,67580,High Income,61984800000,1312540
+New Hampshire,NH,Northeast,New England,2008-01-01,454.98,66180,High Income,62095300000,1315906
+New Hampshire,NH,Northeast,New England,2009-01-01,427.69,64130,High Income,63052200000,1316102
+New Hampshire,NH,Northeast,New England,2010-01-01,395.99,66630,High Income,65310800000,1316807
+New Hampshire,NH,Northeast,New England,2011-01-01,386.52,65880,High Income,66557300000,1320444
+New Hampshire,NH,Northeast,New England,2012-01-01,378.16,67820,High Income,68412000000,1324677
+New Hampshire,NH,Northeast,New England,2013-01-01,377.2,69100,High Income,70897400000,1327272
+New Hampshire,NH,Northeast,New England,2014-01-01,386.37,73400,High Income,73455100000,1334257
+New Hampshire,NH,Northeast,New England,2015-01-01,400.18,75680,High Income,77385800000,1337480
+New Hampshire,NH,Northeast,New England,2016-01-01,415.4,76260,High Income,79759700000,1343694
+New Hampshire,NH,Northeast,New England,2017-01-01,433.36,75630,High Income,81179600000,1350395
+New Hampshire,NH,Northeast,New England,2018-01-01,461.38,81350,High Income,83859400000,1355064
+New Hampshire,NH,Northeast,New England,2019-01-01,484.46,86900,High Income,87472000000,1360783
+New Hampshire,NH,Northeast,New England,2020-01-01,513.23,88890,High Income,88589400000,1378702
+New Hampshire,NH,Northeast,New England,2021-01-01,564.85,88840,High Income,99100000000,1387494
+New Hampshire,NH,Northeast,New England,2022-01-01,673.98,84970,Mid-high Income,105024600000,1399003
+New Jersey,NJ,Northeast,Middle Atlantic,1997-01-01,240.14,48020,High Income,307140900000,8054178
+New Jersey,NJ,Northeast,Middle Atlantic,1998-01-01,250.67,49830,High Income,318104000000,8095542
+New Jersey,NJ,Northeast,Middle Atlantic,1999-01-01,259.18,49730,High Income,334966400000,8143412
+New Jersey,NJ,Northeast,Middle Atlantic,2000-01-01,279.33,50410,High Income,360530400000,8430621
+New Jersey,NJ,Northeast,Middle Atlantic,2001-01-01,305.67,51770,High Income,372819200000,8492671
+New Jersey,NJ,Northeast,Middle Atlantic,2002-01-01,339.39,54570,High Income,385045600000,8552643
+New Jersey,NJ,Northeast,Middle Atlantic,2003-01-01,379.09,56050,High Income,399996500000,8601402
+New Jersey,NJ,Northeast,Middle Atlantic,2004-01-01,426.3,55280,High Income,415490800000,8634561
+New Jersey,NJ,Northeast,Middle Atlantic,2005-01-01,495.59,63370,High Income,436064400000,8651974
+New Jersey,NJ,Northeast,Middle Atlantic,2006-01-01,564.01,68060,High Income,457681500000,8661679
+New Jersey,NJ,Northeast,Middle Atlantic,2007-01-01,577.72,60510,High Income,474539600000,8677885
+New Jersey,NJ,Northeast,Middle Atlantic,2008-01-01,560.79,65310,High Income,493289400000,8711090
+New Jersey,NJ,Northeast,Middle Atlantic,2009-01-01,522.16,64780,High Income,481452700000,8755602
+New Jersey,NJ,Northeast,Middle Atlantic,2010-01-01,486.12,62970,High Income,491229000000,8799451
+New Jersey,NJ,Northeast,Middle Atlantic,2011-01-01,473.2,62340,High Income,494292800000,8828552
+New Jersey,NJ,Northeast,Middle Atlantic,2012-01-01,456.02,66690,High Income,516098200000,8845671
+New Jersey,NJ,Northeast,Middle Atlantic,2013-01-01,453.34,63750,High Income,534212100000,8857821
+New Jersey,NJ,Northeast,Middle Atlantic,2014-01-01,458.02,65240,High Income,543824100000,8867277
+New Jersey,NJ,Northeast,Middle Atlantic,2015-01-01,473.34,68360,High Income,565807700000,8870312
+New Jersey,NJ,Northeast,Middle Atlantic,2016-01-01,481.38,68470,High Income,578651400000,8873584
+New Jersey,NJ,Northeast,Middle Atlantic,2017-01-01,488.62,71240,High Income,590086700000,8888147
+New Jersey,NJ,Northeast,Middle Atlantic,2018-01-01,507.51,74180,High Income,619340200000,8891730
+New Jersey,NJ,Northeast,Middle Atlantic,2019-01-01,520.38,87730,High Income,641877600000,8891258
+New Jersey,NJ,Northeast,Middle Atlantic,2020-01-01,544.73,85550,High Income,630212700000,9272392
+New Jersey,NJ,Northeast,Middle Atlantic,2021-01-01,585.5,88560,High Income,692227300000,9269175
+New Jersey,NJ,Northeast,Middle Atlantic,2022-01-01,684.97,92340,High Income,754948200000,9260817
+New Mexico,NM,West,Mountain,1997-01-01,188.73,30090,Low Income,52575600000,1722939
+New Mexico,NM,West,Mountain,1998-01-01,193.94,31540,Low Income,50573100000,1733535
+New Mexico,NM,West,Mountain,1999-01-01,197.57,32570,Low Income,52801900000,1739844
+New Mexico,NM,West,Mountain,2000-01-01,198.29,35090,Low Income,55002200000,1821204
+New Mexico,NM,West,Mountain,2001-01-01,206.22,33120,Low Income,55660200000,1831690
+New Mexico,NM,West,Mountain,2002-01-01,211.78,35460,Low Income,57718300000,1855309
+New Mexico,NM,West,Mountain,2003-01-01,222.61,35110,Low Income,62867900000,1877574
+New Mexico,NM,West,Mountain,2004-01-01,235.31,39560,Low Income,70593400000,1903808
+New Mexico,NM,West,Mountain,2005-01-01,256.83,38950,Low Income,74130900000,1932274
+New Mexico,NM,West,Mountain,2006-01-01,295.18,40030,Low Income,78008200000,1962137
+New Mexico,NM,West,Mountain,2007-01-01,325.49,44360,Low Income,81100300000,1990070
+New Mexico,NM,West,Mountain,2008-01-01,331.21,42100,Low Income,84339700000,2010662
+New Mexico,NM,West,Mountain,2009-01-01,321.53,43540,Low Income,82641300000,2036802
+New Mexico,NM,West,Mountain,2010-01-01,303.39,45130,Mid-low Income,84862600000,2064614
+New Mexico,NM,West,Mountain,2011-01-01,289.37,41980,Low Income,87056000000,2080706
+New Mexico,NM,West,Mountain,2012-01-01,281.21,43420,Low Income,87681000000,2087715
+New Mexico,NM,West,Mountain,2013-01-01,283.08,40170,Low Income,88773300000,2092833
+New Mexico,NM,West,Mountain,2014-01-01,282.55,46690,Low Income,92523400000,2090235
+New Mexico,NM,West,Mountain,2015-01-01,289.23,45120,Low Income,90779400000,2090071
+New Mexico,NM,West,Mountain,2016-01-01,294.26,48450,Low Income,90476000000,2092554
+New Mexico,NM,West,Mountain,2017-01-01,304.01,45600,Low Income,93210100000,2092844
+New Mexico,NM,West,Mountain,2018-01-01,314.9,48280,Low Income,98838200000,2093754
+New Mexico,NM,West,Mountain,2019-01-01,327.2,53110,Low Income,103869200000,2099634
+New Mexico,NM,West,Mountain,2020-01-01,348.6,50910,Low Income,100434500000,2118488
+New Mexico,NM,West,Mountain,2021-01-01,377.69,53460,Low Income,111730600000,2116950
+New Mexico,NM,West,Mountain,2022-01-01,443.61,56420,Low Income,125540600000,2113476
+New York,NY,Northeast,Middle Atlantic,1997-01-01,283.68,35800,Mid-low Income,716104700000,18143184
+New York,NY,Northeast,Middle Atlantic,1998-01-01,298.98,37390,Mid-low Income,744958900000,18159175
+New York,NY,Northeast,Middle Atlantic,1999-01-01,310.02,39990,Mid-high Income,794009500000,18196601
+New York,NY,Northeast,Middle Atlantic,2000-01-01,335.48,40740,Mid-low Income,839853000000,19001780
+New York,NY,Northeast,Middle Atlantic,2001-01-01,369.22,42110,Mid-high Income,876285200000,19082838
+New York,NY,Northeast,Middle Atlantic,2002-01-01,404.26,41970,Mid-low Income,885386200000,19137800
+New York,NY,Northeast,Middle Atlantic,2003-01-01,448.82,42790,Mid-low Income,908535200000,19175939
+New York,NY,Northeast,Middle Atlantic,2004-01-01,498.99,44650,Mid-high Income,958565300000,19171567
+New York,NY,Northeast,Middle Atlantic,2005-01-01,566.89,47180,Mid-high Income,1009851000000,19132610
+New York,NY,Northeast,Middle Atlantic,2006-01-01,629.78,48220,Mid-high Income,1072271800000,19104631
+New York,NY,Northeast,Middle Atlantic,2007-01-01,642.26,48940,Mid-high Income,1116265300000,19132335
+New York,NY,Northeast,Middle Atlantic,2008-01-01,636.16,50460,Mid-high Income,1107860200000,19212436
+New York,NY,Northeast,Middle Atlantic,2009-01-01,609.26,50220,Mid-high Income,1155492300000,19307066
+New York,NY,Northeast,Middle Atlantic,2010-01-01,573.16,49780,Mid-high Income,1217748000000,19399956
+New York,NY,Northeast,Middle Atlantic,2011-01-01,568.7,50640,Mid-high Income,1245769400000,19499921
+New York,NY,Northeast,Middle Atlantic,2012-01-01,558.13,47680,Mid-low Income,1324471300000,19574362
+New York,NY,Northeast,Middle Atlantic,2013-01-01,556.71,49970,Mid-low Income,1364632900000,19626488
+New York,NY,Northeast,Middle Atlantic,2014-01-01,560.28,54310,Mid-low Income,1434606300000,19653431
+New York,NY,Northeast,Middle Atlantic,2015-01-01,582.82,58010,Mid-high Income,1498474700000,19657321
+New York,NY,Northeast,Middle Atlantic,2016-01-01,596.34,61440,Mid-high Income,1556830000000,19636391
+New York,NY,Northeast,Middle Atlantic,2017-01-01,621.12,61540,Mid-high Income,1624800700000,19593849
+New York,NY,Northeast,Middle Atlantic,2018-01-01,656.63,67270,Mid-high Income,1710665600000,19544098
+New York,NY,Northeast,Middle Atlantic,2019-01-01,681.24,71860,Mid-high Income,1793261300000,19463131
+New York,NY,Northeast,Middle Atlantic,2020-01-01,716.43,68660,Mid-high Income,1766857400000,20104710
+New York,NY,Northeast,Middle Atlantic,2021-01-01,767.82,72920,Mid-high Income,1911345800000,19854526
+New York,NY,Northeast,Middle Atlantic,2022-01-01,876.38,75910,Mid-high Income,2048402600000,19673200
+North Carolina,NC,South,South Atlantic,1997-01-01,206.4,35840,Mid-high Income,234571900000,7428672
+North Carolina,NC,South,South Atlantic,1998-01-01,217.65,35840,Mid-low Income,246721800000,7545828
+North Carolina,NC,South,South Atlantic,1999-01-01,226.44,37250,Mid-low Income,264924300000,7650789
+North Carolina,NC,South,South Atlantic,2000-01-01,233.27,38320,Mid-low Income,277556100000,8081614
+North Carolina,NC,South,South Atlantic,2001-01-01,247.13,38160,Mid-low Income,287317100000,8210121
+North Carolina,NC,South,South Atlantic,2002-01-01,255.13,36520,Low Income,297653000000,8326200
+North Carolina,NC,South,South Atlantic,2003-01-01,263.67,37280,Low Income,310200300000,8422501
+North Carolina,NC,South,South Atlantic,2004-01-01,272.19,40240,Low Income,329017700000,8553152
+North Carolina,NC,South,South Atlantic,2005-01-01,286.85,42060,Mid-low Income,354798500000,8705407
+North Carolina,NC,South,South Atlantic,2006-01-01,308.42,39800,Low Income,388012100000,8917270
+North Carolina,NC,South,South Atlantic,2007-01-01,328.86,43510,Low Income,402188300000,9118037
+North Carolina,NC,South,South Atlantic,2008-01-01,338.71,42930,Low Income,420707200000,9309449
+North Carolina,NC,South,South Atlantic,2009-01-01,337.68,41910,Low Income,413096800000,9449566
+North Carolina,NC,South,South Atlantic,2010-01-01,315.11,43830,Low Income,422282200000,9574586
+North Carolina,NC,South,South Atlantic,2011-01-01,305.82,45210,Mid-low Income,430040100000,9658913
+North Carolina,NC,South,South Atlantic,2012-01-01,298.05,41550,Low Income,444063200000,9751810
+North Carolina,NC,South,South Atlantic,2013-01-01,298.15,46340,Low Income,460946400000,9846717
+North Carolina,NC,South,South Atlantic,2014-01-01,301.09,46780,Low Income,482295700000,9937295
+North Carolina,NC,South,South Atlantic,2015-01-01,314.25,50800,Mid-low Income,508672400000,10037218
+North Carolina,NC,South,South Atlantic,2016-01-01,327.16,53760,Low Income,528284300000,10161802
+North Carolina,NC,South,South Atlantic,2017-01-01,341.74,49550,Low Income,546810100000,10275758
+North Carolina,NC,South,South Atlantic,2018-01-01,364.94,53370,Low Income,568037300000,10391358
+North Carolina,NC,South,South Atlantic,2019-01-01,386.7,61160,Mid-low Income,593126900000,10501384
+North Carolina,NC,South,South Atlantic,2020-01-01,409.21,60430,Mid-low Income,601148700000,10453812
+North Carolina,NC,South,South Atlantic,2021-01-01,441.72,62890,Mid-low Income,659529300000,10567100
+North Carolina,NC,South,South Atlantic,2022-01-01,547.47,65070,Low Income,715968300000,10695965
+North Dakota,ND,Midwest,West North Central,1997-01-01,145.41,31660,Low Income,15796600000,640945
+North Dakota,ND,Midwest,West North Central,1998-01-01,152.87,30300,Low Income,16842700000,637808
+North Dakota,ND,Midwest,West North Central,1999-01-01,157.1,32660,Low Income,17083700000,633666
+North Dakota,ND,Midwest,West North Central,2000-01-01,158.46,36000,Low Income,18115100000,642023
+North Dakota,ND,Midwest,West North Central,2001-01-01,166.75,35790,Low Income,18976900000,639062
+North Dakota,ND,Midwest,West North Central,2002-01-01,172.57,36200,Low Income,20195600000,638168
+North Dakota,ND,Midwest,West North Central,2003-01-01,181.04,40410,Mid-low Income,22129900000,638817
+North Dakota,ND,Midwest,West North Central,2004-01-01,191.98,39220,Low Income,23209600000,644705
+North Dakota,ND,Midwest,West North Central,2005-01-01,206.34,42190,Mid-low Income,24572000000,646089
+North Dakota,ND,Midwest,West North Central,2006-01-01,221.34,41050,Low Income,26406500000,649422
+North Dakota,ND,Midwest,West North Central,2007-01-01,236.11,47210,Mid-low Income,29044600000,652822
+North Dakota,ND,Midwest,West North Central,2008-01-01,245.19,49630,Mid-low Income,32027700000,657569
+North Dakota,ND,Midwest,West North Central,2009-01-01,250.09,50080,Mid-high Income,32310400000,664968
+North Dakota,ND,Midwest,West North Central,2010-01-01,251.61,51010,Mid-high Income,35651800000,674752
+North Dakota,ND,Midwest,West North Central,2011-01-01,257.99,56360,High Income,41602100000,685526
+North Dakota,ND,Midwest,West North Central,2012-01-01,268.93,55770,Mid-high Income,52079100000,702227
+North Dakota,ND,Midwest,West North Central,2013-01-01,293.13,59150,Mid-high Income,54877000000,723149
+North Dakota,ND,Midwest,West North Central,2014-01-01,318.17,60730,High Income,61108300000,738736
+North Dakota,ND,Midwest,West North Central,2015-01-01,338.83,57420,Mid-high Income,56952200000,755537
+North Dakota,ND,Midwest,West North Central,2016-01-01,349.14,60180,Mid-high Income,52666300000,756114
+North Dakota,ND,Midwest,West North Central,2017-01-01,356.33,60170,Mid-high Income,56530200000,756755
+North Dakota,ND,Midwest,West North Central,2018-01-01,359.11,66510,Mid-high Income,60377100000,760062
+North Dakota,ND,Midwest,West North Central,2019-01-01,364.86,70030,Mid-high Income,60516300000,763724
+North Dakota,ND,Midwest,West North Central,2020-01-01,375.92,64120,Mid-low Income,55347600000,779563
+North Dakota,ND,Midwest,West North Central,2021-01-01,385.91,68880,Mid-low Income,63208600000,777982
+North Dakota,ND,Midwest,West North Central,2022-01-01,425.3,78720,Mid-high Income,72651300000,778912
+Ohio,OH,Midwest,East North Central,1997-01-01,192.29,36130,Mid-high Income,343513700000,11212498
+Ohio,OH,Midwest,East North Central,1998-01-01,201.26,38930,Mid-high Income,361479300000,11237752
+Ohio,OH,Midwest,East North Central,1999-01-01,210.04,39490,Mid-high Income,375797200000,11256654
+Ohio,OH,Midwest,East North Central,2000-01-01,216.14,42960,Mid-high Income,391032300000,11363543
+Ohio,OH,Midwest,East North Central,2001-01-01,228.54,41790,Mid-high Income,395864200000,11387404
+Ohio,OH,Midwest,East North Central,2002-01-01,236.94,42680,Mid-high Income,411191100000,11407889
+Ohio,OH,Midwest,East North Central,2003-01-01,244.27,43520,Mid-high Income,425530700000,11434788
+Ohio,OH,Midwest,East North Central,2004-01-01,253.0,43060,Mid-low Income,447813300000,11452251
+Ohio,OH,Midwest,East North Central,2005-01-01,262.4,44200,Mid-low Income,470179500000,11463320
+Ohio,OH,Midwest,East North Central,2006-01-01,267.33,45900,Mid-low Income,482904000000,11481213
+Ohio,OH,Midwest,East North Central,2007-01-01,266.76,49100,Mid-high Income,497600100000,11500468
+Ohio,OH,Midwest,East North Central,2008-01-01,263.35,46930,Mid-low Income,500916400000,11515391
+Ohio,OH,Midwest,East North Central,2009-01-01,258.03,45880,Mid-low Income,484407100000,11528896
+Ohio,OH,Midwest,East North Central,2010-01-01,243.95,45890,Mid-low Income,500274200000,11539449
+Ohio,OH,Midwest,East North Central,2011-01-01,236.85,44650,Low Income,525456400000,11545735
+Ohio,OH,Midwest,East North Central,2012-01-01,234.09,44380,Low Income,543035400000,11550971
+Ohio,OH,Midwest,East North Central,2013-01-01,233.53,50750,Mid-low Income,566419900000,11579692
+Ohio,OH,Midwest,East North Central,2014-01-01,235.43,49640,Mid-low Income,597152300000,11606573
+Ohio,OH,Midwest,East North Central,2015-01-01,245.72,53300,Mid-low Income,615275500000,11622315
+Ohio,OH,Midwest,East North Central,2016-01-01,254.05,53990,Mid-low Income,627294700000,11640060
+Ohio,OH,Midwest,East North Central,2017-01-01,264.69,60690,Mid-high Income,652187500000,11665706
+Ohio,OH,Midwest,East North Central,2018-01-01,280.41,61630,Mid-low Income,672540100000,11680892
+Ohio,OH,Midwest,East North Central,2019-01-01,294.39,64660,Mid-low Income,703127800000,11696507
+Ohio,OH,Midwest,East North Central,2020-01-01,312.5,60380,Mid-low Income,692121900000,11798292
+Ohio,OH,Midwest,East North Central,2021-01-01,336.78,62690,Low Income,759626200000,11765227
+Ohio,OH,Midwest,East North Central,2022-01-01,392.43,67520,Mid-low Income,825990000000,11759697
+Oklahoma,OK,South,West South Central,1997-01-01,128.08,31350,Low Income,79293700000,3314259
+Oklahoma,OK,South,West South Central,1998-01-01,133.99,33730,Low Income,81778600000,3339478
+Oklahoma,OK,South,West South Central,1999-01-01,139.35,32680,Low Income,84785600000,3358044
+Oklahoma,OK,South,West South Central,2000-01-01,144.28,32430,Low Income,91645700000,3454365
+Oklahoma,OK,South,West South Central,2001-01-01,152.8,35610,Low Income,97505300000,3467100
+Oklahoma,OK,South,West South Central,2002-01-01,158.59,36460,Low Income,99916900000,3489080
+Oklahoma,OK,South,West South Central,2003-01-01,165.25,35900,Low Income,106175100000,3504892
+Oklahoma,OK,South,West South Central,2004-01-01,172.14,39610,Low Income,114237500000,3525233
+Oklahoma,OK,South,West South Central,2005-01-01,179.29,37650,Low Income,125961400000,3548597
+Oklahoma,OK,South,West South Central,2006-01-01,189.02,38840,Low Income,138352300000,3594090
+Oklahoma,OK,South,West South Central,2007-01-01,198.13,43220,Low Income,146582400000,3634349
+Oklahoma,OK,South,West South Central,2008-01-01,204.41,46110,Mid-low Income,161609000000,3668976
+Oklahoma,OK,South,West South Central,2009-01-01,207.36,45880,Mid-low Income,147332400000,3717572
+Oklahoma,OK,South,West South Central,2010-01-01,203.41,43100,Low Income,155267500000,3760014
+Oklahoma,OK,South,West South Central,2011-01-01,200.46,48460,Mid-low Income,167207900000,3788824
+Oklahoma,OK,South,West South Central,2012-01-01,202.93,48410,Mid-low Income,175361200000,3819320
+Oklahoma,OK,South,West South Central,2013-01-01,205.62,46160,Low Income,184104600000,3853891
+Oklahoma,OK,South,West South Central,2014-01-01,210.38,47200,Low Income,197074100000,3879187
+Oklahoma,OK,South,West South Central,2015-01-01,217.62,47080,Low Income,187364700000,3910518
+Oklahoma,OK,South,West South Central,2016-01-01,224.5,50940,Low Income,182238800000,3928143
+Oklahoma,OK,South,West South Central,2017-01-01,231.88,51880,Low Income,192538600000,3933602
+Oklahoma,OK,South,West South Central,2018-01-01,237.63,54430,Low Income,204193900000,3943488
+Oklahoma,OK,South,West South Central,2019-01-01,246.36,59400,Low Income,205262600000,3960676
+Oklahoma,OK,South,West South Central,2020-01-01,258.26,52470,Low Income,191653500000,3965234
+Oklahoma,OK,South,West South Central,2021-01-01,274.06,60100,Low Income,217730800000,3991634
+Oklahoma,OK,South,West South Central,2022-01-01,321.97,63440,Low Income,242738500000,4019271
+Oregon,OR,West,Pacific,1997-01-01,221.26,37250,Mid-high Income,101418200000,3243254
+Oregon,OR,West,Pacific,1998-01-01,234.78,39070,Mid-high Income,105016400000,3282055
+Oregon,OR,West,Pacific,1999-01-01,241.81,40620,Mid-high Income,107513200000,3316154
+Oregon,OR,West,Pacific,2000-01-01,247.4,42500,Mid-high Income,117057200000,3429708
+Oregon,OR,West,Pacific,2001-01-01,261.01,41270,Mid-low Income,117002400000,3467937
+Oregon,OR,West,Pacific,2002-01-01,271.56,41800,Mid-low Income,120556100000,3513424
+Oregon,OR,West,Pacific,2003-01-01,283.28,41640,Mid-low Income,126822100000,3547376
+Oregon,OR,West,Pacific,2004-01-01,301.06,40990,Mid-low Income,136495900000,3569463
+Oregon,OR,West,Pacific,2005-01-01,341.41,44160,Mid-low Income,143556300000,3613202
+Oregon,OR,West,Pacific,2006-01-01,410.41,47090,Mid-low Income,153779600000,3670883
+Oregon,OR,West,Pacific,2007-01-01,451.61,50240,Mid-high Income,159676200000,3722417
+Oregon,OR,West,Pacific,2008-01-01,453.4,51730,Mid-high Income,164122900000,3768748
+Oregon,OR,West,Pacific,2009-01-01,422.02,49100,Mid-high Income,159330400000,3808600
+Oregon,OR,West,Pacific,2010-01-01,377.77,50600,Mid-high Income,163150500000,3837614
+Oregon,OR,West,Pacific,2011-01-01,351.52,51530,Mid-high Income,169693800000,3872672
+Oregon,OR,West,Pacific,2012-01-01,341.62,51780,Mid-high Income,173856800000,3900102
+Oregon,OR,West,Pacific,2013-01-01,353.73,49000,Mid-low Income,178975400000,3924110
+Oregon,OR,West,Pacific,2014-01-01,383.63,58880,Mid-high Income,187837600000,3965447
+Oregon,OR,West,Pacific,2015-01-01,413.79,60830,Mid-high Income,200592600000,4018542
+Oregon,OR,West,Pacific,2016-01-01,458.17,59140,Mid-high Income,211782400000,4093271
+Oregon,OR,West,Pacific,2017-01-01,502.23,62500,Mid-high Income,225534500000,4147294
+Oregon,OR,West,Pacific,2018-01-01,537.73,69170,Mid-high Income,238466900000,4183537
+Oregon,OR,West,Pacific,2019-01-01,564.7,74410,Mid-high Income,248939800000,4216116
+Oregon,OR,West,Pacific,2020-01-01,592.13,76860,Mid-high Income,251855800000,4245044
+Oregon,OR,West,Pacific,2021-01-01,647.62,81860,High Income,275444000000,4256465
+Oregon,OR,West,Pacific,2022-01-01,776.76,86780,High Income,297308900000,4239379
+Pennsylvania,PA,Northeast,Middle Atlantic,1997-01-01,216.01,37520,Mid-high Income,357525600000,12015888
+Pennsylvania,PA,Northeast,Middle Atlantic,1998-01-01,223.8,39020,Mid-high Income,373515000000,12002329
+Pennsylvania,PA,Northeast,Middle Atlantic,1999-01-01,229.67,37760,Mid-low Income,391136100000,11994016
+Pennsylvania,PA,Northeast,Middle Atlantic,2000-01-01,234.68,42180,Mid-high Income,409330200000,12284173
+Pennsylvania,PA,Northeast,Middle Atlantic,2001-01-01,249.79,43500,Mid-high Income,428463700000,12298970
+Pennsylvania,PA,Northeast,Middle Atlantic,2002-01-01,264.42,42500,Mid-high Income,440887500000,12331031
+Pennsylvania,PA,Northeast,Middle Atlantic,2003-01-01,282.56,42930,Mid-high Income,460478300000,12374658
+Pennsylvania,PA,Northeast,Middle Atlantic,2004-01-01,306.07,44110,Mid-high Income,486384500000,12410722
+Pennsylvania,PA,Northeast,Middle Atlantic,2005-01-01,341.28,46300,Mid-high Income,510763900000,12449990
+Pennsylvania,PA,Northeast,Middle Atlantic,2006-01-01,378.79,48480,Mid-high Income,528771199999,12510809
+Pennsylvania,PA,Northeast,Middle Atlantic,2007-01-01,395.35,48440,Mid-low Income,563238600000,12563937
+Pennsylvania,PA,Northeast,Middle Atlantic,2008-01-01,399.79,51400,Mid-high Income,586886600000,12612285
+Pennsylvania,PA,Northeast,Middle Atlantic,2009-01-01,391.37,48170,Mid-low Income,581219900000,12666858
+Pennsylvania,PA,Northeast,Middle Atlantic,2010-01-01,374.5,48310,Mid-low Income,604629600000,12711406
+Pennsylvania,PA,Northeast,Middle Atlantic,2011-01-01,370.23,49910,Mid-high Income,623767900000,12747052
+Pennsylvania,PA,Northeast,Middle Atlantic,2012-01-01,364.0,51900,Mid-high Income,646434300000,12769123
+Pennsylvania,PA,Northeast,Middle Atlantic,2013-01-01,365.45,55160,Mid-high Income,670767400000,12779538
+Pennsylvania,PA,Northeast,Middle Atlantic,2014-01-01,367.32,55170,Mid-high Income,695546600000,12792392
+Pennsylvania,PA,Northeast,Middle Atlantic,2015-01-01,379.51,60390,Mid-high Income,716534300000,12789838
+Pennsylvania,PA,Northeast,Middle Atlantic,2016-01-01,385.75,60980,Mid-high Income,733165900000,12788468
+Pennsylvania,PA,Northeast,Middle Atlantic,2017-01-01,397.65,61290,Mid-high Income,754318000000,12794679
+Pennsylvania,PA,Northeast,Middle Atlantic,2018-01-01,415.6,64520,Mid-high Income,780620700000,12809107
+Pennsylvania,PA,Northeast,Middle Atlantic,2019-01-01,430.16,70580,Mid-high Income,803078000000,12798883
+Pennsylvania,PA,Northeast,Middle Atlantic,2020-01-01,452.93,70790,Mid-high Income,777427100000,12995477
+Pennsylvania,PA,Northeast,Middle Atlantic,2021-01-01,485.99,72630,Mid-high Income,844391600000,13013614
+Pennsylvania,PA,Northeast,Middle Atlantic,2022-01-01,559.06,72210,Mid-low Income,911813300000,12972091
+Rhode Island,RI,Northeast,New England,1997-01-01,239.31,34800,Mid-low Income,28963200000,986966
+Rhode Island,RI,Northeast,New England,1998-01-01,249.58,40690,Mid-high Income,30835300000,987704
+Rhode Island,RI,Northeast,New England,1999-01-01,255.67,42720,Mid-high Income,32340000000,990819
+Rhode Island,RI,Northeast,New England,2000-01-01,276.71,42200,Mid-high Income,34608500000,1050268
+Rhode Island,RI,Northeast,New England,2001-01-01,305.5,45720,Mid-high Income,35940100000,1057142
+Rhode Island,RI,Northeast,New England,2002-01-01,348.05,42420,Mid-high Income,37891200000,1065995
+Rhode Island,RI,Northeast,New England,2003-01-01,402.53,44710,Mid-high Income,39787100000,1071342
+Rhode Island,RI,Northeast,New England,2004-01-01,468.26,47940,Mid-high Income,42578200000,1074579
+Rhode Island,RI,Northeast,New England,2005-01-01,548.5,49480,Mid-high Income,44413300000,1067916
+Rhode Island,RI,Northeast,New England,2006-01-01,597.94,53740,Mid-high Income,47165300000,1063096
+Rhode Island,RI,Northeast,New England,2007-01-01,595.88,54210,Mid-high Income,47490100000,1057315
+Rhode Island,RI,Northeast,New England,2008-01-01,565.03,53240,Mid-high Income,47138900000,1055003
+Rhode Island,RI,Northeast,New England,2009-01-01,514.54,51630,Mid-high Income,47647200000,1053646
+Rhode Island,RI,Northeast,New England,2010-01-01,471.63,51620,Mid-high Income,49409100000,1053994
+Rhode Island,RI,Northeast,New England,2011-01-01,459.61,49030,Mid-low Income,50123700000,1053829
+Rhode Island,RI,Northeast,New England,2012-01-01,440.93,56070,Mid-high Income,51527500000,1054893
+Rhode Island,RI,Northeast,New England,2013-01-01,434.8,56320,Mid-high Income,52994200000,1055560
+Rhode Island,RI,Northeast,New England,2014-01-01,435.6,58630,Mid-high Income,54612500000,1056511
+Rhode Island,RI,Northeast,New England,2015-01-01,457.98,55700,Mid-low Income,56604000000,1056886
+Rhode Island,RI,Northeast,New England,2016-01-01,473.53,61530,Mid-high Income,57714600000,1057816
+Rhode Island,RI,Northeast,New England,2017-01-01,502.64,65400,Mid-high Income,58771600000,1056554
+Rhode Island,RI,Northeast,New England,2018-01-01,538.59,62270,Mid-low Income,60064900000,1059338
+Rhode Island,RI,Northeast,New England,2019-01-01,559.9,70150,Mid-high Income,62526900000,1058158
+Rhode Island,RI,Northeast,New England,2020-01-01,589.34,80180,High Income,62054200000,1096444
+Rhode Island,RI,Northeast,New England,2021-01-01,644.01,74980,Mid-high Income,67236700000,1097092
+Rhode Island,RI,Northeast,New England,2022-01-01,768.3,80650,Mid-high Income,72771400000,1093842
+South Carolina,SC,South,South Atlantic,1997-01-01,199.52,34260,Mid-low Income,97453800000,3790066
+South Carolina,SC,South,South Atlantic,1998-01-01,211.19,33270,Low Income,103688600000,3839578
+South Carolina,SC,South,South Atlantic,1999-01-01,222.46,36460,Mid-low Income,110312900000,3885736
+South Carolina,SC,South,South Atlantic,2000-01-01,232.13,37570,Mid-low Income,115332700000,4024223
+South Carolina,SC,South,South Atlantic,2001-01-01,247.23,37740,Low Income,119355200000,4064995
+South Carolina,SC,South,South Atlantic,2002-01-01,256.34,37810,Mid-low Income,124765200000,4107795
+South Carolina,SC,South,South Atlantic,2003-01-01,265.51,38480,Low Income,131509100000,4150296
+South Carolina,SC,South,South Atlantic,2004-01-01,275.43,38690,Low Income,136679900000,4210921
+South Carolina,SC,South,South Atlantic,2005-01-01,293.36,40230,Low Income,145195800000,4270150
+South Carolina,SC,South,South Atlantic,2006-01-01,317.08,39620,Low Income,153453400000,4357847
+South Carolina,SC,South,South Atlantic,2007-01-01,337.29,44210,Low Income,162476300000,4444110
+South Carolina,SC,South,South Atlantic,2008-01-01,346.32,42160,Low Income,164471200000,4528996
+South Carolina,SC,South,South Atlantic,2009-01-01,343.44,41100,Low Income,162380400000,4589872
+South Carolina,SC,South,South Atlantic,2010-01-01,321.09,41700,Low Income,166767400000,4635846
+South Carolina,SC,South,South Atlantic,2011-01-01,309.67,40080,Low Income,172844700000,4672655
+South Carolina,SC,South,South Atlantic,2012-01-01,302.67,44400,Low Income,178503900000,4719027
+South Carolina,SC,South,South Atlantic,2013-01-01,303.1,43560,Low Income,186268300000,4766469
+South Carolina,SC,South,South Atlantic,2014-01-01,304.86,44930,Low Income,195744400000,4826858
+South Carolina,SC,South,South Atlantic,2015-01-01,321.71,46360,Low Income,207510000000,4896006
+South Carolina,SC,South,South Atlantic,2016-01-01,334.94,54340,Mid-low Income,217555500000,4963031
+South Carolina,SC,South,South Atlantic,2017-01-01,353.22,54540,Low Income,224937600000,5027102
+South Carolina,SC,South,South Atlantic,2018-01-01,376.39,57440,Low Income,236561700000,5091702
+South Carolina,SC,South,South Atlantic,2019-01-01,393.17,62030,Mid-low Income,248046500000,5157702
+South Carolina,SC,South,South Atlantic,2020-01-01,416.59,60340,Low Income,249482200000,5132151
+South Carolina,SC,South,South Atlantic,2021-01-01,445.79,62540,Low Income,271494500000,5193848
+South Carolina,SC,South,South Atlantic,2022-01-01,545.05,61770,Low Income,297546300000,5282955
+South Dakota,SD,Midwest,West North Central,1997-01-01,176.83,29690,Low Income,19062300000,730855
+South Dakota,SD,Midwest,West North Central,1998-01-01,186.74,32790,Low Income,20257800000,730789
+South Dakota,SD,Midwest,West North Central,1999-01-01,191.87,35830,Low Income,21181800000,733133
+South Dakota,SD,Midwest,West North Central,2000-01-01,197.57,36480,Low Income,22866700000,755844
+South Dakota,SD,Midwest,West North Central,2001-01-01,209.3,39670,Mid-low Income,23626900000,757972
+South Dakota,SD,Midwest,West North Central,2002-01-01,218.07,37870,Mid-low Income,26343500000,760020
+South Dakota,SD,Midwest,West North Central,2003-01-01,227.02,39520,Mid-low Income,27305000000,763729
+South Dakota,SD,Midwest,West North Central,2004-01-01,237.84,41110,Mid-low Income,29380900000,770396
+South Dakota,SD,Midwest,West North Central,2005-01-01,253.94,43150,Mid-low Income,31104300000,775493
+South Dakota,SD,Midwest,West North Central,2006-01-01,267.98,45430,Mid-low Income,32559300000,783033
+South Dakota,SD,Midwest,West North Central,2007-01-01,280.96,46420,Mid-low Income,35282600000,791623
+South Dakota,SD,Midwest,West North Central,2008-01-01,291.17,51600,Mid-high Income,36939300000,799124
+South Dakota,SD,Midwest,West North Central,2009-01-01,296.0,45830,Mid-low Income,36732100000,807067
+South Dakota,SD,Midwest,West North Central,2010-01-01,288.34,45350,Mid-low Income,38208200000,816193
+South Dakota,SD,Midwest,West North Central,2011-01-01,291.11,47220,Mid-low Income,42082700000,823740
+South Dakota,SD,Midwest,West North Central,2012-01-01,293.16,49420,Mid-low Income,44127300000,833859
+South Dakota,SD,Midwest,West North Central,2013-01-01,303.0,53410,Mid-high Income,45498600000,842751
+South Dakota,SD,Midwest,West North Central,2014-01-01,309.31,53050,Mid-low Income,47159900000,849670
+South Dakota,SD,Midwest,West North Central,2015-01-01,323.02,55070,Mid-low Income,48678900000,854663
+South Dakota,SD,Midwest,West North Central,2016-01-01,337.19,57450,Mid-low Income,49842600000,863693
+South Dakota,SD,Midwest,West North Central,2017-01-01,351.71,56910,Mid-low Income,51615100000,873732
+South Dakota,SD,Midwest,West North Central,2018-01-01,370.21,59460,Mid-low Income,53349500000,879386
+South Dakota,SD,Midwest,West North Central,2019-01-01,385.36,64260,Mid-low Income,55007400000,887127
+South Dakota,SD,Midwest,West North Central,2020-01-01,406.23,70190,Mid-high Income,56162900000,887852
+South Dakota,SD,Midwest,West North Central,2021-01-01,429.52,73890,Mid-high Income,62607100000,896299
+South Dakota,SD,Midwest,West North Central,2022-01-01,518.84,67180,Low Income,68781700000,909869
+Tennessee,TN,South,East South Central,1997-01-01,190.95,30640,Low Income,154861900000,5378433
+Tennessee,TN,South,East South Central,1998-01-01,201.23,34090,Low Income,167783000000,5432679
+Tennessee,TN,South,East South Central,1999-01-01,209.51,36520,Mid-low Income,176467200000,5483535
+Tennessee,TN,South,East South Central,2000-01-01,213.98,34100,Low Income,182209700000,5703719
+Tennessee,TN,South,East South Central,2001-01-01,224.7,35780,Low Income,185917200000,5750789
+Tennessee,TN,South,East South Central,2002-01-01,231.01,37030,Low Income,195386100000,5795918
+Tennessee,TN,South,East South Central,2003-01-01,238.46,37520,Low Income,204665900000,5847812
+Tennessee,TN,South,East South Central,2004-01-01,246.67,38070,Low Income,219862400000,5910809
+Tennessee,TN,South,East South Central,2005-01-01,259.64,39410,Low Income,231339000000,5991057
+Tennessee,TN,South,East South Central,2006-01-01,279.48,40690,Low Income,243104400000,6088766
+Tennessee,TN,South,East South Central,2007-01-01,296.6,41200,Low Income,248261600000,6175727
+Tennessee,TN,South,East South Central,2008-01-01,303.85,39700,Low Income,255546700000,6247411
+Tennessee,TN,South,East South Central,2009-01-01,302.1,40520,Low Income,252940700000,6306019
+Tennessee,TN,South,East South Central,2010-01-01,286.57,38590,Low Income,258657600000,6355518
+Tennessee,TN,South,East South Central,2011-01-01,280.39,42280,Low Income,270055000000,6400298
+Tennessee,TN,South,East South Central,2012-01-01,278.31,43000,Low Income,285897500000,6455752
+Tennessee,TN,South,East South Central,2013-01-01,280.95,43360,Low Income,296756300000,6496943
+Tennessee,TN,South,East South Central,2014-01-01,287.12,43720,Low Income,307448500000,6544617
+Tennessee,TN,South,East South Central,2015-01-01,302.23,47330,Low Income,326382500000,6595354
+Tennessee,TN,South,East South Central,2016-01-01,318.18,51340,Low Income,339350200000,6651277
+Tennessee,TN,South,East South Central,2017-01-01,338.31,55310,Low Income,355417500000,6714748
+Tennessee,TN,South,East South Central,2018-01-01,363.96,56060,Low Income,369713200000,6778180
+Tennessee,TN,South,East South Central,2019-01-01,385.4,56630,Low Income,385819500000,6830325
+Tennessee,TN,South,East South Central,2020-01-01,409.59,54980,Low Income,390172600000,6926091
+Tennessee,TN,South,East South Central,2021-01-01,445.8,62170,Low Income,438180000000,6963709
+Tennessee,TN,South,East South Central,2022-01-01,558.95,65380,Low Income,485657500000,7048976
+Texas,TX,South,West South Central,1997-01-01,136.85,35080,Mid-low Income,610659800000,19355427
+Texas,TX,South,West South Central,1998-01-01,143.07,35780,Mid-low Income,648243100000,19712389
+Texas,TX,South,West South Central,1999-01-01,149.37,38690,Mid-low Income,683347400000,20044141
+Texas,TX,South,West South Central,2000-01-01,158.94,38610,Mid-low Income,742161500000,20944499
+Texas,TX,South,West South Central,2001-01-01,170.6,40860,Mid-low Income,780206200000,21319622
+Texas,TX,South,West South Central,2002-01-01,176.6,40150,Mid-low Income,796357300000,21690325
+Texas,TX,South,West South Central,2003-01-01,183.64,39270,Mid-low Income,840860800000,22030931
+Texas,TX,South,West South Central,2004-01-01,187.45,41400,Mid-low Income,921230700000,22394023
+Texas,TX,South,West South Central,2005-01-01,194.1,41420,Low Income,1003745900000,22778123
+Texas,TX,South,West South Central,2006-01-01,205.15,43310,Mid-low Income,1108236500000,23359580
+Texas,TX,South,West South Central,2007-01-01,217.15,46050,Mid-low Income,1198565000000,23831983
+Texas,TX,South,West South Central,2008-01-01,224.43,46490,Mid-low Income,1253142000000,24309039
+Texas,TX,South,West South Central,2009-01-01,227.4,47480,Mid-low Income,1179168100000,24801761
+Texas,TX,South,West South Central,2010-01-01,221.68,47270,Mid-low Income,1255660800000,25241897
+Texas,TX,South,West South Central,2011-01-01,218.99,49050,Mid-low Income,1351776900000,25645504
+Texas,TX,South,West South Central,2012-01-01,219.87,51930,Mid-high Income,1429588000000,26084120
+Texas,TX,South,West South Central,2013-01-01,226.59,51410,Mid-low Income,1526781900000,26479646
+Texas,TX,South,West South Central,2014-01-01,241.24,53880,Mid-low Income,1592177600000,26963092
+Texas,TX,South,West South Central,2015-01-01,258.62,56470,Mid-high Income,1585985900000,27468531
+Texas,TX,South,West South Central,2016-01-01,276.98,58150,Mid-high Income,1582981500000,27914064
+Texas,TX,South,West South Central,2017-01-01,296.68,60090,Mid-high Income,1667313000000,28291024
+Texas,TX,South,West South Central,2018-01-01,316.99,59790,Mid-low Income,1808026900000,28624564
+Texas,TX,South,West South Central,2019-01-01,333.09,67440,Mid-low Income,1860108300000,28986794
+Texas,TX,South,West South Central,2020-01-01,349.29,68400,Mid-high Income,1798596100000,29234361
+Texas,TX,South,West South Central,2021-01-01,374.1,67400,Mid-low Income,2087490900000,29561286
+Texas,TX,South,West South Central,2022-01-01,459.12,74640,Mid-high Income,2402137200000,30029848
+Utah,UT,West,Mountain,1997-01-01,218.03,42780,High Income,57812000000,2065397
+Utah,UT,West,Mountain,1998-01-01,230.12,44300,High Income,62070100000,2100562
+Utah,UT,West,Mountain,1999-01-01,238.08,46050,High Income,65773399999,2129836
+Utah,UT,West,Mountain,2000-01-01,236.58,47550,High Income,70056300000,2244502
+Utah,UT,West,Mountain,2001-01-01,247.84,47340,High Income,73042500000,2283715
+Utah,UT,West,Mountain,2002-01-01,250.78,47860,High Income,76289400000,2324815
+Utah,UT,West,Mountain,2003-01-01,255.42,49280,High Income,79504700000,2360137
+Utah,UT,West,Mountain,2004-01-01,259.79,50870,High Income,86766700000,2401580
+Utah,UT,West,Mountain,2005-01-01,275.71,54810,High Income,95512000000,2457719
+Utah,UT,West,Mountain,2006-01-01,315.09,54630,High Income,106787100000,2525507
+Utah,UT,West,Mountain,2007-01-01,366.84,53530,Mid-high Income,115180700000,2597746
+Utah,UT,West,Mountain,2008-01-01,382.46,62540,High Income,116949200000,2663029
+Utah,UT,West,Mountain,2009-01-01,361.28,58490,High Income,113834800000,2723421
+Utah,UT,West,Mountain,2010-01-01,323.96,56700,High Income,118296300000,2775413
+Utah,UT,West,Mountain,2011-01-01,306.07,55490,Mid-high Income,125137800000,2814797
+Utah,UT,West,Mountain,2012-01-01,305.62,58340,High Income,129431400000,2854146
+Utah,UT,West,Mountain,2013-01-01,318.56,61050,Mid-high Income,135344299999,2898773
+Utah,UT,West,Mountain,2014-01-01,341.52,63380,High Income,142627700000,2938327
+Utah,UT,West,Mountain,2015-01-01,359.53,66260,High Income,149762100000,2983626
+Utah,UT,West,Mountain,2016-01-01,383.21,67480,High Income,159330600000,3044241
+Utah,UT,West,Mountain,2017-01-01,412.81,69790,Mid-high Income,172075000000,3103540
+Utah,UT,West,Mountain,2018-01-01,451.5,77070,High Income,186805700000,3155153
+Utah,UT,West,Mountain,2019-01-01,490.83,84520,High Income,201285400000,3203383
+Utah,UT,West,Mountain,2020-01-01,523.23,83990,High Income,205666300000,3283982
+Utah,UT,West,Mountain,2021-01-01,587.6,87650,High Income,232125100000,3339284
+Utah,UT,West,Mountain,2022-01-01,754.63,95800,High Income,256369900000,3381236
+Vermont,VT,Northeast,New England,1997-01-01,225.05,35050,Mid-low Income,15443400000,588665
+Vermont,VT,Northeast,New England,1998-01-01,228.76,39370,Mid-high Income,16197700000,590579
+Vermont,VT,Northeast,New England,1999-01-01,235.19,41580,Mid-high Income,17314800000,593740
+Vermont,VT,Northeast,New England,2000-01-01,250.32,39590,Mid-low Income,18492900000,609618
+Vermont,VT,Northeast,New England,2001-01-01,268.79,40790,Mid-low Income,19467100000,612223
+Vermont,VT,Northeast,New England,2002-01-01,289.86,43000,Mid-high Income,20383500000,615442
+Vermont,VT,Northeast,New England,2003-01-01,307.71,43260,Mid-high Income,21398500000,617858
+Vermont,VT,Northeast,New England,2004-01-01,342.16,47330,Mid-high Income,22986300000,619920
+Vermont,VT,Northeast,New England,2005-01-01,393.9,50700,High Income,23763000000,621215
+Vermont,VT,Northeast,New England,2006-01-01,436.38,51980,Mid-high Income,24507100000,622892
+Vermont,VT,Northeast,New England,2007-01-01,458.66,47390,Mid-low Income,25025200000,623481
+Vermont,VT,Northeast,New England,2008-01-01,463.59,50710,Mid-high Income,26140400000,624151
+Vermont,VT,Northeast,New England,2009-01-01,454.15,52320,Mid-high Income,26220000000,624817
+Vermont,VT,Northeast,New England,2010-01-01,440.63,55930,High Income,27478300000,625886
+Vermont,VT,Northeast,New England,2011-01-01,439.02,51860,Mid-high Income,28558500000,627197
+Vermont,VT,Northeast,New England,2012-01-01,438.29,55580,Mid-high Income,29325600000,626361
+Vermont,VT,Northeast,New England,2013-01-01,439.51,65510,High Income,29477600000,626603
+Vermont,VT,Northeast,New England,2014-01-01,432.79,60710,Mid-high Income,30359400000,625693
+Vermont,VT,Northeast,New England,2015-01-01,441.93,59490,Mid-high Income,31152400000,625810
+Vermont,VT,Northeast,New England,2016-01-01,444.06,60840,Mid-high Income,31840200000,624366
+Vermont,VT,Northeast,New England,2017-01-01,455.26,63680,Mid-high Income,32589200000,625132
+Vermont,VT,Northeast,New England,2018-01-01,469.96,70070,Mid-high Income,33482600000,624802
+Vermont,VT,Northeast,New England,2019-01-01,481.01,74310,Mid-high Income,34628100000,624046
+Vermont,VT,Northeast,New England,2020-01-01,506.68,67260,Mid-low Income,34470800000,642936
+Vermont,VT,Northeast,New England,2021-01-01,548.81,76080,Mid-high Income,37593500000,647093
+Vermont,VT,Northeast,New England,2022-01-01,648.37,72190,Mid-low Income,40830800000,647110
+Virginia,VA,South,South Atlantic,1997-01-01,202.84,42960,High Income,215419200000,6732878
+Virginia,VA,South,South Atlantic,1998-01-01,209.06,43350,High Income,232569900000,6789225
+Virginia,VA,South,South Atlantic,1999-01-01,216.08,45690,High Income,250171300000,6872912
+Virginia,VA,South,South Atlantic,2000-01-01,229.38,47160,High Income,268608700000,7105817
+Virginia,VA,South,South Atlantic,2001-01-01,248.4,50240,High Income,285663400000,7198362
+Virginia,VA,South,South Atlantic,2002-01-01,268.6,49630,High Income,294929100000,7286873
+Virginia,VA,South,South Atlantic,2003-01-01,291.45,54780,High Income,311093100000,7366977
+Virginia,VA,South,South Atlantic,2004-01-01,323.64,51140,High Income,331815800000,7475575
+Virginia,VA,South,South Atlantic,2005-01-01,384.63,51910,High Income,357427000000,7577105
+Virginia,VA,South,South Atlantic,2006-01-01,447.77,57120,High Income,376429400000,7673725
+Virginia,VA,South,South Atlantic,2007-01-01,467.5,59160,High Income,391595500000,7751000
+Virginia,VA,South,South Atlantic,2008-01-01,459.23,61990,High Income,402157800000,7833496
+Virginia,VA,South,South Atlantic,2009-01-01,432.01,60500,High Income,409935300000,7925937
+Virginia,VA,South,South Atlantic,2010-01-01,403.24,60370,High Income,425490800000,8024004
+Virginia,VA,South,South Atlantic,2011-01-01,392.99,62620,High Income,433683700000,8102437
+Virginia,VA,South,South Atlantic,2012-01-01,389.81,64630,High Income,445008500000,8187456
+Virginia,VA,South,South Atlantic,2013-01-01,393.21,65910,High Income,456911600000,8255861
+Virginia,VA,South,South Atlantic,2014-01-01,399.03,66160,High Income,465601700000,8315430
+Virginia,VA,South,South Atlantic,2015-01-01,413.68,61490,Mid-high Income,485540900000,8367303
+Virginia,VA,South,South Atlantic,2016-01-01,419.84,66450,Mid-high Income,499032400000,8417651
+Virginia,VA,South,South Atlantic,2017-01-01,431.97,70810,High Income,515167200000,8471011
+Virginia,VA,South,South Atlantic,2018-01-01,449.49,77150,High Income,537158300000,8510920
+Virginia,VA,South,South Atlantic,2019-01-01,463.04,81310,High Income,561989600000,8556642
+Virginia,VA,South,South Atlantic,2020-01-01,485.89,82210,High Income,565063100000,8637193
+Virginia,VA,South,South Atlantic,2021-01-01,519.55,80270,Mid-high Income,613920300000,8657348
+Virginia,VA,South,South Atlantic,2022-01-01,600.85,85170,Mid-high Income,663105500000,8679099
+Washington,WA,West,Pacific,1997-01-01,226.73,44560,High Income,193769500000,5604105
+Washington,WA,West,Pacific,1998-01-01,242.15,47420,High Income,209222500000,5687832
+Washington,WA,West,Pacific,1999-01-01,255.5,45470,Mid-high Income,229678900000,5756361
+Washington,WA,West,Pacific,2000-01-01,269.6,42530,Mid-high Income,237594000000,5910512
+Washington,WA,West,Pacific,2001-01-01,286.36,42490,Mid-high Income,237978200000,5985722
+Washington,WA,West,Pacific,2002-01-01,298.76,45180,Mid-high Income,245629800000,6052349
+Washington,WA,West,Pacific,2003-01-01,311.18,47510,Mid-high Income,254720200000,6104115
+Washington,WA,West,Pacific,2004-01-01,330.74,49920,High Income,267423900000,6178645
+Washington,WA,West,Pacific,2005-01-01,374.65,50650,Mid-high Income,293402000000,6257305
+Washington,WA,West,Pacific,2006-01-01,444.74,54720,High Income,314190800000,6370753
+Washington,WA,West,Pacific,2007-01-01,492.61,58080,High Income,341712300000,6461587
+Washington,WA,West,Pacific,2008-01-01,500.88,56630,High Income,352460700000,6562231
+Washington,WA,West,Pacific,2009-01-01,467.71,60390,High Income,349945400000,6667426
+Washington,WA,West,Pacific,2010-01-01,419.75,56160,High Income,363544200000,6743009
+Washington,WA,West,Pacific,2011-01-01,393.75,56850,High Income,377518800000,6827479
+Washington,WA,West,Pacific,2012-01-01,379.04,62190,High Income,398358500000,6898599
+Washington,WA,West,Pacific,2013-01-01,390.03,63920,High Income,416924100000,6966252
+Washington,WA,West,Pacific,2014-01-01,413.93,59070,Mid-high Income,439851200000,7057531
+Washington,WA,West,Pacific,2015-01-01,444.44,67240,High Income,467590600000,7167287
+Washington,WA,West,Pacific,2016-01-01,487.74,70310,High Income,489790200000,7299961
+Washington,WA,West,Pacific,2017-01-01,537.25,71540,High Income,527169400000,7427951
+Washington,WA,West,Pacific,2018-01-01,596.91,79730,High Income,570337800000,7526793
+Washington,WA,West,Pacific,2019-01-01,635.29,82450,High Income,608966400000,7614024
+Washington,WA,West,Pacific,2020-01-01,675.44,81360,High Income,621493200000,7724566
+Washington,WA,West,Pacific,2021-01-01,741.56,87650,High Income,688631900000,7741433
+Washington,WA,West,Pacific,2022-01-01,910.69,89430,High Income,738101400000,7784477
+West Virginia,WV,South,South Atlantic,1997-01-01,134.65,27490,Low Income,38781200000,1815588
+West Virginia,WV,South,South Atlantic,1998-01-01,142.53,26700,Low Income,40258900000,1811688
+West Virginia,WV,South,South Atlantic,1999-01-01,146.76,29300,Low Income,41942200000,1806928
+West Virginia,WV,South,South Atlantic,2000-01-01,147.04,29410,Low Income,42620700000,1807021
+West Virginia,WV,South,South Atlantic,2001-01-01,155.02,29670,Low Income,44105100000,1801481
+West Virginia,WV,South,South Atlantic,2002-01-01,159.76,29360,Low Income,45627400000,1805414
+West Virginia,WV,South,South Atlantic,2003-01-01,165.68,32760,Low Income,47230400000,1812295
+West Virginia,WV,South,South Atlantic,2004-01-01,174.06,33370,Low Income,49865900000,1816438
+West Virginia,WV,South,South Atlantic,2005-01-01,188.17,36450,Low Income,53814300000,1820492
+West Virginia,WV,South,South Atlantic,2006-01-01,208.01,38420,Low Income,57204100000,1827912
+West Virginia,WV,South,South Atlantic,2007-01-01,212.28,42090,Low Income,59480400000,1834052
+West Virginia,WV,South,South Atlantic,2008-01-01,213.99,37990,Low Income,62978700000,1840310
+West Virginia,WV,South,South Atlantic,2009-01-01,211.55,40490,Low Income,64040100000,1847775
+West Virginia,WV,South,South Atlantic,2010-01-01,203.85,42780,Low Income,66160399999,1854265
+West Virginia,WV,South,South Atlantic,2011-01-01,201.84,41820,Low Income,69367600000,1856606
+West Virginia,WV,South,South Atlantic,2012-01-01,201.43,43550,Low Income,70303100000,1857446
+West Virginia,WV,South,South Atlantic,2013-01-01,203.17,43070,Low Income,71758600000,1854768
+West Virginia,WV,South,South Atlantic,2014-01-01,207.38,39550,Low Income,73042600000,1850569
+West Virginia,WV,South,South Atlantic,2015-01-01,210.81,42820,Low Income,71713400000,1843332
+West Virginia,WV,South,South Atlantic,2016-01-01,217.02,44350,Low Income,71248900000,1832435
+West Virginia,WV,South,South Atlantic,2017-01-01,217.5,46960,Low Income,75172400000,1818683
+West Virginia,WV,South,South Atlantic,2018-01-01,223.51,50570,Low Income,79794300000,1805953
+West Virginia,WV,South,South Atlantic,2019-01-01,226.7,53710,Low Income,79883800000,1795263
+West Virginia,WV,South,South Atlantic,2020-01-01,235.88,51970,Low Income,76975900000,1791562
+West Virginia,WV,South,South Atlantic,2021-01-01,250.44,46840,Low Income,86509900000,1785249
+West Virginia,WV,South,South Atlantic,2022-01-01,281.43,52460,Low Income,97417300000,1774035
+Wisconsin,WI,Midwest,East North Central,1997-01-01,196.44,39600,Mid-high Income,153536200000,5200235
+Wisconsin,WI,Midwest,East North Central,1998-01-01,204.13,41330,Mid-high Income,163021500000,5222124
+Wisconsin,WI,Midwest,East North Central,1999-01-01,213.37,45670,High Income,172928500000,5250446
+Wisconsin,WI,Midwest,East North Central,2000-01-01,227.77,45090,Mid-high Income,180883100000,5373999
+Wisconsin,WI,Midwest,East North Central,2001-01-01,238.7,45350,Mid-high Income,188662800000,5406835
+Wisconsin,WI,Midwest,East North Central,2002-01-01,251.06,45900,Mid-high Income,195541500000,5445162
+Wisconsin,WI,Midwest,East North Central,2003-01-01,261.74,46270,Mid-high Income,203814000000,5479203
+Wisconsin,WI,Midwest,East North Central,2004-01-01,278.99,45730,Mid-high Income,216370400000,5514026
+Wisconsin,WI,Midwest,East North Central,2005-01-01,304.12,44650,Mid-low Income,226937500000,5546166
+Wisconsin,WI,Midwest,East North Central,2006-01-01,321.03,51690,Mid-high Income,237571900000,5577655
+Wisconsin,WI,Midwest,East North Central,2007-01-01,327.43,51280,Mid-high Income,245837700000,5610775
+Wisconsin,WI,Midwest,East North Central,2008-01-01,327.6,51200,Mid-high Income,246493000000,5640996
+Wisconsin,WI,Midwest,East North Central,2009-01-01,319.1,51240,Mid-high Income,246323800000,5669264
+Wisconsin,WI,Midwest,East North Central,2010-01-01,302.51,50350,Mid-high Income,256159500000,5690538
+Wisconsin,WI,Midwest,East North Central,2011-01-01,295.3,52060,Mid-high Income,265444000000,5705840
+Wisconsin,WI,Midwest,East North Central,2012-01-01,291.34,53080,Mid-high Income,276253400000,5720825
+Wisconsin,WI,Midwest,East North Central,2013-01-01,290.68,51730,Mid-low Income,283791400000,5738012
+Wisconsin,WI,Midwest,East North Central,2014-01-01,288.83,58080,Mid-high Income,296169900000,5753199
+Wisconsin,WI,Midwest,East North Central,2015-01-01,300.15,55430,Mid-low Income,308304500000,5762927
+Wisconsin,WI,Midwest,East North Central,2016-01-01,310.2,59820,Mid-high Income,315420000000,5775170
+Wisconsin,WI,Midwest,East North Central,2017-01-01,323.95,63480,Mid-high Income,321886800000,5793147
+Wisconsin,WI,Midwest,East North Central,2018-01-01,341.06,62630,Mid-high Income,335144300000,5809319
+Wisconsin,WI,Midwest,East North Central,2019-01-01,358.8,67360,Mid-low Income,347398600000,5824581
+Wisconsin,WI,Midwest,East North Central,2020-01-01,375.46,67410,Mid-high Income,343783000000,5896700
+Wisconsin,WI,Midwest,East North Central,2021-01-01,398.83,69940,Mid-low Income,369032400000,5879978
+Wisconsin,WI,Midwest,East North Central,2022-01-01,463.2,73330,Mid-high Income,396209300000,5890543
+Wyoming,WY,West,Mountain,1997-01-01,135.11,33420,Mid-low Income,14673000000,480031
+Wyoming,WY,West,Mountain,1998-01-01,141.86,35250,Mid-low Income,14833200000,480045
+Wyoming,WY,West,Mountain,1999-01-01,143.77,37250,Mid-low Income,15685700000,479602
+Wyoming,WY,West,Mountain,2000-01-01,149.82,39630,Mid-low Income,17153700000,494300
+Wyoming,WY,West,Mountain,2001-01-01,157.31,39720,Mid-low Income,18741700000,494657
+Wyoming,WY,West,Mountain,2002-01-01,167.93,39760,Mid-low Income,19160800000,500017
+Wyoming,WY,West,Mountain,2003-01-01,177.13,42560,Mid-low Income,21199000000,503453
+Wyoming,WY,West,Mountain,2004-01-01,190.76,45400,Mid-high Income,23418100000,509106
+Wyoming,WY,West,Mountain,2005-01-01,211.38,44720,Mid-low Income,27530200000,514157
+Wyoming,WY,West,Mountain,2006-01-01,238.66,47040,Mid-low Income,32692200000,522667
+Wyoming,WY,West,Mountain,2007-01-01,267.05,48740,Mid-low Income,36912800000,534876
+Wyoming,WY,West,Mountain,2008-01-01,280.88,53340,Mid-high Income,42694600000,546043
+Wyoming,WY,West,Mountain,2009-01-01,279.53,52470,Mid-high Income,36282200000,559851
+Wyoming,WY,West,Mountain,2010-01-01,265.79,52200,Mid-high Income,37567500000,564531
+Wyoming,WY,West,Mountain,2011-01-01,263.42,54510,Mid-high Income,39615100000,567491
+Wyoming,WY,West,Mountain,2012-01-01,264.36,57510,High Income,38679300000,576656
+Wyoming,WY,West,Mountain,2013-01-01,270.45,67440,High Income,39365600000,582620
+Wyoming,WY,West,Mountain,2014-01-01,277.2,55690,Mid-high Income,40573900000,583159
+Wyoming,WY,West,Mountain,2015-01-01,286.79,60930,Mid-high Income,38624800000,586389
+Wyoming,WY,West,Mountain,2016-01-01,293.56,57830,Mid-low Income,36105900000,585243
+Wyoming,WY,West,Mountain,2017-01-01,297.27,59540,Mid-low Income,37620300000,579994
+Wyoming,WY,West,Mountain,2018-01-01,309.26,62540,Mid-high Income,39614500000,579054
+Wyoming,WY,West,Mountain,2019-01-01,314.55,65130,Mid-low Income,39971400000,580116
+Wyoming,WY,West,Mountain,2020-01-01,335.12,65450,Mid-low Income,36675500000,577664
+Wyoming,WY,West,Mountain,2021-01-01,355.03,71050,Mid-low Income,42176200000,579548
+Wyoming,WY,West,Mountain,2022-01-01,416.05,73090,Mid-low Income,49080600000,581629
