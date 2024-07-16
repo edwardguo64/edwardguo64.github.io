@@ -115,7 +115,7 @@
       var data = d3.csv("./data/us_avg_year.csv");
 
       console.log(data);
-      console.log(data[0]["date"]);
+      console.log(data[0].date);
 
       var svg = d3.select("svg")
         .append("g")
@@ -130,7 +130,7 @@
       .call(d3.axisBottom(x));
 
       var y = d3.scaleLinear()
-      .domain([d3.min(data, function(d) { return d["House Price Index"]; }), d3.max(data, function(d) { return d["House Price Index"]; })])
+      .domain([d3.min(data, function(d) { return d.hpi; }), d3.max(data, function(d) { return d.hpi; })])
       .range([ 500, 0 ]);
       svg.append("g")
       .call(d3.axisLeft(y));
@@ -141,8 +141,8 @@
       .attr("stroke", "steelblue")
       .attr("stroke-width", 1.5)
       .attr("d", d3.line()
-        .x(function(d) { return x(d["Date"]) })
-        .y(function(d) { return y(d["House Price Index"]) })
+        .x(function(d) { return x(d.date) })
+        .y(function(d) { return y(d.hpi) })
         );
     }
   </script>
