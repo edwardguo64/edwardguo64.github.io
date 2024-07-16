@@ -122,6 +122,19 @@
           .attr("transform",
                 "translate(" + 50 + "," + 50 + ")");
 
+      var x = d3.scaleTime()
+      .domain([1997, 2022])
+      .range([ 0, 600 ]);
+      svg.append("g")
+      .attr("transform", "translate(0," + 500 + ")")
+      .call(d3.axisBottom(x));
+
+      var y = d3.scaleLinear()
+      .domain([d3.min(data, function(d) { return d["House Price Index"]; }), d3.max(data, function(d) { return d["House Price Index"]; })])
+      .range([ 500, 0 ]);
+      svg.append("g")
+      .call(d3.axisLeft(y));
+
       svg.append("path")
       .data(data)
       .attr("fill", "none")
@@ -131,19 +144,6 @@
         .x(function(d) { return x(d["Date"]) })
         .y(function(d) { return y(d["House Price Index"]) })
         );
-
-      var x = d3.scaleTime()
-      .domain(d3.extent(data, function(d) { return d["Date"]; }))
-      .range([ 0, 600 ]);
-      svg.append("g")
-      .attr("transform", "translate(0," + 500 + ")")
-      .call(d3.axisBottom(x));
-
-      var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return d["House Price Index"]; })])
-      .range([ 500, 0 ]);
-      svg.append("g")
-      .call(d3.axisLeft(y));
     }
   </script>
 </body>
