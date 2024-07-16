@@ -122,8 +122,15 @@
           .attr("transform",
                 "translate(" + 50 + "," + 50 + ")");
 
+      var years = []
+      for (let i = 1997; i <= 2022; i++) {
+        years.push(i);
+      }
+
+      console.log(years);
+
       var x = d3.scaleTime()
-      .domain([1997, 2022])
+      .domain(years)
       .range([ 0, 650 ]);
       svg.append("g")
       .attr("transform", "translate(0," + 550 + ")")
