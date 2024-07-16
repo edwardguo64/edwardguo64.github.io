@@ -115,7 +115,7 @@
       var data = d3.csv("./data/us_avg_year.csv");
 
       console.log(data);
-      console.log(data["date"]);
+      console.log(data[0]["date"]);
 
       var svg = d3.select("svg")
         .append("g")
