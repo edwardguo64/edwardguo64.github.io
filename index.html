@@ -129,7 +129,7 @@
 
       console.log(years);
 
-      var x = d3.scaleTime()
+      var x = d3.scaleBand()
       .domain(years)
       .range([ 0, 650 ]);
       svg.append("g")
