@@ -112,6 +112,11 @@
 
   <script>
     async function init() {
+      var svg = d3.select("chart")
+        .append("g")
+          .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
       var data = d3.csv("./data/us_avg_year.csv")
 
       console.log(data)
