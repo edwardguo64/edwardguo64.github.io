@@ -120,18 +120,18 @@
       var svg = d3.select("svg")
         .append("g")
           .attr("transform",
-                "translate(" + 50 + "," + 50 + ")");
+                "translate(" + 25 + "," + 25 + ")");
 
       var x = d3.scaleTime()
       .domain([1997, 2022])
-      .range([ 0, 600 ]);
+      .range([ 0, 650 ]);
       svg.append("g")
-      .attr("transform", "translate(0," + 500 + ")")
+      .attr("transform", "translate(0," + 550 + ")")
       .call(d3.axisBottom(x));
 
       var y = d3.scaleLinear()
       .domain([d3.min(data, function(d) { return d.hpi; }), d3.max(data, function(d) { return d.hpi; })])
-      .range([ 500, 0 ]);
+      .range([ 550, 0 ]);
       svg.append("g")
       .call(d3.axisLeft(y));
 
