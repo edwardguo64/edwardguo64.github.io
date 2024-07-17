@@ -146,37 +146,77 @@
         .y(function(d) { return y(d.hpi) })
         );
 
-      const mouse_g = svg.append('g').classed('mouse', true).style('display', 'none');
-      mouse_g.append('rect').attr('width', 2).attr('x',-1).attr('height', 500).attr('fill', 'lightgray');
-      mouse_g.append('circle').attr('r', 3).attr("stroke", "steelblue");
-      mouse_g.append('text');
+      // const mouse_g = svg.append('g').classed('mouse', true).style('display', 'none');
+      // mouse_g.append('rect').attr('width', 2).attr('x',-1).attr('height', 500).attr('fill', 'lightgray');
+      // mouse_g.append('circle').attr('r', 3).attr("stroke", "steelblue");
+      // mouse_g.append('text');
 
-      svg.on("mouseover", function(mouse) {
-        mouse_g.style('display', 'block');
-      });
+      // svg.on("mouseover", function(mouse) {
+      //   mouse_g.style('display', 'block');
+      // });
 
-      const [min_year, max_year] = d3.extent(data, d=>d.date.substring(0,4));
+      // const [min_year, max_year] = d3.extent(data, d=>d.date.substring(0,4));
 
-      console.log(min_year, max_year);
+      // console.log(min_year, max_year);
 
-      console.log(data.find(d => d.date.substring(0,4) == min_year));
+      // console.log(data.find(d => d.date.substring(0,4) == min_year));
 
-      svg.on("mousemove", function(mouse) {
-        const [x_cord,y_cord] = d3.pointer(mouse);
-        const ratio = x_cord / 600;
-        const current_year = min_year + Math.round(ratio * (max_year - min_year));
-        const hpi = data.find(d => d.date.substring(0,4) == current_year.toString()).hpi;
-        const hi = data.find(d => d.date.substring(0,4) == current_year.toString()).hi;
-        const gdp = data.find(d => d.date.substring(0,4) == current_year.toString()).gdp;
-        const pop = data.find(d => d.date.substring(0,4) == current_year.toString()).pop;
-        mouse_g.attr('transform', `translate(${x(current_year)},${0})`);
-        mouse_g.select('text').text(`year: ${current_year}, HPI: ${hpi}`)
-          .attr('text-anchor', current_year < (min_year + max_year) / 2 ? "start" : "end");
-        mouse_g.select('circle').attr('cy', y(hpi));
-      });
-      svg.on("mouseout", function(mouse) {
-        mouse_g.style('display', 'none');
-      });
+      // console.log(d3.pointer(mouse));
+
+      // svg.on("mousemove", function(mouse) {
+      //   const [x_cord,y_cord] = d3.pointer(mouse);
+      //   const ratio = x_cord / 600;
+      //   const current_year = min_year + Math.round(ratio * (max_year - min_year));
+      //   const hpi = data.find(d => d.date.substring(0,4) == current_year.toString()).hpi;
+      //   const hi = data.find(d => d.date.substring(0,4) == current_year.toString()).hi;
+      //   const gdp = data.find(d => d.date.substring(0,4) == current_year.toString()).gdp;
+      //   const pop = data.find(d => d.date.substring(0,4) == current_year.toString()).pop;
+      //   mouse_g.attr('transform', `translate(${x(current_year)},${0})`);
+      //   mouse_g.select('text').text(`year: ${current_year}, HPI: ${hpi}`)
+      //     .attr('text-anchor', current_year < (min_year + max_year) / 2 ? "start" : "end");
+      //   mouse_g.select('circle').attr('cy', y(hpi));
+      // });
+      // svg.on("mouseout", function(mouse) {
+      //   mouse_g.style('display', 'none');
+      // });
+
+      const bisect = d3.bisector(d => d.date).center;
+      function pointermoved(event) {
+        const i = bisect(data, x.invert(d3.pointer(event)[0]));
+        tooltip.style("display", null);
+        tooltip.attr("transform", `translate(${x(data[i].date)},${y(data[i].hpi)})`);
+
+        const path = tooltip.selectAll("path")
+          .data([,])
+          .join("path")
+            .attr("fill", "white")
+            .attr("stroke", "black");
+
+        const text = tooltip.selectAll("text")
+          .data([,])
+          .join("text")
+          .call(text => text
+            .selectAll("tspan")
+            .data([formatDate(data[i].date), formatValue(data[i].hpi)])
+            .join("tspan")
+              .attr("x", 0)
+              .attr("y", (_, i) => `${i * 1.1}em`)
+              .attr("font-weight", (_, i) => i ? null : "bold")
+              .text(d => d));
+
+        size(text, path);
+      }
+
+      function pointerleft() {
+        tooltip.style("display", "none");
+      }
+
+      // Wraps the text with a callout path of the correct size, as measured in the page.
+      function size(text, path) {
+        const {x, y, width: w, height: h} = text.node().getBBox();
+        text.attr("transform", `translate(${-w / 2},${15 - y})`);
+        path.attr("d", `M${-w / 2 - 10},5H-5l5,-5l5,5H${w / 2 + 10}v${h + 20}h-${w + 20}z`);
+      }
     }
   </script>
 </body>
