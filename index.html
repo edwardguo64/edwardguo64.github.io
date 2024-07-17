@@ -166,10 +166,10 @@
         const [x_cord,y_cord] = d3.pointer(mouse);
         const ratio = x_cord / 600;
         const current_year = min_year + Math.round(ratio * (max_year - min_year));
-        const hpi = data.find(d => d.date.substring(0,4) === current_year).hpi;
-        const hi = data.find(d => d.date.substring(0,4) === current_year).hi;
-        const gdp = data.find(d => d.date.substring(0,4) === current_year).gdp;
-        const pop = data.find(d => d.date.substring(0,4) === current_year).pop;
+        const hpi = data.find(d => d.date.substring(0,4) == current_year).hpi;
+        const hi = data.find(d => d.date.substring(0,4) == current_year).hi;
+        const gdp = data.find(d => d.date.substring(0,4) == current_year).gdp;
+        const pop = data.find(d => d.date.substring(0,4) == current_year).pop;
         mouse_g.attr('transform', `translate(${x(current_year)},${0})`);
         mouse_g.select('text').text(`year: ${current_year}, HPI: ${hpi}`)
           .attr('text-anchor', current_year < (min_year + max_year) / 2 ? "start" : "end");
