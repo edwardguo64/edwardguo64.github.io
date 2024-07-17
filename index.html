@@ -119,15 +119,9 @@
 
       var svg = d3.select("svg")
         .append("g")
-          .attr("transform",
-                "translate(" + 50 + "," + 50 + ")");
+        .attr("transform", "translate(" + 50 + "," + 50 + ")");
 
-      var years = []
-      for (let i = 1997; i <= 2022; i++) {
-        years.push(i);
-      }
-
-      console.log(years);
+      console.log(data[0].date.substring(0,4));
 
       var x = d3.scaleTime()
       .domain(d3.extent(data, function(d) { return d3.timeParse("%Y-%m-%d")(d.date); }))
@@ -166,8 +160,6 @@
         const [x_cord,y_cord] = d3.pointer(mouse);
         const ratio = x_cord / 600;
         const current_year = min_year + Math.round(ratio * (max_year - min_year));
-        console.log(current_year);
-        console.log(data[0].date.substring(0,4));
         const hpi = data.find(d => d.date.substring(0,4) == current_year).hpi;
         const hi = data.find(d => d.date.substring(0,4) == current_year).hi;
         const gdp = data.find(d => d.date.substring(0,4) == current_year).gdp;
