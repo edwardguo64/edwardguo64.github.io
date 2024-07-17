@@ -161,43 +161,23 @@
         mouse_g.style('display', 'block');
       });
 
-      const tooltip = svg.append("g");
-
-      const bisect = d3.bisector(d => d.Date).center;
-      function pointermoved(event) {
-        const i = bisect(aapl, x.invert(d3.pointer(event)[0]));
-        tooltip.style("display", null);
-        tooltip.attr("transform", `translate(${x(aapl[i].Date)},${y(aapl[i].Close)})`);
-
-        const path = tooltip.selectAll("path")
-          .data([,])
-          .join("path")
-            .attr("fill", "white")
-            .attr("stroke", "black");
-
-        const text = tooltip.selectAll("text")
-          .data([,])
-          .join("text")
-          .call(text => text
-            .selectAll("tspan")
-            .data([formatDate(aapl[i].Date), formatValue(aapl[i].Close)])
-            .join("tspan")
-              .attr("x", 0)
-              .attr("y", (_, i) => `${i * 1.1}em`)
-              .attr("font-weight", (_, i) => i ? null : "bold")
-              .text(d => d));
-
-        size(text, path);
-      }
-
-      function pointerleft() {
-        tooltip.style("display", "none");
-      }
-    }
-
-    function displayData() {
-      var selData = d3.select(this).data()[0]
-      console.log(selData)
+      const [min_year, max_year] = d3.extent(data, d=>d3.timeParse("%Y-%m-%d")(d.date));
+      svg.on("mousemove", function(mouse) {
+        const [x_cord,y_cord] = d3.pointer(mouse);
+        const ratio = x_cord / plot_width;
+        const current_year = min_year + Math.round(ratio * (max_year - min_year));
+        const hpi = data.find(d => d.date.substring(0,4) === current_year).hpi;
+        const hi = data.find(d => d.date.substring(0,4) === current_year).hi;
+        const gdp = data.find(d => d.date.substring(0,4) === current_year).gdp;
+        const pop = data.find(d => d.date.substring(0,4) === current_year).pop;
+        mouse_g.attr('transform', `translate(${x(current_year)},${0})`);
+        mouse_g.select('text').text(`year: ${current_year}, HPI: ${hpi}`)
+          .attr('text-anchor', current_year < (min_year + max_year) / 2 ? "start" : "end");
+        mouse_g.select('circle').attr('cy', y(hpi));
+      });
+      svg.on("mouseout", function(mouse) {
+        mouse_g.style('display', 'none');
+      });
     }
   </script>
 </body>
