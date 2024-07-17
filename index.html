@@ -87,35 +87,27 @@
             </ul>
           </nav>
           <hr>
-          <div id='addtl-info'>
-            <h3>Additional Information</h3>
-            <h4 id="year">Year</h4>
-            <table>
-              <tr>
-                <td class="stat-label">Region</td>
-                <td id="region">-</td>
-              </tr>
-              <tr>
-                <td class="stat-label">Division</td>
-                <td id="division">-</td>
-              </tr>
-              <tr>
-                <td class="stat-label">HPI</td>
-                <td id="hpi">-</td>
-              </tr>
-              <tr>
-                <td class="stat-label">Median Household Income</td>
-                <td id="med-household-income">-</td>
-              </tr>
-              <tr>
-                <td class="stat-label">GDP</td>
-                <td id="gdp">-</td>
-              </tr>
-              <tr>
-                <td class="stat-label">Population</td>
-                <td id="population">-</td>
-              </tr>
-            </table>
+          <div id='annotations'>
+            <h3>Annotations</h3>
+            <h4>The increase in the house price index in the early 2000s</h4>
+            <ul>
+              <li>Increase in subprime mortgage lending</li>
+              <li>The share of loans originated by lenders with dubious practices</li>
+              <li>The availability of nontraditional funding sources</li>
+              <li>The rise of private label securitization</li>
+            </ul>
+            <h4>The housing crash of 2008</h4>
+            <ul>
+              <li>Expansion of credit supply due to the originate-to-distribute model of securitization</li>
+              <li>Lenders with poor origination practices</li>
+              <li>The availability of funding through nontraditional sources and the rise in private-label securitization</li>
+            </ul>
+            <h4>Recent Increase in HPI</h4>
+            <ul>
+              <li>Low mortgage interest rates have made borrowing cheaper</li>
+              <li>Shortage of available homes for sale</li>
+              <li>Increased demand for housing</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -179,9 +171,6 @@
 
       // code from https://github.com/datavizdad/d3linechartseries/blob/main/Part3/scriptfinal.js
       const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
-
-      // var tooltipParent = tooltip.node().parentElement;
-      // var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("cx"),+this.getAttribute("cy"));
 
       var offsets = document.getElementById('chart').getBoundingClientRect();
       var top = offsets.top;
