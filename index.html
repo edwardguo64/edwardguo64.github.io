@@ -198,6 +198,12 @@
       // var tooltipParent = tooltip.node().parentElement;
       // var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("cx"),+this.getAttribute("cy"));
 
+      var offsets = document.getElementById('chart').getBoundingClientRect();
+      var top = offsets.top;
+      var left = offsets.left;
+
+      console.log(top, left)
+
       const circle = svg.append("circle")
         .attr("r", 0)
         .attr("fill", "steelblue")
