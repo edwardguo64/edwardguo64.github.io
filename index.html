@@ -152,6 +152,15 @@
         .y(function(d) { return y(d.hpi) })
         );
 
+      const mouse_g = svg.append('g').classed('mouse', true).style('display', 'none');
+      mouse_g.append('rect').attr('width', 2).attr('x',-1).attr('height', 500).attr('fill', 'lightgray');
+      mouse_g.append('circle').attr('r', 3).attr("stroke", "steelblue");
+      mouse_g.append('text');
+
+      svg.on("mouseover", function(mouse) {
+        mouse_g.style('display', 'block');
+      });
+
       const tooltip = svg.append("g");
 
       const bisect = d3.bisector(d => d.Date).center;
