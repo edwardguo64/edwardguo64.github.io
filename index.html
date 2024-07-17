@@ -150,8 +150,40 @@
       .attr("d", d3.line()
         .x(function(d) { return x(d3.timeParse("%Y-%m-%d")(d.date)) })
         .y(function(d) { return y(d.hpi) })
-        )
-      .on('mouseover', displayData);
+        );
+
+      const tooltip = svg.append("g");
+
+      const bisect = d3.bisector(d => d.Date).center;
+      function pointermoved(event) {
+        const i = bisect(aapl, x.invert(d3.pointer(event)[0]));
+        tooltip.style("display", null);
+        tooltip.attr("transform", `translate(${x(aapl[i].Date)},${y(aapl[i].Close)})`);
+
+        const path = tooltip.selectAll("path")
+          .data([,])
+          .join("path")
+            .attr("fill", "white")
+            .attr("stroke", "black");
+
+        const text = tooltip.selectAll("text")
+          .data([,])
+          .join("text")
+          .call(text => text
+            .selectAll("tspan")
+            .data([formatDate(aapl[i].Date), formatValue(aapl[i].Close)])
+            .join("tspan")
+              .attr("x", 0)
+              .attr("y", (_, i) => `${i * 1.1}em`)
+              .attr("font-weight", (_, i) => i ? null : "bold")
+              .text(d => d));
+
+        size(text, path);
+      }
+
+      function pointerleft() {
+        tooltip.style("display", "none");
+      }
     }
 
     function displayData() {
