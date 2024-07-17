@@ -164,7 +164,7 @@
       const [min_year, max_year] = d3.extent(data, d=>d3.timeParse("%Y-%m-%d")(d.date));
       svg.on("mousemove", function(mouse) {
         const [x_cord,y_cord] = d3.pointer(mouse);
-        const ratio = x_cord / plot_width;
+        const ratio = x_cord / 600;
         const current_year = min_year + Math.round(ratio * (max_year - min_year));
         const hpi = data.find(d => d.date.substring(0,4) === current_year).hpi;
         const hi = data.find(d => d.date.substring(0,4) === current_year).hi;
