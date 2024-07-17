@@ -195,6 +195,9 @@
       // code from https://github.com/datavizdad/d3linechartseries/blob/main/Part3/scriptfinal.js
       const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
 
+      var tooltipParent = tooltip.node().parentElement;
+      var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("cx"),+this.getAttribute("cy"));
+
       const circle = svg.append("circle")
         .attr("r", 0)
         .attr("fill", "steelblue")
@@ -206,7 +209,7 @@
         .attr("width", 600)
         .attr("height", 500);
 
-      listeningRect.on("mousemove", function (event) {
+      svg.on("mousemove", function (event) {
         const [xCoord] = d3.pointer(event, this);
         const bisectDate = d3.bisector(d => d3.timeParse("%Y-%m-%d")(d.date)).left;
         const x0 = x.invert(xCoord);
@@ -235,7 +238,7 @@
           .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>House Price Index:</strong> ${d.hpi !== undefined ? d.hpi : 'N/A'}`)
       });
 
-      listeningRect.on("mouseleave", function () {
+      svg.on("mouseleave", function () {
         circle.transition()
           .duration(50)
           .attr("r", 0);
