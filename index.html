@@ -142,6 +142,16 @@
       .attr("transform", "translate(0," + 500 + ")")
       .call(d3.axisBottom(x));
 
+      svg.append("text")
+      .attr("y", 0 - (600 / 2))
+      .attr("x", 0 - 50)
+      .attr("dx", "1em")
+      .style("text-anchor", "middle")
+      .style("font-size", "14px")
+      .style("fill", "#777")
+      .style("font-family", "sans-serif")
+      .text("Year");
+
       var y = d3.scaleLinear()
       .domain([d3.min(data, function(d) { return d.hpi; }), d3.max(data, function(d) { return d.hpi; })])
       .range([ 500, 0 ]);
