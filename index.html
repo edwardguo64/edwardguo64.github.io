@@ -230,7 +230,7 @@
           .style("display", "block")
           .style("left", `${xPos}px`)
           .style("top", `${yPos}px`)
-          .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>House Price Index:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(3) : 'N/A'}`)
+          .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>House Price Index:</strong> ${d.hpi !== undefined ? d.hpi : 'N/A'}`)
       });
 
       listeningRect.on("mouseleave", function () {
