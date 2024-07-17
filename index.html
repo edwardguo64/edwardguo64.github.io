@@ -195,8 +195,8 @@
       // code from https://github.com/datavizdad/d3linechartseries/blob/main/Part3/scriptfinal.js
       const tooltip = svg.append("g").attr("class","tooltip");
 
-      var tooltipParent = tooltip.node().parentElement;
-      var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("cx"),+this.getAttribute("cy"));
+      // var tooltipParent = tooltip.node().parentElement;
+      // var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("cx"),+this.getAttribute("cy"));
 
       const circle = svg.append("circle")
         .attr("r", 0)
