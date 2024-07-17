@@ -239,8 +239,8 @@
 
         tooltip
           .style("display", "block")
-          .style("left", `${xPos}px`)
-          .style("top", `${yPos}px`)
+          .style("left", `${left + 50 + xPos}px`)
+          .style("top", `${top + 50 + yPos}px`)
           .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>House Price Index:</strong> ${d.hpi !== undefined ? d.hpi : 'N/A'}`)
       });
 
