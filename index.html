@@ -115,7 +115,7 @@
       var data = await d3.csv("./data/us_avg_year.csv");
 
       console.log(data);
-      console.log(data[0].date);
+      console.log(d3.timeParse("%Y-%m-%d")(data[0].date));
 
       var svg = d3.select("svg")
         .append("g")
@@ -129,8 +129,8 @@
 
       console.log(years);
 
-      var x = d3.scaleLinear()
-      .domain([1997, 2022])
+      var x = d3.scaleTime()
+      .domain(d3.extent(data, function(d) { return d3.timeParse("%Y-%m-%d")(d.date); }))
       .range([ 0, 600 ]);
       svg.append("g")
       .attr("transform", "translate(0," + 500 + ")")
@@ -148,7 +148,7 @@
       .attr("stroke", "steelblue")
       .attr("stroke-width", 1.5)
       .attr("d", d3.line()
-        .x(function(d) { return x(d.date) })
+        .x(function(d) { return x(d3.timeParse("%Y-%m-%d")(d.date)) })
         .y(function(d) { return y(d.hpi) })
         );
     }
