@@ -156,6 +156,9 @@
       });
 
       const [min_year, max_year] = d3.extent(data, d=>d3.timeParse("%Y-%m-%d")(d.date));
+
+      console.log(min_year, max_year);
+
       svg.on("mousemove", function(mouse) {
         const [x_cord,y_cord] = d3.pointer(mouse);
         const ratio = x_cord / 600;
