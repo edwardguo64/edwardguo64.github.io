@@ -193,7 +193,7 @@
       // });
 
       // code from https://github.com/datavizdad/d3linechartseries/blob/main/Part3/scriptfinal.js
-      const tooltip = svg.append("g").attr("class","tooltip");
+      const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
 
       // var tooltipParent = tooltip.node().parentElement;
       // var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("cx"),+this.getAttribute("cy"));
