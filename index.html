@@ -159,6 +159,8 @@
 
       console.log(min_year, max_year);
 
+      console.log(data.find(d => d.date.substring(0,4) == min_year));
+
       svg.on("mousemove", function(mouse) {
         const [x_cord,y_cord] = d3.pointer(mouse);
         const ratio = x_cord / 600;
