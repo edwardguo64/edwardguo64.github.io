@@ -150,7 +150,13 @@
       .attr("d", d3.line()
         .x(function(d) { return x(d3.timeParse("%Y-%m-%d")(d.date)) })
         .y(function(d) { return y(d.hpi) })
-        );
+        )
+      .on('mouseover', displayData);
+    }
+
+    function displayData() {
+      var selData = d3.select(this).data()[0]
+      console.log(selData)
     }
   </script>
 </body>
