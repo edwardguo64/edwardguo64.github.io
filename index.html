@@ -180,6 +180,7 @@
       //   mouse_g.style('display', 'none');
       // });
 
+      const tooltip = svg.append("g");
       const bisect = d3.bisector(d => d.date).center;
       function pointermoved(event) {
         const i = bisect(data, x.invert(d3.pointer(event)[0]));
