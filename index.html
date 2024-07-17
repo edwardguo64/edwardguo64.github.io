@@ -155,7 +155,7 @@
         mouse_g.style('display', 'block');
       });
 
-      const [min_year, max_year] = d3.extent(data, d=>d3.timeParse("%Y-%m-%d")(d.date));
+      const [min_year, max_year] = d3.extent(data, d=>d.date.substring(0,4));
 
       console.log(min_year, max_year);
 
