@@ -228,9 +228,9 @@
 
         tooltip
           .style("display", "block")
-          .style("left", `${xPos + 5}px`)
-          .style("top", `${yPos + 5}px`)
-          .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>House Price Index:</strong> ${d.hpi !== undefined ? (d.hpi / 1000).toFixed(0) + 'k' : 'N/A'}`)
+          .style("left", `${xPos}px`)
+          .style("top", `${yPos}px`)
+          .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>House Price Index:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(3) : 'N/A'}`)
       });
 
       listeningRect.on("mouseleave", function () {
