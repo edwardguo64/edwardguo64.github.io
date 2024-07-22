@@ -180,6 +180,10 @@
 
       console.log(data[0].state, data[0].hpi)
 
+      var offsets = document.getElementById('chart').getBoundingClientRect();
+      var top = offsets.top;
+      var left = offsets.left;
+
       svg.append("g").selectAll("dot")
       .data(data)
       .enter()
@@ -234,20 +238,16 @@
         console.log(xPos, yPos)
 
         tooltip.style("display", "block")
-          .style("left", `${xPos + 50}px`) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
-          .style("top", `${yPos}px`)
+          .style("left", `${left + xPos + 75}px`) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+          .style("top", `${top + yPos}px`)
           .html(`<strong>State:</strong> ${d.state}<br><strong>HPI:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(2) : 'N/A'}`)
         console.log(d.state, d.hpi)
       })
       .on("mouseleave", function() {
         tooltip.transition()
-          .duration(200)
+          .duration(50)
           .style("display", "none");
       })
-
-      // var offsets = document.getElementById('chart').getBoundingClientRect();
-      // var top = offsets.top;
-      // var left = offsets.left;
 
       // console.log(top, left)
 
