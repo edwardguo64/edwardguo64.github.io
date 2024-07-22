@@ -227,7 +227,7 @@
       .on("mouseover", function() {
         tooltip.style("display", "block");
       })
-      .on("mousemove", function(event) {
+      .on("mousemove", function(event, d) {
         const xPos = d3.pointer(event,this)[0]
         const yPos = d3.pointer(event,this)[1]
 
