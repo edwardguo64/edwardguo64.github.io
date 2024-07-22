@@ -180,7 +180,7 @@
 
       console.log(data[0].state, data[0].hpi)
 
-      svg.selectAll("circle")
+      svg.append("g").selectAll("dot")
       .data(data)
       .enter()
       .append("circle")
