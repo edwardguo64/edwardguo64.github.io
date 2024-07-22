@@ -116,10 +116,16 @@
 
   <script>
     async function init() {
-      var data = await d3.csv("./data/us_avg_year.csv");
+      var data = await d3.csv("./data/us_housing_income_gdp_df.csv");
 
       console.log(data);
       console.log(d3.timeParse("%Y-%m-%d")(data[0].date));
+
+      data.forEach(d => {
+        d.date = d3.timeParse("%Y-%m-%d")(d.date);
+      });
+
+      console.log(data[0].date);
 
       var svg = d3.select("svg")
         .append("g")
