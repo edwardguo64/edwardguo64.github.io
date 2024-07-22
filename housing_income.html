@@ -137,8 +137,6 @@
         .append("g")
         .attr("transform", "translate(" + 50 + "," + 50 + ")");
 
-      // console.log(data[0].date.substring(0,4));
-
       console.log(d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; }));
 
       var x = d3.scaleLinear()
@@ -235,69 +233,16 @@
         const xPos = d3.pointer(event,this)[0]
         const yPos = d3.pointer(event,this)[1]
 
-        console.log(xPos, yPos)
-
         tooltip.style("display", "block")
-          .style("left", `${left + xPos + 75}px`) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+          .style("left", `${left + xPos + 75}px`)
           .style("top", `${top + yPos}px`)
           .html(`<strong>State:</strong> ${d.state}<br><strong>HPI:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(2) : 'N/A'}`)
-        console.log(d.state, d.hpi)
       })
       .on("mouseleave", function() {
         tooltip.transition()
           .duration(50)
           .style("display", "none");
       })
-
-      // console.log(top, left)
-
-      // const circle = svg.append("circle")
-      //   .attr("r", 0)
-      //   .attr("fill", "steelblue")
-      //   .style("stroke", "white")
-      //   .attr("opacity", .70)
-      //   .style("pointer-events", "none");
-
-      // const listeningRect = svg.append("rect")
-      //   .attr("width", 600)
-      //   .attr("height", 500);
-
-      // listeningRect.on("mousemove", function (event) {
-      //   const [xCoord] = d3.pointer(event, this);
-      //   const bisectDate = d3.bisector(d => d3.timeParse("%Y-%m-%d")(d.date)).left;
-      //   const x0 = x.invert(xCoord);
-      //   const i = bisectDate(data, x0, 1);
-      //   const d0 = data[i - 1];
-      //   const d1 = data[i];
-      //   const d = x0 - d3.timeParse("%Y-%m-%d")(d0.date) > d3.timeParse("%Y-%m-%d")(d1.date) - x0 ? d1 : d0;
-      //   const xPos = x(d3.timeParse("%Y-%m-%d")(d.date));
-      //   const yPos = y(d.hpi);
-
-      //   circle.attr("cx", xPos)
-      //     .attr("cy", yPos);
-
-      //   // Add transition for the circle radius
-
-      //   circle.transition()
-      //     .duration(50)
-      //     .attr("r", 5);
-
-      //   // add in  our tooltip
-
-      //   tooltip
-      //     .style("display", "block")
-      //     .style("left", `${left + 75 + xPos}px`)
-      //     .style("top", `${top + yPos}px`)
-      //     .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>HPI:</strong> ${d.hpi !== undefined ? parseFloat(d.hpi).toFixed(2) : 'N/A'}`)
-      // });
-
-      // listeningRect.on("mouseleave", function () {
-      //   circle.transition()
-      //     .duration(50)
-      //     .attr("r", 0);
-
-      //   tooltip.style("display", "none");
-      // });
     }
   </script>
 </body>
