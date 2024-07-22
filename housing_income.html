@@ -133,7 +133,7 @@
         .append("g")
         .attr("transform", "translate(" + 50 + "," + 50 + ")");
 
-      console.log(data[0].date.substring(0,4));
+      // console.log(data[0].date.substring(0,4));
 
       var x = d3.scaleLinear()
       .domain([d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; })])
@@ -168,8 +168,8 @@
       .style("font-family", "sans-serif")
       .text("House Price Index");
 
-      svg.append('g')
-      .selectAll("dot")
+      svg.append("g")
+      .selectAll("circle")
       .data(data)
       .enter()
       .append("circle")
