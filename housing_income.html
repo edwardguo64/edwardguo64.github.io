@@ -142,7 +142,7 @@
       console.log(d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; }));
 
       var x = d3.scaleLinear()
-      .domain([d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; })])
+      .domain([45000, d3.max(data, function(d) { return d.hi; })])
       .range([ 0, 600 ]);
       svg.append("g")
       .attr("transform", "translate(0," + 500 + ")")
@@ -158,7 +158,7 @@
       .text("Median Household Income");
 
       var y = d3.scaleLinear()
-      .domain([d3.min(data, function(d) { return d.hpi; }), d3.max(data, function(d) { return d.hpi; })])
+      .domain([250, d3.max(data, function(d) { return d.hpi; })])
       .range([ 500, 0 ]);
       svg.append("g")
       .call(d3.axisLeft(y));
@@ -184,13 +184,13 @@
           let ir = d.ir;
 
           if (ir == "High Income") {
-            return 8;
+            return 10;
           } else if (ir == "Mid-high Income") {
-            return 6;
+            return 8;
           } else if (ir == "Mid-low Income") {
-            return 4;
+            return 6;
           } else {
-            return 2;
+            return 4;
           }
         })
         .style("fill", function (d) {
@@ -216,22 +216,32 @@
             return "purple";
           }
         })
-
-      // svg.append("path")
-      // .datum(data)
-      // .attr("fill", "none")
-      // .attr("stroke", "steelblue")
-      // .attr("stroke-width", 1.5)
-      // .attr("d", d3.line()
-      //   .x(function(d) { return x(d3.timeParse("%Y-%m-%d")(d.date)) })
-      //   .y(function(d) { return y(d.hpi) }));
+      .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseleave", mouseleave)
 
       // code from https://github.com/datavizdad/d3linechartseries/blob/main/Part3/scriptfinal.js
-      // const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
+      const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
 
-      // var offsets = document.getElementById('chart').getBoundingClientRect();
-      // var top = offsets.top;
-      // var left = offsets.left;
+      var mouseover = function(d) {
+        tooltip.style("display", "block");
+      }
+
+      var mousemove = function(d) {
+        tooltip
+          .html("State: " + d.state)
+          .style("left", (d3.mouse(this)[0]+90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+          .style("top", (d3.mouse(this)[1]) + "px")
+      }
+
+      // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
+      var mouseleave = function(d) {
+        tooltip.style("display", "none");
+      }
+
+      var offsets = document.getElementById('chart').getBoundingClientRect();
+      var top = offsets.top;
+      var left = offsets.left;
 
       // console.log(top, left)
 
