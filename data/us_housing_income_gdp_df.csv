@@ -1,4 +1,4 @@
-State,State Abbreviation,Region,Division,Date,House Price Index,Household Income,Income Range,GDP,Population
+state,state_abbr,region,division,date,hpi,hi,ir,gdp,pop
 Alabama,AL,South,East South Central,1997-01-01,187.79,31940,Low Income,105381400000,4320281
 Alabama,AL,South,East South Central,1998-01-01,197.64,36270,Mid-low Income,110838800000,4351037
 Alabama,AL,South,East South Central,1999-01-01,204.5,36250,Low Income,116514300000,4369862
