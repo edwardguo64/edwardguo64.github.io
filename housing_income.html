@@ -135,6 +135,8 @@
 
       // console.log(data[0].date.substring(0,4));
 
+      console.log(d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; }));
+
       var x = d3.scaleLinear()
       .domain([d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; })])
       .range([ 0, 600 ]);
