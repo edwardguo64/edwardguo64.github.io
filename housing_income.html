@@ -65,7 +65,7 @@
     <div class="row">
       <div class="col-sm wrapable">
         <div style="text-align: center;">
-          <h3>House Price Index (HPI) vs Median Houshold Income by State</h3>
+          <h3>House Price Index (HPI) vs Median Houshold Income by State in 2022</h3>
           <div id="chart">
             <svg width="700" height="600"></svg>
           </div>
@@ -236,7 +236,15 @@
         tooltip.style("display", "block")
           .style("left", `${left + xPos + 75}px`)
           .style("top", `${top + yPos}px`)
-          .html(`<strong>State:</strong> ${d.state}<br><strong>HPI:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(2) : 'N/A'}`)
+          .html(`<strong>State:</strong> ${d.state}<br>
+            <strong>State Abbreviation:</strong> ${d.state_abbr}<br>
+            <strong>Region:</strong> ${d.region}<br>
+            <strong>Division:</strong> ${d.division}<br>
+            <strong>HPI:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(2) : 'N/A'}<br>
+            <strong>Median Household Income:</strong> ${d.hi}<br>
+            <strong>Income Range:</strong> ${d.ir}<br>
+            <strong>GDP:</strong> ${d.gdp}<br>
+            <strong>Population:</strong> ${d.pop}<br>`)
       })
       .on("mouseleave", function() {
         tooltip.transition()
