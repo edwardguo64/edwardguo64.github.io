@@ -178,25 +178,6 @@
       // code from https://d3-graph-gallery.com/graph/scatter_tooltip.html
       const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
 
-      var mouseover = function(d) {
-        tooltip.style("display", "block");
-      }
-
-      var mousemove = function(d) {
-        tooltip.style("display", "block")
-          .style("left", `${d3.pointer(this)[0]+90}px`) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
-          .style("top", `${d3.pointer(this)[1]}px`)
-          .html(`<strong>State:</strong> ${d.state}<br><strong>HPI:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(2) : 'N/A'}`)
-        console.log(data[0].state, data[0].hpi)
-      }
-
-      // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
-      var mouseleave = function(d) {
-        tooltip.transition()
-          .duration(200)
-          .style("display", "none");
-      }
-
       console.log(data[0].state, data[0].hpi)
 
       svg.selectAll("circle")
@@ -243,9 +224,21 @@
         })
         .style("stroke", "black")
         .style("opacity", 0.7)
-      .on("mouseover", mouseover)
-      .on("mousemove", mousemove)
-      .on("mouseleave", mouseleave)
+      .on("mouseover", function(d) {
+        tooltip.style("display", "block");
+      })
+      .on("mousemove", function(d) {
+        tooltip.style("display", "block")
+          .style("left", `${d3.pointer(this)[0]+90}px`) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+          .style("top", `${d3.pointer(this)[1]}px`)
+          .html(`<strong>State:</strong> ${d.state}<br><strong>HPI:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(2) : 'N/A'}`)
+        console.log(data[0].state, data[0].hpi)
+      })
+      .on("mouseleave", function(d) {
+        tooltip.transition()
+          .duration(200)
+          .style("display", "none");
+      })
 
       // var offsets = document.getElementById('chart').getBoundingClientRect();
       // var top = offsets.top;
