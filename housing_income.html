@@ -119,6 +119,7 @@
       var data = await d3.csv("./data/us_housing_income_gdp_df.csv");
 
       console.log(data);
+      console.log(data[0]);
       console.log(d3.timeParse("%Y-%m-%d")(data[0].date));
 
       data.forEach(d => {
