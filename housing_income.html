@@ -170,8 +170,7 @@
       .style("font-family", "sans-serif")
       .text("House Price Index");
 
-      svg.append("g")
-      .selectAll("circle")
+      svg.selectAll("circle")
       .data(data)
       .enter()
       .append("circle")
