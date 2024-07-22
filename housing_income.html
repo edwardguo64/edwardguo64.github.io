@@ -125,6 +125,10 @@
 
       data.forEach(d => {
         d.date = d3.timeParse("%Y-%m-%d")(d.date);
+        d.hpi = parseFloat(d.hpi);
+        d.hi = parseInt(d.hi);
+        d.gdp = parseInt(d.gdp);
+        d.pop = parseInt(d.pop);
       });
 
       console.log(data[0].date);
@@ -138,7 +142,7 @@
       console.log(d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; }));
 
       var x = d3.scaleLinear()
-      .domain([d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; })])
+      .domain([0, d3.max(data, function(d) { return d.hi; })])
       .range([ 0, 600 ]);
       svg.append("g")
       .attr("transform", "translate(0," + 500 + ")")
@@ -154,7 +158,7 @@
       .text("Median Household Income");
 
       var y = d3.scaleLinear()
-      .domain([d3.min(data, function(d) { return d.hpi; }), d3.max(data, function(d) { return d.hpi; })])
+      .domain([0, d3.max(data, function(d) { return d.hpi; })])
       .range([ 500, 0 ]);
       svg.append("g")
       .call(d3.axisLeft(y));
