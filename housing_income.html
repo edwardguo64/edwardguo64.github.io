@@ -232,7 +232,7 @@
           .style("left", `${d3.pointer(this)[0]+90}px`) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
           .style("top", `${d3.pointer(this)[1]}px`)
           .html(`<strong>State:</strong> ${d.state}<br><strong>HPI:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(2) : 'N/A'}`)
-        console.log(data[0].state, data[0].hpi)
+        console.log(d.state, d.hpi)
       })
       .on("mouseleave", function(d) {
         tooltip.transition()
