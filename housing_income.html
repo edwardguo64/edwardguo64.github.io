@@ -116,7 +116,7 @@
 
   <script>
     async function init() {
-      var data = await d3.csv("./data/us_housing_income_gdp_df.csv");
+      var data = await d3.csv("./data/us_housing_income_gdp_2022_df.csv");
 
       console.log(data);
       console.log(data[0]);
@@ -135,8 +135,8 @@
 
       console.log(data[0].date.substring(0,4));
 
-      var x = d3.scaleTime()
-      .domain(d3.extent(data, function(d) { return d3.timeParse("%Y-%m-%d")(d.date); }))
+      var x = d3.scaleLinear()
+      .domain([d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; })])
       .range([ 0, 600 ]);
       svg.append("g")
       .attr("transform", "translate(0," + 500 + ")")
@@ -149,7 +149,7 @@
       .style("font-size", "14px")
       .style("fill", "#777")
       .style("font-family", "sans-serif")
-      .text("Year");
+      .text("Median Household Income");
 
       var y = d3.scaleLinear()
       .domain([d3.min(data, function(d) { return d.hpi; }), d3.max(data, function(d) { return d.hpi; })])
@@ -166,73 +166,117 @@
       .style("font-size", "14px")
       .style("fill", "#777")
       .style("font-family", "sans-serif")
-      .text("Total Population");
+      .text("House Price Index");
 
-      svg.append("path")
-      .datum(data)
-      .attr("fill", "none")
-      .attr("stroke", "steelblue")
-      .attr("stroke-width", 1.5)
-      .attr("d", d3.line()
-        .x(function(d) { return x(d3.timeParse("%Y-%m-%d")(d.date)) })
-        .y(function(d) { return y(d.hpi) }));
+      svg.append('g')
+      .selectAll("dot")
+      .data(data)
+      .enter()
+      .append("circle")
+        .attr("cx", function (d) { return x(d.hi); } )
+        .attr("cy", function (d) { return y(d.hpi); } )
+        .attr("r", function (d) {
+          let ir = d.ir;
+
+          if (ir == "High Income") {
+            return 8;
+          } else if (ir == "Mid-high Income") {
+            return 6;
+          } else if (ir == "Mid-low Income") {
+            return 4;
+          } else {
+            return 2;
+          }
+        })
+        .style("fill", function (d) {
+          let division = d.division;
+
+          if (division == "Pacific") {
+            return "yellow";
+          } else if (division == "Mountain") {
+            return "teal";
+          } else if (division == "West North Central") {
+            return "pink";
+          } else if (division == "West South Central") {
+            return "brown";
+          } else if (division == "East North Central") {
+            return "blue";
+          } else if (division == "East South Central") {
+            return "orange";
+          } else if (division == "New England") {
+            return "green";
+          } else if (division == "Middle Atlantic") {
+            return "red";
+          } else {
+            return "purple";
+          }
+        })
+
+      // svg.append("path")
+      // .datum(data)
+      // .attr("fill", "none")
+      // .attr("stroke", "steelblue")
+      // .attr("stroke-width", 1.5)
+      // .attr("d", d3.line()
+      //   .x(function(d) { return x(d3.timeParse("%Y-%m-%d")(d.date)) })
+      //   .y(function(d) { return y(d.hpi) }));
 
       // code from https://github.com/datavizdad/d3linechartseries/blob/main/Part3/scriptfinal.js
-      const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
+      // const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
 
-      var offsets = document.getElementById('chart').getBoundingClientRect();
-      var top = offsets.top;
-      var left = offsets.left;
+      // var offsets = document.getElementById('chart').getBoundingClientRect();
+      // var top = offsets.top;
+      // var left = offsets.left;
 
-      console.log(top, left)
+      // console.log(top, left)
 
-      const circle = svg.append("circle")
-        .attr("r", 0)
-        .attr("fill", "steelblue")
-        .style("stroke", "white")
-        .attr("opacity", .70)
-        .style("pointer-events", "none");
+      // const circle = svg.append("circle")
+      //   .attr("r", 0)
+      //   .attr("fill", "steelblue")
+      //   .style("stroke", "white")
+      //   .attr("opacity", .70)
+      //   .style("pointer-events", "none");
 
-      const listeningRect = svg.append("rect")
-        .attr("width", 600)
-        .attr("height", 500);
+      // const listeningRect = svg.append("rect")
+      //   .attr("width", 600)
+      //   .attr("height", 500);
 
-      listeningRect.on("mousemove", function (event) {
-        const [xCoord] = d3.pointer(event, this);
-        const bisectDate = d3.bisector(d => d3.timeParse("%Y-%m-%d")(d.date)).left;
-        const x0 = x.invert(xCoord);
-        const i = bisectDate(data, x0, 1);
-        const d0 = data[i - 1];
-        const d1 = data[i];
-        const d = x0 - d3.timeParse("%Y-%m-%d")(d0.date) > d3.timeParse("%Y-%m-%d")(d1.date) - x0 ? d1 : d0;
-        const xPos = x(d3.timeParse("%Y-%m-%d")(d.date));
-        const yPos = y(d.hpi);
+      // listeningRect.on("mousemove", function (event) {
+      //   const [xCoord] = d3.pointer(event, this);
+      //   const bisectDate = d3.bisector(d => d3.timeParse("%Y-%m-%d")(d.date)).left;
+      //   const x0 = x.invert(xCoord);
+      //   const i = bisectDate(data, x0, 1);
+      //   const d0 = data[i - 1];
+      //   const d1 = data[i];
+      //   const d = x0 - d3.timeParse("%Y-%m-%d")(d0.date) > d3.timeParse("%Y-%m-%d")(d1.date) - x0 ? d1 : d0;
+      //   const xPos = x(d3.timeParse("%Y-%m-%d")(d.date));
+      //   const yPos = y(d.hpi);
 
-        circle.attr("cx", xPos)
-          .attr("cy", yPos);
+      //   circle.attr("cx", xPos)
+      //     .attr("cy", yPos);
 
-        // Add transition for the circle radius
+      //   // Add transition for the circle radius
 
-        circle.transition()
-          .duration(50)
-          .attr("r", 5);
+      //   circle.transition()
+      //     .duration(50)
+      //     .attr("r", 5);
 
-        // add in  our tooltip
+      //   // add in  our tooltip
 
-        tooltip
-          .style("display", "block")
-          .style("left", `${left + 75 + xPos}px`)
-          .style("top", `${top + yPos}px`)
-          .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>HPI:</strong> ${d.hpi !== undefined ? parseFloat(d.hpi).toFixed(2) : 'N/A'}`)
-      });
+      //   tooltip
+      //     .style("display", "block")
+      //     .style("left", `${left + 75 + xPos}px`)
+      //     .style("top", `${top + yPos}px`)
+      //     .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>HPI:</strong> ${d.hpi !== undefined ? parseFloat(d.hpi).toFixed(2) : 'N/A'}`)
+      // });
 
-      listeningRect.on("mouseleave", function () {
-        circle.transition()
-          .duration(50)
-          .attr("r", 0);
+      // listeningRect.on("mouseleave", function () {
+      //   circle.transition()
+      //     .duration(50)
+      //     .attr("r", 0);
 
-        tooltip.style("display", "none");
-      });
+      //   tooltip.style("display", "none");
+      // });
     }
   </script>
 </body>

@@ -1,0 +1,52 @@
+state,state_abbr,region,division,date,hpi,hi,ir,gdp,pop
+Alabama,AL,South,East South Central,2022-01-01,433.72,59910,Low Income,281569000000,5073903
+Alaska,AK,West,Pacific,2022-01-01,393.97,89740,High Income,65698800000,733276
+Arizona,AZ,West,Mountain,2022-01-01,643.76,73450,Mid-high Income,475653700000,7365684
+Arkansas,AR,South,West South Central,2022-01-01,378.23,53980,Low Income,165989300000,3046404
+California,CA,West,Pacific,2022-01-01,868.25,85300,High Income,3641643400000,39040616
+Colorado,CO,West,Mountain,2022-01-01,773.68,89930,High Income,491289000000,5841039
+Connecticut,CT,Northeast,New England,2022-01-01,521.94,90730,High Income,319344800000,3608706
+Delaware,DE,South,South Atlantic,2022-01-01,605.35,80750,Mid-high Income,90208300000,1019459
+District of Columbia,DC,South,South Atlantic,2022-01-01,1059.99,101700,High Income,165060500000,670949
+Florida,FL,South,South Atlantic,2022-01-01,678.29,65370,Low Income,1439065000000,22245521
+Georgia,GA,South,South Atlantic,2022-01-01,525.12,67730,Mid-low Income,767377600000,10913150
+Hawaii,HI,West,Pacific,2022-01-01,795.93,91010,High Income,101082600000,1439399
+Idaho,ID,West,Mountain,2022-01-01,716.58,72580,Mid-low Income,110871100000,1938996
+Illinois,IL,Midwest,East North Central,2022-01-01,419.5,78020,Mid-high Income,1025667200000,12582515
+Indiana,IN,Midwest,East North Central,2022-01-01,411.1,70030,Mid-low Income,470323600000,6832274
+Iowa,IA,Midwest,West North Central,2022-01-01,365.89,76320,Mid-high Income,238342300000,3199693
+Kansas,KS,Midwest,West North Central,2022-01-01,374.45,73040,Mid-low Income,209326100000,2936716
+Kentucky,KY,South,East South Central,2022-01-01,452.89,55880,Low Income,258981200000,4511563
+Louisiana,LA,South,West South Central,2022-01-01,342.01,58330,Low Income,291951900000,4588023
+Maine,ME,Northeast,New England,2022-01-01,778.08,75160,Mid-high Income,85801200000,1389338
+Maryland,MD,South,South Atlantic,2022-01-01,599.14,108200,High Income,480112700000,6163981
+Massachusetts,MA,Northeast,New England,2022-01-01,1035.23,93550,High Income,691460600000,6982740
+Michigan,MI,Midwest,East North Central,2022-01-01,444.6,68990,Mid-low Income,622562700000,10033281
+Minnesota,MN,Midwest,West North Central,2022-01-01,511.54,90390,High Income,448032400000,5714300
+Mississippi,MS,South,East South Central,2022-01-01,345.23,48610,Low Income,139976400000,2938928
+Missouri,MO,Midwest,West North Central,2022-01-01,442.54,71520,Mid-low Income,396889900000,6177168
+Montana,MT,West,Mountain,2022-01-01,677.68,72980,Mid-low Income,67071899999,1122878
+Nebraska,NE,Midwest,West North Central,2022-01-01,429.29,78360,Mid-high Income,164933900000,1968060
+Nevada,NV,West,Mountain,2022-01-01,565.52,72330,Mid-low Income,222938600000,3177421
+New Hampshire,NH,Northeast,New England,2022-01-01,673.98,84970,Mid-high Income,105024600000,1399003
+New Jersey,NJ,Northeast,Middle Atlantic,2022-01-01,684.97,92340,High Income,754948200000,9260817
+New Mexico,NM,West,Mountain,2022-01-01,443.61,56420,Low Income,125540600000,2113476
+New York,NY,Northeast,Middle Atlantic,2022-01-01,876.38,75910,Mid-high Income,2048402600000,19673200
+North Carolina,NC,South,South Atlantic,2022-01-01,547.47,65070,Low Income,715968300000,10695965
+North Dakota,ND,Midwest,West North Central,2022-01-01,425.3,78720,Mid-high Income,72651300000,778912
+Ohio,OH,Midwest,East North Central,2022-01-01,392.43,67520,Mid-low Income,825990000000,11759697
+Oklahoma,OK,South,West South Central,2022-01-01,321.97,63440,Low Income,242738500000,4019271
+Oregon,OR,West,Pacific,2022-01-01,776.76,86780,High Income,297308900000,4239379
+Pennsylvania,PA,Northeast,Middle Atlantic,2022-01-01,559.06,72210,Mid-low Income,911813300000,12972091
+Rhode Island,RI,Northeast,New England,2022-01-01,768.3,80650,Mid-high Income,72771400000,1093842
+South Carolina,SC,South,South Atlantic,2022-01-01,545.05,61770,Low Income,297546300000,5282955
+South Dakota,SD,Midwest,West North Central,2022-01-01,518.84,67180,Low Income,68781700000,909869
+Tennessee,TN,South,East South Central,2022-01-01,558.95,65380,Low Income,485657500000,7048976
+Texas,TX,South,West South Central,2022-01-01,459.12,74640,Mid-high Income,2402137200000,30029848
+Utah,UT,West,Mountain,2022-01-01,754.63,95800,High Income,256369900000,3381236
+Vermont,VT,Northeast,New England,2022-01-01,648.37,72190,Mid-low Income,40830800000,647110
+Virginia,VA,South,South Atlantic,2022-01-01,600.85,85170,Mid-high Income,663105500000,8679099
+Washington,WA,West,Pacific,2022-01-01,910.69,89430,High Income,738101400000,7784477
+West Virginia,WV,South,South Atlantic,2022-01-01,281.43,52460,Low Income,97417300000,1774035
+Wisconsin,WI,Midwest,East North Central,2022-01-01,463.2,73330,Mid-high Income,396209300000,5890543
+Wyoming,WY,West,Mountain,2022-01-01,416.05,73090,Mid-low Income,49080600000,581629
