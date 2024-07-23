@@ -128,7 +128,7 @@
         .append("g")
         .attr("transform", "translate(" + 50 + "," + 50 + ")");
 
-      var x = d3.scaleLinear()
+      var x = d3.scaleLog()
       .domain([0.5, d3.max(data, function(d) { return d.pop / 1.0e+6; })])
       .range([ 0, 600 ]);
       svg.append("g")
