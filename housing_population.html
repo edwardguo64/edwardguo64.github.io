@@ -129,7 +129,7 @@
         .attr("transform", "translate(" + 50 + "," + 50 + ")");
 
       var x = d3.scaleLinear()
-      .domain([d3.min(data, function(d) { return d.pop / 1.0e+6; }), d3.max(data, function(d) { return d.pop / 1.0e+6; })])
+      .domain([0.5, d3.max(data, function(d) { return d.pop / 1.0e+6; })])
       .range([ 0, 600 ]);
       svg.append("g")
       .attr("transform", "translate(0," + 500 + ")")
@@ -177,7 +177,7 @@
       .data(data)
       .enter()
       .append("circle")
-        .attr("cx", function (d) { return x(d.gdp / 1.0e+6); } )
+        .attr("cx", function (d) { return x(d.pop / 1.0e+6); } )
         .attr("cy", function (d) { return y(d.hpi); } )
         .attr("r", function (d) { return 10; })
         .style("fill", function (d) {
