@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Housing Prices Narative Visualization</title>
+  <!-- <script src="js/d3.min.js"></script>
+  <script src="js/d3-annotation.min.js"></script> -->
+  <style>
+     rect {
+      pointer-events: all;
+      fill-opacity: 0;
+      stroke-opacity: 0;
+      z-index: 1;
+    }
+
+    .tooltip {
+      position: absolute;
+      padding: 10px;
+      background-color: steelblue;
+      color: white;
+      border: 1px solid white;
+      border-radius: 10px;
+      display: none;
+      opacity: .90;
+    }
+  </style>
+</head>
+
+<body onload="init()">
+  <div class="container">
+    <div class="container jumbotron banner">
+      <div class="header">
+        <a style="color:black" href="./">
+          <h1 style="text-align:center;">The Effect of the Economy by State On Housing Prices</h1>
+        </a>
+        <p style="text-align:center;">Narrative Visualization by Edward Guo for CS 416</p>
+      </div>
+    </div>
+
+    <div id="intro">
+      <h2>Introduction</h2>
+      <u1>
+        <li>
+          With the housing market not performing as well as it once was, an investigation into trends with the economy and changes within the last 25 years since 1997 would provide some insight into the current state of the housing market.
+        </li>
+        <li>
+          An attempt to look into how the population for each state will be provided along with the GDP and household income of each state.
+        </li>
+        <li>
+          This will be attempted within an interactive slideshow which will detail each of the metrics above and provide context behind those changes.
+        </li>
+      </u1>
+      <br>
+      <div class="mt-30">
+        <em>Data: https://fred.stlouisfed.org/</em>
+      </div>
+      <hr>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm">
+        <h3 style="text-align:center;">House Price Index (HPI) vs Population in Millions by State in 2022</h3>
+        <div style="text-align: center;">
+          <div id="chart">
+            <svg id="plot" width="700" height="600"></svg>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <h5>Legend</h5>
+        <svg id="legend" width="120" height="150"></svg>
+      </div>
+      <div class="col-sm">
+        <div valign="top" class="wrapable right-panel wrapped">
+          <nav style="display: inline;">
+            <ul class="pagination pagination-sm">
+              <li>
+                <h4 style="margin-right: 10px;">Chart Navigation:</h4>
+              </li>
+              <li class="page-item"><a class="page-link" href="./housing_income.html">&lt;</a></li>
+              <li class="page-item"><a class="page-link" href="./">1</a></li>
+              <li class="page-item"><a class="page-link" href="./housing_income.html">2</a></li>
+              <li class="page-item active"><a class="page-link" href="./housing_population.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="./housing_gdp.html">4</a></li>
+              <li class="page-item"><a class="page-link" href="./housing_gdp.html">&gt;</a></li>
+            </ul>
+          </nav>
+          <hr>
+          <div id='annotations'>
+            <h3>Annotations</h3>
+            <h4>No noticeable relation between GDP and HPI</h4>
+            <ul>
+              <li>Higher GDP tend to be concentrated within major metro areas</li>
+              <li>States with greater area have places to develop more housing bringing HPI down</li>
+              <li>District of Columbia has high HPI because it is a major city area but does not have area to develop further housing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function init() {
+      var data = await d3.csv("./data/us_housing_income_gdp_2022_df.csv");
+
+      console.log(data);
+      console.log(data[0]);
+      console.log(data[0].date);
+      console.log(d3.timeParse("%Y-%m-%d")(data[0].date));
+
+      data.forEach(d => {
+        d.date = d3.timeParse("%Y-%m-%d")(d.date);
+        d.hpi = parseFloat(d.hpi);
+        d.hi = parseInt(d.hi);
+        d.gdp = parseInt(d.gdp);
+        d.pop = parseInt(d.pop);
+      });
+
+      console.log(data[0].date);
+
+      var svg = d3.select("#plot")
+        .append("g")
+        .attr("transform", "translate(" + 50 + "," + 50 + ")");
+
+      var x = d3.scaleLog()
+      .domain([d3.min(data, function(d) { return d.pop / 1.0e+6; }), d3.max(data, function(d) { return d.pop / 1.0e+6; })])
+      .range([ 0, 600 ]);
+      svg.append("g")
+      .attr("transform", "translate(0," + 500 + ")")
+      .call(d3.axisBottom(x));
+
+      svg.append("text")
+      .attr("y", 530)
+      .attr("x", 300)
+      .style("text-anchor", "middle")
+      .style("font-size", "14px")
+      .style("fill", "#777")
+      .style("font-family", "sans-serif")
+      .text("Gross Domestic Product in Millions");
+
+      var y = d3.scaleLinear()
+      .domain([250, d3.max(data, function(d) { return d.hpi; })])
+      .range([ 500, 0 ]);
+      svg.append("g")
+      .call(d3.axisLeft(y));
+
+      svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - 50)
+      .attr("x", 0 - (500 / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .style("font-size", "14px")
+      .style("fill", "#777")
+      .style("font-family", "sans-serif")
+      .text("House Price Index");
+
+      // code from https://github.com/datavizdad/d3linechartseries/blob/main/Part3/scriptfinal.js
+      // code from https://d3-graph-gallery.com/graph/scatter_tooltip.html
+      const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
+
+      console.log(data[0].state, data[0].hpi)
+
+      var offsets = document.getElementById('chart').getBoundingClientRect();
+      var top = offsets.top;
+      var left = offsets.left;
+
+      nfObject = new Intl.NumberFormat('en-US');
+
+      svg.append("g").selectAll("dot")
+      .data(data)
+      .enter()
+      .append("circle")
+        .attr("cx", function (d) { return x(d.gdp / 1.0e+6); } )
+        .attr("cy", function (d) { return y(d.hpi); } )
+        .attr("r", function (d) { return 10; })
+        .style("fill", function (d) {
+          let division = d.division;
+
+          if (division == "Pacific") {
+            return "yellow";
+          } else if (division == "Mountain") {
+            return "teal";
+          } else if (division == "West North Central") {
+            return "pink";
+          } else if (division == "West South Central") {
+            return "brown";
+          } else if (division == "East North Central") {
+            return "blue";
+          } else if (division == "East South Central") {
+            return "orange";
+          } else if (division == "New England") {
+            return "green";
+          } else if (division == "Middle Atlantic") {
+            return "red";
+          } else {
+            return "purple";
+          }
+        })
+        .style("stroke", "black")
+        .style("opacity", 0.7)
+      .on("mouseover", function() {
+        tooltip.style("display", "block");
+      })
+      .on("mousemove", function(event, d) {
+        const xPos = d3.pointer(event,this)[0]
+        const yPos = d3.pointer(event,this)[1]
+
+        tooltip.style("display", "block")
+          .style("left", `${left + xPos + 75}px`)
+          .style("top", `${top + yPos - 100}px`)
+          .html(`<strong>State:</strong> ${d.state}<br>
+            <strong>State Abbreviation:</strong> ${d.state_abbr}<br>
+            <strong>Region:</strong> ${d.region}<br>
+            <strong>Division:</strong> ${d.division}<br>
+            <strong>HPI:</strong> ${d.hpi !== undefined ? d.hpi.toFixed(2) : 'N/A'}<br>
+            <strong>Median Household Income:</strong> ${nfObject.format(d.hi)}<br>
+            <strong>Income Range:</strong> ${d.ir}<br>
+            <strong>GDP:</strong> ${d.gdp / 1.0e+6} M<br>
+            <strong>Population:</strong> ${d.pop / 1.0e+6} M<br>`)
+      })
+      .on("mouseleave", function() {
+        tooltip.transition()
+          .duration(50)
+          .style("display", "none");
+      })
+
+      var legend = d3.select("#legend");
+
+      legend.append("circle").attr("cx",10).attr("cy",10).attr("r", 4).style("fill", "yellow");
+      legend.append("circle").attr("cx",10).attr("cy",25).attr("r", 4).style("fill", "teal");
+      legend.append("circle").attr("cx",10).attr("cy",40).attr("r", 4).style("fill", "pink");
+      legend.append("circle").attr("cx",10).attr("cy",55).attr("r", 4).style("fill", "brown");
+      legend.append("circle").attr("cx",10).attr("cy",70).attr("r", 4).style("fill", "blue");
+      legend.append("circle").attr("cx",10).attr("cy",85).attr("r", 4).style("fill", "orange");
+      legend.append("circle").attr("cx",10).attr("cy",100).attr("r", 4).style("fill", "green");
+      legend.append("circle").attr("cx",10).attr("cy",115).attr("r", 4).style("fill", "red");
+      legend.append("circle").attr("cx",10).attr("cy",130).attr("r", 4).style("fill", "purple");
+      legend.append("text").attr("x", 20).attr("y", 15).text("Pacific").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 30).text("Mountain").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 45).text("West North Central").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 60).text("West South Central").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 75).text("East North Central").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 90).text("East South Central").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 105).text("New England").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 120).text("Middle Atlantic").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 135).text("South Atlantic").style("font-size", "10px").attr("alignment-baseline","middle");
+    }
+  </script>
+</body>
+
+</html>
