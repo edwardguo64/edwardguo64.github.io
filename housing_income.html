@@ -71,8 +71,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <svg id="legend" width="100" height="100"></svg>
+      <div class="col-auto">
+        <svg id="legend" width="100" height="150"></svg>
       </div>
       <div class="col-sm">
         <div valign="top" class="wrapable right-panel wrapped">
@@ -249,8 +249,22 @@
 
       legend.append("circle").attr("cx",10).attr("cy",10).attr("r", 4).style("fill", "yellow");
       legend.append("circle").attr("cx",10).attr("cy",25).attr("r", 4).style("fill", "teal");
-      legend.append("text").attr("x", 20).attr("y", 10).text("Pacific").style("font-size", "10px").attr("alignment-baseline","middle");
-      legend.append("text").attr("x", 20).attr("y", 25).text("Mountain").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("circle").attr("cx",10).attr("cy",40).attr("r", 4).style("fill", "pink");
+      legend.append("circle").attr("cx",10).attr("cy",55).attr("r", 4).style("fill", "brown");
+      legend.append("circle").attr("cx",10).attr("cy",70).attr("r", 4).style("fill", "blue");
+      legend.append("circle").attr("cx",10).attr("cy",85).attr("r", 4).style("fill", "orange");
+      legend.append("circle").attr("cx",10).attr("cy",100).attr("r", 4).style("fill", "green");
+      legend.append("circle").attr("cx",10).attr("cy",115).attr("r", 4).style("fill", "red");
+      legend.append("circle").attr("cx",10).attr("cy",130).attr("r", 4).style("fill", "purple");
+      legend.append("text").attr("x", 20).attr("y", 15).text("Pacific").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 30).text("Mountain").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 45).text("West North Central").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 60).text("West South Central").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 75).text("East North Central").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 90).text("East South Central").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 105).text("New England").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 120).text("Middle Atlantic").style("font-size", "10px").attr("alignment-baseline","middle");
+      legend.append("text").attr("x", 20).attr("y", 135).text("South Atlantic").style("font-size", "10px").attr("alignment-baseline","middle");
     }
   </script>
 </body>
