@@ -36,7 +36,7 @@
     <div class="container jumbotron banner">
       <div class="header">
         <a style="color:black" href="./">
-          <h1>The Effect of the Economy by State On Housing Prices</h1>
+          <h1 style="text-align:center;">The Effect of the Economy by State On Housing Prices</h1>
         </a>
         <p>Narrative Visualization by Edward Guo for CS 416</p>
       </div>
@@ -64,7 +64,7 @@
     
     <div class="row">
       <div class="col-sm">
-        <h3>House Price Index (HPI) vs Gross Domestic Product (GDP) by State in 2022</h3>
+        <h3 style="text-align:center;">House Price Index (HPI) vs Gross Domestic Product (GDP) by State in 2022</h3>
         <div style="text-align: center;">
           <div id="chart">
             <svg id="plot" width="700" height="600"></svg>
@@ -128,10 +128,8 @@
         .append("g")
         .attr("transform", "translate(" + 50 + "," + 50 + ")");
 
-      console.log(d3.min(data, function(d) { return d.hi; }), d3.max(data, function(d) { return d.hi; }));
-
       var x = d3.scaleLinear()
-      .domain([45000, d3.max(data, function(d) { return d.hi; })])
+      .domain([d3.min(data, function(d) { return d.gdp; }), d3.max(data, function(d) { return d.gdp; })])
       .range([ 0, 600 ]);
       svg.append("g")
       .attr("transform", "translate(0," + 500 + ")")
@@ -144,7 +142,7 @@
       .style("font-size", "14px")
       .style("fill", "#777")
       .style("font-family", "sans-serif")
-      .text("Median Household Income");
+      .text("Gross Domestic Product");
 
       var y = d3.scaleLinear()
       .domain([250, d3.max(data, function(d) { return d.hpi; })])
@@ -179,9 +177,20 @@
       .data(data)
       .enter()
       .append("circle")
-        .attr("cx", function (d) { return x(d.hi); } )
+        .attr("cx", function (d) { return x(d.gdp); } )
         .attr("cy", function (d) { return y(d.hpi); } )
-        .attr("r", function (d) { return 10; })
+        .attr("r", function (d) {
+          let ir = d.ir;
+          if (ir == "High Income") {
+            return 10;
+          } else if (ir == "Mid-high Income") {
+            return 8;
+          } else if (ir == "Mid-low Income") {
+            return 6;
+          } else {
+            return 4;
+          }
+        })
         .style("fill", function (d) {
           let division = d.division;
 
