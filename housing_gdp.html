@@ -38,7 +38,7 @@
         <a style="color:black" href="./">
           <h1 style="text-align:center;">The Effect of the Economy by State On Housing Prices</h1>
         </a>
-        <p>Narrative Visualization by Edward Guo for CS 416</p>
+        <p style="text-align:center;">Narrative Visualization by Edward Guo for CS 416</p>
       </div>
     </div>
 
@@ -64,7 +64,7 @@
     
     <div class="row">
       <div class="col-sm">
-        <h3 style="text-align:center;">House Price Index (HPI) vs Gross Domestic Product (GDP) by State in 2022</h3>
+        <h3 style="text-align:center;">House Price Index (HPI) vs Gross Domestic Product (GDP) in Millions by State in 2022</h3>
         <div style="text-align: center;">
           <div id="chart">
             <svg id="plot" width="700" height="600"></svg>
@@ -129,7 +129,7 @@
         .attr("transform", "translate(" + 50 + "," + 50 + ")");
 
       var x = d3.scaleLog()
-      .domain([d3.min(data, function(d) { return d.gdp; }), d3.max(data, function(d) { return d.gdp; })])
+      .domain([30000, d3.max(data, function(d) { return d.gdp / 1.0e+6; })])
       .range([ 0, 600 ]);
       svg.append("g")
       .attr("transform", "translate(0," + 500 + ")")
@@ -142,7 +142,7 @@
       .style("font-size", "14px")
       .style("fill", "#777")
       .style("font-family", "sans-serif")
-      .text("Gross Domestic Product");
+      .text("Gross Domestic Product in Millions");
 
       var y = d3.scaleLinear()
       .domain([250, d3.max(data, function(d) { return d.hpi; })])
@@ -177,7 +177,7 @@
       .data(data)
       .enter()
       .append("circle")
-        .attr("cx", function (d) { return x(d.gdp); } )
+        .attr("cx", function (d) { return x(d.gdp / 1.0e+6); } )
         .attr("cy", function (d) { return y(d.hpi); } )
         .attr("r", function (d) {
           let ir = d.ir;
