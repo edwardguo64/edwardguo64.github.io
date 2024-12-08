@@ -1,235 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-  <title>Housing Prices Narative Visualization</title>
-  <!-- <script src="js/d3.min.js"></script>
-  <script src="js/d3-annotation.min.js"></script> -->
-  <style>
-     rect {
-      pointer-events: all;
-      fill-opacity: 0;
-      stroke-opacity: 0;
-      z-index: 1;
-    }
-
-    .tooltip {
-      position: absolute;
-      padding: 10px;
-      background-color: steelblue;
-      color: white;
-      border: 1px solid white;
-      border-radius: 10px;
-      display: none;
-      opacity: .75;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - GitHub Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        section {
+            padding: 1rem 2rem;
+        }
+        .repository {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin: 1rem 0;
+            background: #fff;
+            border-radius: 5px;
+        }
+        .repository h3 {
+            margin: 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
-
-<body onload="init()">
-  <div class="container">
-    <div class="container jumbotron banner">
-      <div class="header">
-        <a style="color:black" href="./">
-          <h1 style="text-align:center;">The Effect of the Economy by State On Housing Prices</h1>
-        </a>
-        <p style="text-align:center;">Narrative Visualization by Edward Guo for CS 416</p>
-      </div>
-    </div>
-
-    <div id="intro">
-      <h2>Introduction</h2>
-      <u1>
-        <li>
-          With the housing market not performing as well as it once was, an investigation into trends with the economy and changes within the last 25 years since 1997 would provide some insight into the current state of the housing market.
-        </li>
-        <li>
-          An attempt to look into how the population for each state will be provided along with the GDP and household income of each state.
-        </li>
-        <li>
-          This will be attempted within an interactive slideshow which will detail each of the metrics above and provide context behind those changes.
-        </li>
-      </u1>
-      <br>
-      <div class="mt-30">
-        <em>Data: https://fred.stlouisfed.org/</em>
-      </div>
-      <hr>
-    </div>
-    
-    <div class="row">
-      <div class="col-sm wrapable">
-        <div style="text-align: center;">
-          <h3 style="text-align:center;">House Price Index (HPI) vs Time for US Average</h3>
-          <div id="chart">
-            <svg width="700" height="600"></svg>
-          </div>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Welcome to my GitHub portfolio!</p>
+        <nav>
+            <a href="#bio">About Me</a>
+            <a href="#repos">Repositories</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>Hi, I'm Edward Guo. I'm a software developer passionate about open source, web development, and building cool projects. Check out my GitHub repositories below!</p>
+    </section>
+    <section id="repos">
+        <h2>My GitHub Repositories</h2>
+        <div class="repository">
+            <h3><a href="https://github.com/edwardguo64/ece385-final-project" target="_blank">ECE 385 Final Project</a></h3>
+            <p>Tetris on the DE-10 FPGA</p>
+            <p><strong>Technologies:</strong> SystemVerilog, C, Intel Quartus</p>
         </div>
-      </div>
-      <div class="col-auto">
-        <svg id="legend" width="120" height="150"></svg>
-      </div>
-      <div class="col-sm">
-        <div valign="top" class="wrapable right-panel wrapped">
-          <nav style="display: inline;">
-            <ul class="pagination pagination-sm">
-              <li>
-                <h4 style="margin-right: 10px;">Chart Navigation:</h4>
-              </li>
-              <li class="page-item disabled"><a class="page-link" href="./">&lt;</a></li>
-              <li class="page-item active"><a class="page-link" href="./">1</a></li>
-              <li class="page-item"><a class="page-link" href="./housing_income.html">2</a></li>
-              <li class="page-item"><a class="page-link" href="./housing_population.html">3</a></li>
-              <li class="page-item"><a class="page-link" href="./housing_gdp.html">4</a></li>
-              <li class="page-item"><a class="page-link" href="./housing_income.html">&gt;</a></li>
-            </ul>
-          </nav>
-          <hr>
-          <div id='annotations'>
-            <h3>Annotations</h3>
-            <h4>The increase in the house price index in the early 2000s</h4>
-            <ul>
-              <li>Increase in subprime mortgage lending</li>
-              <li>The share of loans originated by lenders with dubious practices</li>
-              <li>The availability of nontraditional funding sources</li>
-              <li>The rise of private label securitization</li>
-            </ul>
-            <h4>The housing crash of 2008</h4>
-            <ul>
-              <li>Expansion of credit supply due to the originate-to-distribute model of securitization</li>
-              <li>Lenders with poor origination practices</li>
-              <li>The availability of funding through nontraditional sources and the rise in private-label securitization</li>
-            </ul>
-            <h4>Recent Increase in HPI</h4>
-            <ul>
-              <li>Low mortgage interest rates have made borrowing cheaper</li>
-              <li>Shortage of available homes for sale</li>
-              <li>Increased demand for housing</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    async function init() {
-      var data = await d3.csv("./data/us_avg_year.csv");
-
-      console.log(data);
-      console.log(d3.timeParse("%Y-%m-%d")(data[0].date));
-
-      var svg = d3.select("svg")
-        .append("g")
-        .attr("transform", "translate(" + 50 + "," + 50 + ")");
-
-      console.log(data[0].date.substring(0,4));
-
-      var x = d3.scaleTime()
-      .domain(d3.extent(data, function(d) { return d3.timeParse("%Y-%m-%d")(d.date); }))
-      .range([ 0, 600 ]);
-      svg.append("g")
-      .attr("transform", "translate(0," + 500 + ")")
-      .call(d3.axisBottom(x));
-
-      svg.append("text")
-      .attr("y", 530)
-      .attr("x", 300)
-      .style("text-anchor", "middle")
-      .style("font-size", "14px")
-      .style("fill", "#777")
-      .style("font-family", "sans-serif")
-      .text("Year");
-
-      var y = d3.scaleLinear()
-      .domain([d3.min(data, function(d) { return d.hpi; }), d3.max(data, function(d) { return d.hpi; })])
-      .range([ 500, 0 ]);
-      svg.append("g")
-      .call(d3.axisLeft(y));
-
-      svg.append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 0 - 50)
-      .attr("x", 0 - (500 / 2))
-      .attr("dy", "1em")
-      .style("text-anchor", "middle")
-      .style("font-size", "14px")
-      .style("fill", "#777")
-      .style("font-family", "sans-serif")
-      .text("House Price Index");
-
-      svg.append("path")
-      .datum(data)
-      .attr("fill", "none")
-      .attr("stroke", "steelblue")
-      .attr("stroke-width", 1.5)
-      .attr("d", d3.line()
-        .x(function(d) { return x(d3.timeParse("%Y-%m-%d")(d.date)) })
-        .y(function(d) { return y(d.hpi) }));
-
-      // code from https://github.com/datavizdad/d3linechartseries/blob/main/Part3/scriptfinal.js
-      const tooltip = d3.select("#chart").append("div").attr("class","tooltip");
-
-      var offsets = document.getElementById('chart').getBoundingClientRect();
-      var top = offsets.top;
-      var left = offsets.left;
-
-      console.log(top, left)
-
-      const circle = svg.append("circle")
-        .attr("r", 0)
-        .attr("fill", "steelblue")
-        .style("stroke", "white")
-        .attr("opacity", .70)
-        .style("pointer-events", "none");
-
-      const listeningRect = svg.append("rect")
-        .attr("width", 600)
-        .attr("height", 500);
-
-      listeningRect.on("mousemove", function (event) {
-        const [xCoord] = d3.pointer(event, this);
-        const bisectDate = d3.bisector(d => d3.timeParse("%Y-%m-%d")(d.date)).left;
-        const x0 = x.invert(xCoord);
-        const i = bisectDate(data, x0, 1);
-        const d0 = data[i - 1];
-        const d1 = data[i];
-        const d = x0 - d3.timeParse("%Y-%m-%d")(d0.date) > d3.timeParse("%Y-%m-%d")(d1.date) - x0 ? d1 : d0;
-        const xPos = x(d3.timeParse("%Y-%m-%d")(d.date));
-        const yPos = y(d.hpi);
-
-        circle.attr("cx", xPos)
-          .attr("cy", yPos);
-
-        // Add transition for the circle radius
-
-        circle.transition()
-          .duration(50)
-          .attr("r", 5);
-
-        // add in  our tooltip
-
-        tooltip
-          .style("display", "block")
-          .style("left", `${left + 75 + xPos}px`)
-          .style("top", `${top + yPos}px`)
-          .html(`<strong>Date:</strong> ${d3.timeParse("%Y-%m-%d")(d.date).toLocaleDateString()}<br><strong>HPI:</strong> ${d.hpi !== undefined ? parseFloat(d.hpi).toFixed(2) : 'N/A'}`)
-      });
-
-      listeningRect.on("mouseleave", function () {
-        circle.transition()
-          .duration(50)
-          .attr("r", 0);
-
-        tooltip.style("display", "none");
-      });
-    }
-  </script>
+        <!-- Add more repositories here -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out!</p>
+        <p>Email: <a href="mailto:edwardguo64@gmail.com">edwardguo64@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/edwardguo64" target="_blank">https://github.com/edwardguo64</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Edward Guo. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
