@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,11 +14,21 @@
             background-color: #f4f4f9;
             color: #333;
         }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
         header {
             background: #333;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            border-radius: 6px 6px 0 0;
         }
         header h1 {
             margin: 0;
@@ -33,13 +44,13 @@
             font-size: 1.1rem;
         }
         section {
-            padding: 1rem 2rem;
+            padding: 1rem 0;
         }
         .repository {
             border: 1px solid #ccc;
             padding: 1rem;
             margin: 1rem 0;
-            background: #fff;
+            background: #f9f9f9;
             border-radius: 5px;
         }
         .repository h3 {
@@ -51,47 +62,50 @@
             text-align: center;
             padding: 1rem 0;
             margin-top: 2rem;
+            border-radius: 0 0 6px 6px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Edward Guo</h1>
-        <p>Welcome to my GitHub portfolio!</p>
-        <nav>
-            <a href="#bio">About Me</a>
-            <a href="#repos">Repositories</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <section id="bio">
-        <h2>About Me</h2>
-        <p>Hi, I'm Edward Guo. I'm a Verification Engineer passionate about computer architecture, computer systems,
-          and hardware/software co-design. I am looking for full-time hardware or software positions focusing on
-          logic design, FPGA programming, or systems programming. I have been learning computer programming for about
-          8 years and digital design for about 7 years. The languages that I have used are Python, C, x86, C++, C#,
-          and JavaScript and I have programmed FPGAs in HLS, SystemVerilog, and Verilog. Check out my GitHub repositories
-          below!
-        </p>
-    </section>
-    <section id="repos">
-        <h2>My GitHub Repositories</h2>
-        <div class="repository">
-            <h3><a href="https://github.com/edwardguo64/ece385-final-project" target="_blank">ECE 385 Final Project</a></h3>
-            <p>Tetris on the DE-10 FPGA</p>
-            <p><strong>Technologies:</strong> SystemVerilog, C, Intel Quartus</p>
-        </div>
-        <!-- Add more repositories here -->
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you'd like to get in touch, feel free to reach out!</p>
-        <p>Email: <a href="mailto:edwardguo64@gmail.com">edwardguo64@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/edwardguo64" target="_blank">https://github.com/edwardguo64</a></p>
-        <p>Linkedin: <a href="https://www.linkedin.com/in/edward-guo-3b850818a/" target="_blank">https://www.linkedin.com/in/edward-guo-3b850818a/</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Edward Guo. All rights reserved.</p>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>Edward Guo</h1>
+            <p>Welcome to my GitHub portfolio!</p>
+            <nav>
+                <a href="#bio">About Me</a>
+                <a href="#repos">Repositories</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <section id="bio">
+            <h2>About Me</h2>
+            <p>Hi, I'm Edward Guo. I'm a Verification Engineer passionate about computer architecture, computer systems,
+              and hardware/software co-design. I am looking for full-time hardware or software positions focusing on
+              logic design, FPGA programming, or systems programming. I have been learning computer programming for about
+              8 years and digital design for about 7 years. The languages that I have used are Python, C, x86, C++, C#,
+              and JavaScript and I have programmed FPGAs in HLS, SystemVerilog, and Verilog. Check out my GitHub repositories
+              below!
+            </p>
+        </section>
+        <section id="repos">
+            <h2>My GitHub Repositories</h2>
+            <div class="repository">
+                <h3><a href="https://github.com/edwardguo64/ece385-final-project" target="_blank">ECE 385 Final Project</a></h3>
+                <p>Tetris on the DE-10 FPGA</p>
+                <p><strong>Technologies:</strong> SystemVerilog, C, Intel Quartus</p>
+            </div>
+            <!-- Add more repositories here -->
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out!</p>
+            <p>Email: <a href="mailto:edwardguo64@gmail.com">edwardguo64@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/edwardguo64" target="_blank">https://github.com/edwardguo64</a></p>
+            <p>Linkedin: <a href="https://www.linkedin.com/in/edward-guo-3b850818a/" target="_blank">https://www.linkedin.com/in/edward-guo-3b850818a/</a></p>
+        </section>
+        <footer>
+            <p>&copy; 2024 Edward Guo. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
